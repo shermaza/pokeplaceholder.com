@@ -1,0 +1,148 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  python3.12
+
+  Sample SAM Template for pokeplaceholder.com
+
+# More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
+Globals:
+  Function:
+    Timeout: 3
+
+Resources:
+  PokePlaceholderCustomDomain:
+    Type: AWS::ApiGatewayV2::DomainName
+    Properties:
+      DomainName: ws.pokeplaceholder.com
+      DomainNameConfigurations:
+        - CertificateArn: arn:aws:acm:us-west-2:226176173674:certificate/b818c151-9801-426e-ad8a-2c344bfecc37
+          EndpointType: REGIONAL
+  PokePlaceholderWebsocketApi:
+    Type: AWS::ApiGatewayV2::Api
+    Properties:
+      Name: PokePlaceholderWebsocketApi
+      ProtocolType: WEBSOCKET
+      RouteSelectionExpression: "$request.body.action" # Choose action from the WebSocket message
+  WebSocketDefaultRoute:
+    Type: AWS::ApiGatewayV2::Route
+    Properties:
+      ApiId: !Ref PokePlaceholderWebsocketApi
+      RouteKey: $default
+      Target: !Sub "integrations/${WebSocketDefaultIntegration}"
+  WebSocketDefaultIntegration:
+    Type: AWS::ApiGatewayV2::Integration
+    Properties:
+      ApiId: !Ref PokePlaceholderWebsocketApi
+      IntegrationType: AWS_PROXY
+      IntegrationUri: !Sub "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${WebSocketDefaultFunction.Arn}/invocations"
+  WebSocketStage:
+    Type: AWS::ApiGatewayV2::Stage
+    Properties:
+      ApiId: !Ref PokePlaceholderWebsocketApi
+      StageName: Prod
+      AutoDeploy: true
+      AccessLogSettings:
+        DestinationArn: !Sub "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/apigateway/${PokePlaceholderWebsocketApi.ApiId}-Prod"
+        Format: '{"requestId":"$context.requestId","requestTime":"$context.requestTime","routeKey":"$context.routeKey","status":"$context.status","connectionId":"$context.connectionId"}'
+  WebSocketApiMapping:
+    Type: AWS::ApiGatewayV2::ApiMapping
+    Properties:
+      DomainName: !Ref PokePlaceholderCustomDomain
+      ApiId: !Ref PokePlaceholderWebsocketApi
+      Stage: !Ref WebSocketStage
+    DependsOn: PokePlaceholderCustomDomain
+  WebSocketDefaultFunctionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: WebSocketDefaultFunctionPolicy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - logs:CreateLogGroup
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                Resource: arn:aws:logs:*:*:*
+              - Effect: Allow
+                Action:
+                  - lambda:InvokeFunction
+                Resource: "*"
+              - Effect: Allow
+                Action:
+                  - lambda:InvokeFunction
+                Resource: !GetAtt PokePlaceholderFunction.Arn
+              - Effect: Allow
+                Action:
+                  - execute-api:ManageConnections
+                Resource: !Sub "arn:aws:execute-api:${AWS::Region}:${AWS::AccountId}:${PokePlaceholderWebsocketApi.ApiId}/Prod/POST/@connections/*"
+
+  WebSocketDefaultFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Runtime: python3.12
+      Handler: websocket_default.lambda_handler
+      CodeUri: ./src
+      Role: !GetAtt WebSocketDefaultFunctionRole.Arn  # Explicitly use the separate role
+      Policies:
+        - AWSLambdaBasicExecutionRole
+      Environment:
+        Variables:
+          POKE_PLACEHOLDER_FUNCTION: !Ref PokePlaceholderFunction
+
+  WebSocketDefaultPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !GetAtt WebSocketDefaultFunction.Arn
+      Action: lambda:InvokeFunction
+      Principal: apigateway.amazonaws.com
+      SourceArn: !Sub "arn:aws:execute-api:${AWS::Region}:${AWS::AccountId}:${PokePlaceholderWebsocketApi}/Prod/*"
+
+  PokePlaceholderFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Runtime: python3.12
+      Handler: app.lambda_handler
+      CodeUri: ./src
+      Timeout: 600
+      Architectures:
+        - x86_64
+      Policies:
+        - AmazonSSMReadOnlyAccess
+        - CloudWatchLogsFullAccess
+        - Statement:
+            - Effect: Allow
+              Action:
+                - s3:PutObject
+                - s3:GetObject
+              Resource: "arn:aws:s3:::pokeplaceholder.com/*"
+            - Effect: Allow
+              Action:
+                - execute-api:ManageConnections
+              Resource: "*"
+      Environment:
+        Variables:
+          WEBSOCKET_ENDPOINT: !Sub "wss://${PokePlaceholderWebsocketApi}.execute-api.${AWS::Region}.amazonaws.com/Prod"
+          S3_BUCKET_NAME: pokeplaceholder.com
+Outputs:
+  PokePlaceholderCustomDomainName:
+    Description: "Custom domain name for the WebSocket API"
+    Value: ws.pokeplaceholder.com
+  PokePlaceholderFunction:
+    Description: "PokePlaceholder Lambda Function ARN"
+    Value: !GetAtt PokePlaceholderFunction.Arn
+  PokePlaceholderFunctionIamRole:
+    Description: "Implicit IAM Role created for PokePlaceholder function"
+    Value: !GetAtt PokePlaceholderFunctionRole.Arn
+  WebSocketApiEndpoint:
+    Description: "WebSocket API WebSocket URL"
+    Value: !Sub "wss://${PokePlaceholderWebsocketApi}.execute-api.${AWS::Region}.amazonaws.com/Prod"
