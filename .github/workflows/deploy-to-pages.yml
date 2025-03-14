@@ -1,0 +1,37 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # The branch you work on (modify if needed)
+  workflow_dispatch: # Allow manual triggering of the workflow
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16 # Use your project's Node.js version
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: cd client && npm install
+
+      # Step 4: Build the project
+      - name: Build the project
+        run: cd client && npm run build
+
+      # Step 5: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3 # GitHub Pages action
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }} # Default authentication token
+          publish_dir: ./client/build # Directory to deploy to GitHub Pages
