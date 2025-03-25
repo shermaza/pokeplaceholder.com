@@ -14,7 +14,7 @@ class Card:
         self.release_date = release_date
         self.total_cards = total_cards
         self.national_pokedex_number = int(national_pokedex_number) if national_pokedex_number else None
-        self.number = int(number) if isinstance(number, int) else None
+        self.number = int(number) if isinstance(number, int) else number
         self.name = name
         self.rarity = rarity
         self.id = card_id

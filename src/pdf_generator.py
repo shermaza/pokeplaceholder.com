@@ -1,11 +1,13 @@
 import io
 import logging
-import boto3
-from card import Card
+
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.units import inch
-from reportlab.pdfgen import canvas
 
+import boto3
+import requests
+from card import Card
+from reportlab.pdfgen import canvas
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -13,12 +15,13 @@ logger.setLevel(logging.INFO)
 class PdfGenerator:
 
     @staticmethod
-    def write_pdf_with_grid(cards: list[Card], bucket_name: str, file_name: str):
+    def write_pdf_with_grid(cards: list[Card], bucket_name: str, file_name: str, images: bool = False, ):
         """
         Generates a single PDF with 2.5" x 3.5" cells in a grid layout.
         :param bucket_name:
         :param cards: List of data dictionaries to fill the grid
         :param file_name: The name of the output PDF file
+        :param images: If true, display images in the cells instead of text
         """
         buffer = io.BytesIO()
         page_width, page_height = letter
@@ -40,36 +43,46 @@ class PdfGenerator:
             # Draw a cell border (corrected to align cell height properly)
             pdf_canvas.rect(x, y - cell_height, cell_width, cell_height)
 
-            # Prepare the text to be displayed in the cell
-            text_lines = [
-                f"#{card_info.national_pokedex_number}" if card_info.national_pokedex_number else "",
-                f"{card_info.name}",
-                f"{card_info.series_name}",
-                f"{card_info.set_name}",
-                f"{card_info.number}/{card_info.total_cards}",
-                f"{card_info.holo}",
-                f"Released: {card_info.release_date}",
-                f"Market Value: ${card_info.market:,.2f}" if isinstance(card_info.market,
-                                                                        (int,
-                                                                         float)) else f"Market Value: {card_info.market}"
-            ]
+            if images and card_info.image_url:
+                # If images is True, attempt to use the image from card_info.image_url
+                try:
+                    image_data = io.BytesIO(requests.get(card_info.image_url).content)
+                    pdf_canvas.drawImage(image_data, x, y - cell_height, width=cell_width, height=cell_height,
+                                         preserveAspectRatio=True, anchor='c')
+                except Exception as e:
+                    logger.error(f"Failed to load image for card {card_info.name}: {e}")
+                    # Optionally, fallback to text here or leave the cell blank
+            else:
+                # Prepare the text to be displayed in the cell
+                text_lines = [
+                    f"#{card_info.national_pokedex_number}" if card_info.national_pokedex_number else "",
+                    f"{card_info.name}",
+                    f"{card_info.series_name}",
+                    f"{card_info.set_name}",
+                    f"{card_info.number}/{card_info.total_cards}",
+                    f"{card_info.holo}",
+                    f"Released: {card_info.release_date}",
+                    f"Market Value: ${card_info.market:,.2f}" if isinstance(card_info.market,
+                                                                            (int,
+                                                                             float)) else f"Market Value: {card_info.market}"
+                ]
 
-            # Calculate vertical starting position to center the block of text
-            line_height = 13  # Approximate height of each line
-            text_block_height = len(text_lines) * line_height
-            text_y_start = y - cell_height + (cell_height - text_block_height) / 2
+                # Calculate vertical starting position to center the block of text
+                line_height = 13  # Approximate height of each line
+                text_block_height = len(text_lines) * line_height
+                text_y_start = y - cell_height + (cell_height - text_block_height) / 2
 
-            # Draw each line of text horizontally centered
-            for index, line in enumerate(text_lines):
-                # Calculate horizontal starting position to center the line
-                text_width = pdf_canvas.stringWidth(line, "Helvetica", 10)  # Assumes font size of 10
-                x_center = x + (cell_width - text_width) / 2
+                # Draw each line of text horizontally centered
+                for index, line in enumerate(text_lines):
+                    # Calculate horizontal starting position to center the line
+                    text_width = pdf_canvas.stringWidth(line, "Helvetica", 10)  # Assumes font size of 10
+                    x_center = x + (cell_width - text_width) / 2
 
-                # Calculate the vertical position for the line
-                current_line_y = text_y_start + text_block_height - (line_height * (index + 1))
+                    # Calculate the vertical position for the line
+                    current_line_y = text_y_start + text_block_height - (line_height * (index + 1))
 
-                # Draw the line
-                pdf_canvas.drawString(x_center, current_line_y, line)
+                    # Draw the line
+                    pdf_canvas.drawString(x_center, current_line_y, line)
 
             # Move to the next cell position
             x += cell_width

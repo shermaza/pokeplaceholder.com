@@ -4,6 +4,7 @@ import os
 from argparse import ArgumentError
 
 import boto3
+from card import Card
 from lambda_request import LambdaRequest
 from parameter_store_envar_loader import ParameterStoreEnvarLoader
 from pdf_generator import PdfGenerator
@@ -14,7 +15,7 @@ logger.setLevel(logging.INFO)
 
 
 def lambda_handler(event, context):
-    """Sample pure Lambda function
+    """wss://pokeplaceholder.com Lambda handler
 
     Parameters
     ----------
@@ -49,33 +50,35 @@ def lambda_handler(event, context):
         cards = api.get_cards(connection_id=lambda_request.connection_id, pokedex_number=lambda_request.pokedex_number, generation=lambda_request.generation, set_ids=lambda_request.set_ids, series_ids=lambda_request.series_ids)
 
         if lambda_request.only_first_printing:
-            # Group cards by name, order by release_date, and select the oldest card for each name
+            # Group cards by name and release_date, and select the oldest card(s) for each name
             grouped_cards = {}
             for card in sorted(cards, key=lambda c: c.release_date):
                 if card.name not in grouped_cards:
-                    grouped_cards[card.name] = card
-            cards = list(grouped_cards.values())
+                    grouped_cards[card.name] = []
+                if len(grouped_cards[card.name]) == 0 or all(existing_card.release_date == card.release_date for existing_card in grouped_cards[card.name]):
+                    grouped_cards[card.name].append(card)
+            cards = [card for card_list in grouped_cards.values() for card in card_list]
 
         if lambda_request.remove_lower_tier_holos:
-            # Filter and keep the highest holofoil status card with the earliest release_date for each card name
-            holofoil_priority = {"HOLOFOIL": 1, "REVERSE_HOLOFOIL": 2, "NORMAL_HOLO": 3}
-            filtered_cards_by_name = {}
+            # Filter and keep the highest holofoil status card with the earliest release_date for each set ID and card number
+            holofoil_priority = {Card.HOLOFOIL: 1, Card.REVERSE_HOLOFOIL: 2, Card.NORMAL_HOLOFOIL: 3}
+            filtered_cards_by_set_and_number = {}
             for card in cards:
-                if card.name not in filtered_cards_by_name:
-                    filtered_cards_by_name[card.name] = card
+                unique_key = (card.set_id, card.number)
+                if unique_key not in filtered_cards_by_set_and_number:
+                    filtered_cards_by_set_and_number[unique_key] = card
                 else:
-                    existing_card = filtered_cards_by_name[card.name]
+                    existing_card = filtered_cards_by_set_and_number[unique_key]
                     if (
-                            holofoil_priority.get(card.holo, float('inf')) < holofoil_priority.get(existing_card.holo,
-                                                                                                   float('inf'))
+                            holofoil_priority.get(card.holo, float('inf')) < holofoil_priority.get(existing_card.holo, float('inf'))
                             or (
                             card.holo == existing_card.holo
                             and card.release_date < existing_card.release_date
                     )
                     ):
-                        filtered_cards_by_name[card.name] = card
+                        filtered_cards_by_set_and_number[unique_key] = card
 
-            filtered_cards = list(filtered_cards_by_name.values())
+            filtered_cards = list(filtered_cards_by_set_and_number.values())
             cards = filtered_cards
 
         # Use the specified ordering keys from lambda_request.ordering to sort the cards
@@ -85,7 +88,7 @@ def lambda_handler(event, context):
         # Write the data to a PDF in the S3 bucket
         filename = f"cards-{context.aws_request_id}.pdf"
         bucket_name = os.environ['S3_BUCKET_NAME']
-        PdfGenerator.write_pdf_with_grid(cards, bucket_name, filename)
+        PdfGenerator.write_pdf_with_grid(cards, bucket_name, filename, images=lambda_request.use_images)
 
         # Use presigned URLs for fetching the file
         presigned_url = boto3.client('s3').generate_presigned_url(

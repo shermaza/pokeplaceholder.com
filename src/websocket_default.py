@@ -12,7 +12,33 @@ def lambda_handler(event, context):
 
     try:
         connection_id = event['requestContext']['connectionId']
-        body = json.loads(event.get('body', '{}'))
+        body_str = event.get('body', '{}')
+        logger.info("Body before JSON parsing: %s", body_str)
+
+        # Handle empty body
+        if not body_str:
+            return {
+                'statusCode': 400,
+                'body': json.dumps({'error': 'Empty body in request'})
+            }
+
+        # Preprocess to fix malformed JSON (convert single quotes to double quotes if necessary)
+        try:
+            # Attempt parsing the body directly
+            body = json.loads(body_str)
+        except json.JSONDecodeError as err:
+            logger.warning("Malformed JSON detected. Attempting to sanitize input.")
+            # Replace single quotes with double quotes
+            sanitized_body_str = body_str.replace("'", '"')
+            try:
+                body = json.loads(sanitized_body_str)
+            except json.JSONDecodeError as sanitizer_err:
+                logger.error("Invalid JSON in request body after sanitization: %s", str(sanitizer_err))
+                return {
+                    'statusCode': 400,
+                    'body': json.dumps({'error': f'Invalid JSON format: {str(sanitizer_err)}'})
+                }
+
         file_params = body.get('params', {})
 
         lambda_name = os.getenv('POKE_PLACEHOLDER_FUNCTION')

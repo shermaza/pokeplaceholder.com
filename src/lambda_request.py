@@ -13,6 +13,7 @@ class LambdaRequest:
         self.remove_lower_tier_holos = body.get("removeLowerTierHolos", False)
         self.only_first_printing = body.get("onlyFirstPrinting", False)
         self.ordering = body.get("ordering", None)
+        self.use_images = body.get("useImages", False)
 
     def to_dict(self):
         return {
@@ -23,4 +24,5 @@ class LambdaRequest:
             "removeLowerTierHolos": self.remove_lower_tier_holos,
             "onlyFirstPrinting": self.only_first_printing,
             "ordering": self.ordering,
+            "useImages": self.use_images,
         }
