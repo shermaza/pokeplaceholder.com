@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+.pokeball-bg {
+  background: linear-gradient(180deg, #ef4444 50%, #ffffff 50%);
+  position: relative;
+}
+
+.pokeball-bg::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 4rem;
+  height: 4rem;
+  background: white;
+  border: 8px solid #1e293b;
+  border-radius: 9999px;
+  z-index: 10;
+}
+
+.pokeball-bg::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: #1e293b;
+  transform: translateY(-50%);
+  z-index: 5;
+}
