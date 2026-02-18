@@ -4,7 +4,6 @@ import logging
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.units import inch
 
-import boto3
 import requests
 from card import Card
 from reportlab.pdfgen import canvas
@@ -15,13 +14,13 @@ logger.setLevel(logging.INFO)
 class PdfGenerator:
 
     @staticmethod
-    def write_pdf_with_grid(cards: list[Card], bucket_name: str, file_name: str, images: bool = False, ):
+    def write_pdf_with_grid(cards: list[Card], file_name: str = "output.pdf", images: bool = False, output_path: str | None = None):
         """
         Generates a single PDF with 2.5" x 3.5" cells in a grid layout.
-        :param bucket_name:
         :param cards: List of data dictionaries to fill the grid
-        :param file_name: The name of the output PDF file
+        :param file_name: The name of the output PDF file (used for local filename if output_path is not set)
         :param images: If true, display images in the cells instead of text
+        :param output_path: Local path to save the PDF
         """
         buffer = io.BytesIO()
         page_width, page_height = letter
@@ -61,10 +60,7 @@ class PdfGenerator:
                     f"{card_info.set_name}",
                     f"{card_info.number}/{card_info.total_cards}",
                     f"{card_info.holo}",
-                    f"Released: {card_info.release_date}",
-                    f"Market Value: ${card_info.market:,.2f}" if isinstance(card_info.market,
-                                                                            (int,
-                                                                             float)) else f"Market Value: {card_info.market}"
+                    f"Released: {card_info.release_date}"
                 ]
 
                 # Calculate vertical starting position to center the block of text
@@ -100,7 +96,11 @@ class PdfGenerator:
         pdf_canvas.save()
         buffer.seek(0)
 
-        logger.info(f"Wrote {file_name} to buffer. Uploading to S3.")
-        s3_client = boto3.client('s3')
-        s3_client.upload_fileobj(buffer, bucket_name, file_name)
-        logger.info(f"Uploaded {file_name} to S3.")
+        if output_path:
+            with open(output_path, 'wb') as f:
+                f.write(buffer.getvalue())
+            logger.info(f"Saved PDF to {output_path}")
+        else:
+            with open(file_name, 'wb') as f:
+                f.write(buffer.getvalue())
+            logger.info(f"Saved PDF to {file_name}")

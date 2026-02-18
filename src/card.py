@@ -7,7 +7,7 @@ class Card:
     HOLOFOIL = "Holofoil"
 
     def __init__(self, set_id, set_name, series_name, release_date, total_cards, national_pokedex_number,
-                 number, name, rarity, card_id, image_url, market, holo, generation):
+                 number, name, rarity, card_id, image_url, holo, generation):
         self.set_id = set_id
         self.set_name = set_name
         self.series_name = series_name
@@ -19,7 +19,6 @@ class Card:
         self.rarity = rarity
         self.id = card_id
         self.image_url = image_url
-        self.market = market
         self.holo = holo
         self.generation = generation
 
@@ -36,7 +35,6 @@ class Card:
             "rarity": self.rarity,
             "id": self.id,
             "image_url": self.image_url,
-            "market": self.market,
             "holo": self.holo,
             "generation": self.generation,
         }

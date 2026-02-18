@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: CLI (Pikachu)",
+            "type": "python",
+            "request": "launch",
+            "program": "src/cli.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--pokedex-number", "25",
+                "--output", "pikachu.pdf"
+            ],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        },
+        {
+            "name": "Python: CLI (Charizard)",
+            "type": "python",
+            "request": "launch",
+            "program": "src/cli.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--pokedex-number", "6",
+                "--output", "charizard.pdf"
+            ],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        }
+    ]
+}

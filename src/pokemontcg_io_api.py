@@ -3,7 +3,6 @@ import logging
 import os
 import html
 
-import boto3
 import requests
 from card import Card
 from pokedex_generations import PokedexGenerations
@@ -14,125 +13,107 @@ logger.setLevel(logging.INFO)
 
 class PokemonTcgIoApi:
     def __init__(self):
-        self.api_key = os.getenv("POKEMONTCG_IO_API_KEY", "Environment variable not set")
-        self.card_url = "https://api.pokemontcg.io/v2/cards/?q="
-        self.set_url = "https://api.pokemontcg.io/v2/sets/"
-        self.apigateway = boto3.client('apigatewaymanagementapi',
-                                  endpoint_url=os.environ['WEBSOCKET_ENDPOINT'].replace('wss://', 'https://'))
+        self.data_path = os.path.join(os.path.dirname(__file__), 'data')
+        self.sets_file = os.path.join(self.data_path, 'sets', 'en.json')
+        self.cards_dir = os.path.join(self.data_path, 'cards', 'en')
 
     def get_cards(self,
-                  connection_id: str,
                   pokedex_number: int | None = None,
                   generation: int | None = None,
                   set_ids: list[str] | None = None,
                   series_ids: list[str] | None = None) -> list[Card]:
         """
-        Fetch a list of Pokémon cards based on a given Pokédex number. The method retrieves card data from an external API and
-        enhances it with additional set-related details. The data includes information about card rarity, associated set, market prices, and more.
-
-        :param series_ids: the pokemontcg.io series name to filter by
-        :param set_ids:  the pokemontcg.io set id to filter by
-        :param generation: The generation for which cards are retrieved. Defaults to None if not provided.
-        :param pokedex_number: The national Pokédex number for which cards are retrieved. Defaults to None if not provided.
-        :type pokedex_number: int | None
-        :return: A list of Card objects representing Pokémon TCG cards associated with the specified Pokédex number
-                 enriched with set-specific details and pricing information.
-        :rtype: list[Card]
+        Fetch a list of Pokémon cards based on criteria from local data files.
         """
-        cards = []
+        all_cards = []
         set_data = self.get_sets()
-        headers = {"X-Api-Key": self.api_key}
-        url = self.card_url
-
-        # Filter the API by national pokedex number if necessary
-        if pokedex_number:
-            url = f"{self.card_url}nationalPokedexNumbers:{pokedex_number}"
-        elif generation:
-            start = PokedexGenerations.get_cards_by_generation(generation)[0]
-            end = PokedexGenerations.get_cards_by_generation(generation)[-1]
-            url = f"{self.card_url}nationalPokedexNumbers:[{start} TO {end}]"
-
-        # Filter the API by set ID (series ID is extrapolated to a list of set IDs)
-        if series_ids is not None and len(series_ids) > 0:
-            if set_ids is None:
-                set_ids = []
-            for series_id in series_ids:
-                matching_sets = [s.id for s in set_data if s.series == series_id]
-                set_ids.extend(matching_sets)
         
-        if set_ids is not None and len(set_ids) > 0:
-            set_filter = " OR ".join([f"set.id:{set_id}" for set_id in set_ids])
-            url += f" ({set_filter})"
-
-        # Grab all cards into memory via pagination
-        page = 1
-        while True:
-            paginated_url = f"{url}&page={page}"
-            logger.info(f"Fetching cards from {paginated_url}")
-            response = requests.get(paginated_url, headers=headers)
-            if response.status_code != 200:
-                logger.error(f"Failed to fetch cards. Status code: {response.status_code}, Response: {response.text}")
-                break
+        # Determine which sets to look into
+        target_set_ids = []
+        if set_ids:
+            target_set_ids.extend(set_ids)
         
-            data = response.json()
-            cards += self.fetch_card_data(pokedex_number, response, set_data)
+        if series_ids:
+            matching_sets = [s.id for s in set_data if s.series in series_ids]
+            target_set_ids.extend(matching_sets)
         
-            total_count = data.get('totalCount', 0)
-            page_size = data.get('pageSize', 0)
-            if page * page_size >= total_count:
-                break
-
-            self.apigateway.post_to_connection(
-                ConnectionId=connection_id,
-                Data=json.dumps({
-                    'action': 'file_progress',
-                    'progress': page * page_size,
-                    'total': total_count
-                })
-            )
-
-            page += 1
-
-        return cards
-
-    def fetch_card_data(self, pokedex_number, response, set_data):
-        cards = []
-        if response.status_code == 200:
-            data = response.json()
-            for card in data['data']:
-                card_set = next((s for s in set_data if s.id == card['set']['id']), {})
-                normal_market = card.get('tcgplayer', {}).get('prices', {}).get('normal', {}).get('market', None)
-                holo_reverse_market = card.get('tcgplayer', {}).get('prices', {}).get('reverseHolofoil', {}).get(
-                    'market', None)
-                holo_market = card.get('tcgplayer', {}).get('prices', {}).get('holofoil', {}).get('market', None)
-                
-
-                if normal_market is not None:
-                    card_info = self.get_card_from_api_data(card, card_set, normal_market, 
-                                                            card['nationalPokedexNumbers'][0] if 'nationalPokedexNumbers' in card and card['nationalPokedexNumbers'] else pokedex_number,
-                                                            Card.NORMAL_HOLOFOIL)
-                    cards.append(card_info)
-
-                if holo_reverse_market is not None:
-                    card_info = self.get_card_from_api_data(card, card_set, holo_reverse_market,
-                                                            card['nationalPokedexNumbers'][0] if 'nationalPokedexNumbers' in card and card['nationalPokedexNumbers'] else pokedex_number,
-                                                            Card.REVERSE_HOLOFOIL)
-                    cards.append(card_info)
-
-                if holo_market is not None:
-                    card_info = self.get_card_from_api_data(card, card_set, holo_market,
-                                                            card['nationalPokedexNumbers'][0] if 'nationalPokedexNumbers' in card and card['nationalPokedexNumbers'] else pokedex_number,
-                                                            Card.HOLOFOIL)
-                    cards.append(card_info)
+        # If no specific sets/series are requested, we might need to check all sets 
+        # especially if pokedex_number or generation is provided.
+        sets_to_scan = []
+        if target_set_ids:
+            target_set_ids = list(set(target_set_ids)) # Unique set IDs
+            sets_to_scan = [s for s in set_data if s.id in target_set_ids]
         else:
-            logger.error(f"Failed to fetch cards. Status code: {response.status_code}, Response: {response.text}")
+            sets_to_scan = set_data
 
-        return cards
+        total_sets = len(sets_to_scan)
+        for i, s in enumerate(sets_to_scan):
+            card_file = os.path.join(self.cards_dir, f"{s.id}.json")
+            if not os.path.exists(card_file):
+                continue
+            
+            with open(card_file, 'r', encoding='utf-8') as f:
+                cards_json = json.load(f)
+            
+            for card_json in cards_json:
+                # Filter by pokedex_number
+                card_pokedex_numbers = card_json.get('nationalPokedexNumbers', [])
+                if pokedex_number and pokedex_number not in card_pokedex_numbers:
+                    continue
+                
+                # Filter by generation
+                if generation:
+                    gen_range = PokedexGenerations.get_cards_by_generation(generation)
+                    if not any(num in gen_range for num in card_pokedex_numbers):
+                        continue
+                
+                card_pokedex_number = card_pokedex_numbers[0] if card_pokedex_numbers else pokedex_number
+                
+                # Determine available variants based on rarity
+                rarity = card_json.get('rarity', '')
+                variants = []
+                
+                # Holofoil only: High-end rarities and special card types that don't have reverse holos
+                holofoil_only_rarities = [
+                    "Illustration Rare", 
+                    "Special Illustration Rare", 
+                    "Ultra Rare",
+                    "Hyper Rare",
+                    "Double Rare",
+                    "Radiant Rare",
+                    "Amazing Rare",
+                    "Rare Shiny GX",
+                    "Shiny Ultra Rare",
+                    "ACE SPEC Rare"
+                ]
+                
+                if rarity in holofoil_only_rarities or any(x in rarity for x in ["VMAX", "VSTAR", " V", "EX", "GX", "BREAK", "Prism Star"]):
+                    variants = [Card.HOLOFOIL]
+                elif "Rare" in rarity:
+                    # Includes "Rare", "Rare Holo", etc. 
+                    # These typically have both a Holofoil (if Rare Holo) and a Reverse Holofoil version.
+                    # For standard "Rare", it's usually Normal and Reverse, but many users treat all 
+                    # Rare+ as potential Holos in proxy contexts.
+                    # Following the previous rule: Holo + Reverse for anything with "Rare" in name
+                    variants = [Card.HOLOFOIL, Card.REVERSE_HOLOFOIL]
+                else:
+                    # Common, Uncommon, Trainer, etc.
+                    variants = [Card.NORMAL_HOLOFOIL, Card.REVERSE_HOLOFOIL]
+                
+                for holo_type in variants:
+                    card_info = self.get_card_from_data(card_json, s, card_pokedex_number, holo_type)
+                    all_cards.append(card_info)
+
+            # Update progress
+            if (i + 1) % 10 == 0 or (i + 1) == total_sets:
+                logger.info(f"Progress: {i + 1}/{total_sets} sets processed")
+
+        return all_cards
 
     @staticmethod
-    def get_card_from_api_data(card, card_set, market, pokedex_number, holo_type):
-        card_info = Card(
-            set_id=card['set']['id'],
+    def get_card_from_data(card, card_set, pokedex_number, holo_type):
+        return Card(
+            set_id=card_set.id,
             set_name=card_set.name if card_set.name else 'Unknown',
             series_name=card_set.series if card_set.series else 'Unknown',
             release_date=card_set.release_date if card_set.release_date else 'Unknown',
@@ -144,27 +125,28 @@ class PokemonTcgIoApi:
             card_id=card['id'],
             image_url=card['images']['small'],
             holo=holo_type,
-            market=market,
             generation=PokedexGenerations.get_generation_by_card_number(pokedex_number)
         )
-        return card_info
 
     def get_sets(self) -> list[Set]:
-        results: list[Set] = []
-        headers = {"X-Api-Key": self.api_key}
-        response = requests.get(self.set_url, headers=headers)
-        if response.status_code == 200:
-            data = response.json()
-            for s in data['data']:
-                set_info = Set(
-                    id=s['id'],
-                    name=s.get('name'),
-                    release_date=s.get('releaseDate'),
-                    symbol_url=s['images']['symbol'],
-                    logo_url=s['images']['logo'],
-                    printed_total=s.get('printedTotal'),
-                    series=s.get('series'),
-                    total=s.get('total')
-                )
-                results.append(set_info)
+        if not os.path.exists(self.sets_file):
+            logger.error(f"Sets file not found at {self.sets_file}")
+            return []
+            
+        with open(self.sets_file, 'r', encoding='utf-8') as f:
+            sets_json = json.load(f)
+            
+        results = []
+        for s in sets_json:
+            set_info = Set(
+                id=s['id'],
+                name=s.get('name'),
+                release_date=s.get('releaseDate'),
+                symbol_url=s.get('images', {}).get('symbol'),
+                logo_url=s.get('images', {}).get('logo'),
+                printed_total=s.get('printedTotal'),
+                series=s.get('series'),
+                total=s.get('total')
+            )
+            results.append(set_info)
         return results
