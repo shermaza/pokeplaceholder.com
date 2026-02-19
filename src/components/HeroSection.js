@@ -28,7 +28,7 @@ const HeroSection = () => {
           </li>
           <li className="flex items-start">
             <span className="font-bold mr-2 text-slate-400">03</span>
-            <span>Download a ready-to-print 8.5" × 11" PDF sized for 9‑pocket binder pages (2.5" × 3.5").</span>
+            <span>Download a ready-to-print 8.5" × 11" PDF. Customize the number of cards per page to fit your needs.</span>
           </li>
         </ul>
       </div>

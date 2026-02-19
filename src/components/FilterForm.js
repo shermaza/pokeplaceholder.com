@@ -8,6 +8,7 @@ const FilterForm = ({
   generation, setGeneration,
   useImages, setUseImages,
   allVariants, setAllVariants,
+  cardsPerPage, setCardsPerPage,
   sortBy, setSortBy,
   loading,
   isFormValid,
@@ -16,6 +17,34 @@ const FilterForm = ({
   progress,
   status
 }) => {
+  const GridIcon = ({ size }) => {
+    const cells = [];
+    const width = 85;
+    const height = 110;
+    const cellW = width / size;
+    const cellH = height / size;
+    const padding = 2;
+
+    for (let i = 0; i < size * size; i++) {
+      cells.push(
+        <rect
+          key={i}
+          x={(i % size) * cellW + padding}
+          y={Math.floor(i / size) * cellH + padding}
+          width={cellW - padding * 2}
+          height={cellH - padding * 2}
+          rx="1"
+          fill="currentColor"
+        />
+      );
+    }
+    return (
+      <svg viewBox={`0 0 ${width} ${height}`} className="w-5 h-6.5 mb-2 opacity-80" style={{ height: '1.5rem', width: 'auto' }}>
+        {cells}
+      </svg>
+    );
+  };
+
   return (
     <div className="lg:col-span-7 bg-white rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 p-6 md:p-8">
       <h3 className="text-xl font-bold text-slate-900 mb-6">Filter Settings</h3>
@@ -91,6 +120,39 @@ const FilterForm = ({
             Include all versions of a card (e.g., Holofoil, Reverse Holofoil) instead of just the standard version.
             <div className="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-slate-800"></div>
           </div>
+        </div>
+
+        <div className="md:col-span-2 space-y-2">
+          <label className="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Grid Layout (Cards Per Page)</label>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {[
+              { id: 9, size: 3, label: '3 × 3', sub: '9 Cards' },
+              { id: 16, size: 4, label: '4 × 4', sub: '16 Cards' },
+              { id: 25, size: 5, label: '5 × 5', sub: '25 Cards' },
+              { id: 36, size: 6, label: '6 × 6', sub: '36 Cards' }
+            ].map((option) => (
+              <button
+                key={option.id}
+                type="button"
+                onClick={() => setCardsPerPage(option.id)}
+                className={`flex flex-col items-center justify-center p-3 rounded-xl border-2 transition-all duration-200 ${
+                  cardsPerPage === option.id
+                    ? 'border-red-500 bg-red-50 text-red-700'
+                    : 'border-slate-100 bg-slate-50 text-slate-600 hover:border-slate-200'
+                }`}
+              >
+                <GridIcon size={option.size} />
+                <span className="text-sm font-black">{option.label}</span>
+                <span className="text-[10px] font-bold opacity-60 uppercase tracking-tighter">{option.sub}</span>
+              </button>
+            ))}
+          </div>
+          <p className="text-[11px] text-slate-400 mt-2 flex items-center">
+            <svg className="w-3.5 h-3.5 mr-1.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            Note: Increasing the number of cards per page will reduce the individual card size.
+          </p>
         </div>
 
         <div className="md:col-span-2 space-y-1.5">

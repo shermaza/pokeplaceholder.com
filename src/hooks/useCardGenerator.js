@@ -12,6 +12,7 @@ export const useCardGenerator = () => {
   const [sortBy, setSortBy] = useState('pokedex');
   const [useImages, setUseImages] = useState(false);
   const [allVariants, setAllVariants] = useState(false);
+  const [cardsPerPage, setCardsPerPage] = useState(9);
   const [error, setError] = useState(null);
   const [progress, setProgress] = useState(null);
   const [status, setStatus] = useState('');
@@ -77,7 +78,7 @@ export const useCardGenerator = () => {
       } else {
         setStatus(`Generating PDF for ${allFoundCards.length} cards...`);
         const sortedCards = CardService.sortCards(allFoundCards, sortBy);
-        await PdfService.generatePdf(sortedCards, { useImages, showVariant: allVariants }, (p) => {
+        await PdfService.generatePdf(sortedCards, { useImages, showVariant: allVariants, cardsPerPage }, (p) => {
           // PDF generation is 30-100%
           setProgress(30 + Math.round((p / 100) * 70));
         });
@@ -105,6 +106,7 @@ export const useCardGenerator = () => {
       sortBy,
       useImages,
       allVariants,
+      cardsPerPage,
       error,
       progress,
       status,
@@ -118,6 +120,7 @@ export const useCardGenerator = () => {
       setSortBy,
       setUseImages,
       setAllVariants,
+      setCardsPerPage,
       handleGenerate
     }
   };
