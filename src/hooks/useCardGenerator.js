@@ -11,10 +11,14 @@ export const useCardGenerator = () => {
   const [setId, setSetId] = useState('');
   const [sortBy, setSortBy] = useState('pokedex');
   const [useImages, setUseImages] = useState(false);
+  const [allVariants, setAllVariants] = useState(false);
   const [error, setError] = useState(null);
   const [progress, setProgress] = useState(null);
+  const [status, setStatus] = useState('');
+  const [variantsData, setVariantsData] = useState({});
 
   useEffect(() => {
+    // Fetch sets
     fetch(`${process.env.PUBLIC_URL}/data/sets/en.json`)
       .then(res => res.json())
       .then(data => {
@@ -24,12 +28,19 @@ export const useCardGenerator = () => {
         setSets(sortedSets);
       })
       .catch(err => console.error("Failed to fetch sets", err));
+
+    // Fetch variants data
+    fetch(`${process.env.PUBLIC_URL}/data/variants.json`)
+      .then(res => res.json())
+      .then(data => setVariantsData(data))
+      .catch(err => console.error("Failed to fetch variants data", err));
   }, []);
 
   const handleGenerate = async () => {
     setLoading(true);
     setError(null);
     setProgress(0);
+    setStatus('Fetching card data...');
     try {
       let allFoundCards = [];
       const genNum = generation ? parseInt(generation) : null;
@@ -39,17 +50,19 @@ export const useCardGenerator = () => {
       
       for (let i = 0; i < activeSets.length; i++) {
         const set = activeSets[i];
-        setProgress(Math.round(((i) / activeSets.length) * 100));
+        // Data fetching is 0-30%
+        setProgress(Math.round(((i) / activeSets.length) * 30));
 
         try {
           const cardsResponse = await fetch(`${process.env.PUBLIC_URL}/data/cards/en/${set.id}.json`);
           if (!cardsResponse.ok) continue;
           const cardsData = await cardsResponse.json();
           
-          const filtered = CardService.processCards(cardsData, set, {
+          const filtered = CardService.processCards(cardsData, set, variantsData, {
             pokedexNumber: pokedexNum,
             generation: genNum,
-            name
+            name,
+            allVariants
           });
           allFoundCards = [...allFoundCards, ...filtered];
         } catch (e) {
@@ -57,19 +70,24 @@ export const useCardGenerator = () => {
         }
       }
 
-      setProgress(100);
+      setProgress(30);
 
       if (allFoundCards.length === 0) {
         setError("No cards found for these filters.");
       } else {
+        setStatus(`Generating PDF for ${allFoundCards.length} cards...`);
         const sortedCards = CardService.sortCards(allFoundCards, sortBy);
-        await PdfService.generatePdf(sortedCards, useImages);
+        await PdfService.generatePdf(sortedCards, { useImages, showVariant: allVariants }, (p) => {
+          // PDF generation is 30-100%
+          setProgress(30 + Math.round((p / 100) * 70));
+        });
       }
     } catch (err) {
       console.error(err);
       setError("An error occurred while generating the PDF.");
     } finally {
       setLoading(false);
+      setStatus('');
       setTimeout(() => setProgress(null), 2000);
     }
   };
@@ -86,8 +104,10 @@ export const useCardGenerator = () => {
       setId,
       sortBy,
       useImages,
+      allVariants,
       error,
       progress,
+      status,
       isFormValid
     },
     actions: {
@@ -97,6 +117,7 @@ export const useCardGenerator = () => {
       setSetId,
       setSortBy,
       setUseImages,
+      setAllVariants,
       handleGenerate
     }
   };

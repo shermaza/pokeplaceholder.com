@@ -25,12 +25,14 @@ function App() {
             sets={state.sets}
             generation={state.generation} setGeneration={actions.setGeneration}
             useImages={state.useImages} setUseImages={actions.setUseImages}
+            allVariants={state.allVariants} setAllVariants={actions.setAllVariants}
             sortBy={state.sortBy} setSortBy={actions.setSortBy}
             loading={state.loading}
             isFormValid={state.isFormValid}
             handleGenerate={actions.handleGenerate}
             error={state.error}
             progress={state.progress}
+            status={state.status}
           />
         </div>
       </main>

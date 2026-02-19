@@ -1,41 +1,8 @@
 import { Pokedex } from '../utils/pokedex';
 
 export const CardService = {
-  HOLOFoil_ONLY_RARITIES: [
-    "Illustration Rare",
-    "Special Illustration Rare",
-    "Ultra Rare",
-    "Hyper Rare",
-    "Mega Hyper Rare",
-    "Double Rare",
-    "Radiant Rare",
-    "Amazing Rare",
-    "Rare Shiny GX",
-    "Shiny Ultra Rare",
-    "ACE SPEC Rare",
-    "Promo"
-  ],
-
-  getVariants: (card) => {
-    const rarity = card.rarity || "";
-    const rarityLower = rarity.toLowerCase();
-    let isSpecial = ["vmax", "vstar", " v", "ex", "gx", "break", "prism star", "rainbow"].some(x => rarityLower.includes(x));
-
-    if (rarityLower.includes("promo")) {
-      return ["Promo"];
-    }
-
-    if (CardService.HOLOFoil_ONLY_RARITIES.includes(rarity) || isSpecial) {
-      return ["Holofoil"];
-    } else if (rarityLower.includes("rare")) {
-      return ["Holofoil", "Reverse Holofoil"];
-    } else {
-      return ["Normal", "Reverse Holofoil"];
-    }
-  },
-
-  processCards: (cardsJSON, set, filters = {}) => {
-    const { pokedexNumber, generation, name } = filters;
+  processCards: (cardsJSON, set, variantsData = {}, filters = {}) => {
+    const { pokedexNumber, generation, name, allVariants } = filters;
     const allCards = [];
     
     cardsJSON.forEach(cardJson => {
@@ -61,7 +28,12 @@ export const CardService = {
 
       
       const pokedexNumberValue = cardPokedexNumbers[0] || (pokedexNumber || null);
-      const variants = CardService.getVariants(cardJson);
+      let variants = variantsData[cardJson.id] || ["Normal"];
+      
+      if (!allVariants) {
+        // If not all variants, just take the first one
+        variants = [variants[0]];
+      }
       
       variants.forEach(variant => {
         allCards.push({

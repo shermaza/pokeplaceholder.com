@@ -1,7 +1,8 @@
 import { jsPDF } from 'jspdf';
 
 export const PdfService = {
-  generatePdf: async (cards, useImages) => {
+  generatePdf: async (cards, options = {}, onProgress) => {
+    const { useImages = false, showVariant = true } = options;
     const doc = new jsPDF({
       unit: 'in',
       format: 'letter'
@@ -25,6 +26,10 @@ export const PdfService = {
     for (let i = 0; i < cards.length; i++) {
       const card = cards[i];
 
+      if (onProgress) {
+        onProgress(Math.round((i / cards.length) * 100));
+      }
+
       // Draw cell border
       doc.rect(x, y, cellWidth, cellHeight);
 
@@ -34,10 +39,10 @@ export const PdfService = {
           doc.addImage(imgData, 'JPEG', x, y, cellWidth, cellHeight);
         } catch (e) {
           console.error(`Failed to load image for ${card.name}`, e);
-          PdfService.drawText(doc, card, x, y, cellWidth, cellHeight);
+          PdfService.drawText(doc, card, x, y, cellWidth, cellHeight, showVariant);
         }
       } else {
-        PdfService.drawText(doc, card, x, y, cellWidth, cellHeight);
+        PdfService.drawText(doc, card, x, y, cellWidth, cellHeight, showVariant);
       }
 
       // Move to next cell
@@ -57,6 +62,10 @@ export const PdfService = {
           y = topMargin;
         }
       }
+    }
+
+    if (onProgress) {
+      onProgress(100);
     }
 
     doc.save('cards.pdf');
@@ -79,14 +88,14 @@ export const PdfService = {
     });
   },
 
-  drawText: (doc, card, x, y, width, height) => {
+  drawText: (doc, card, x, y, width, height, showVariant = true) => {
     const textLines = [
       card.national_pokedex_number ? `#${card.national_pokedex_number}` : "",
       card.name,
       card.series_name,
       card.set_name,
       `${card.number}/${card.total_cards}`,
-      card.holo,
+      showVariant ? card.holo : "",
       `Released: ${card.release_date}`
     ].filter(l => l !== "");
 

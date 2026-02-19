@@ -7,12 +7,14 @@ const FilterForm = ({
   sets,
   generation, setGeneration,
   useImages, setUseImages,
+  allVariants, setAllVariants,
   sortBy, setSortBy,
   loading,
   isFormValid,
   handleGenerate,
   error,
-  progress
+  progress,
+  status
 }) => {
   return (
     <div className="lg:col-span-7 bg-white rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 p-6 md:p-8">
@@ -78,6 +80,19 @@ const FilterForm = ({
           <span className="text-sm font-bold text-slate-700 select-none">Include Images</span>
         </div>
 
+        <div className="flex items-center space-x-3 bg-slate-50 px-4 py-3 rounded-xl border-2 border-slate-100 cursor-pointer hover:border-slate-200 transition-all duration-200 group relative" onClick={() => setAllVariants(!allVariants)}>
+          <div className={`w-10 h-6 flex items-center rounded-full p-1 transition-colors duration-200 ${allVariants ? 'bg-red-500' : 'bg-slate-300'}`}>
+            <div className={`bg-white w-4 h-4 rounded-full shadow-sm transform transition-transform duration-200 ${allVariants ? 'translate-x-4' : 'translate-x-0'}`}></div>
+          </div>
+          <span className="text-sm font-bold text-slate-700 select-none">All Variants</span>
+          
+          {/* Tooltip */}
+          <div className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 w-48 p-2 bg-slate-800 text-white text-[10px] rounded shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50">
+            Include all versions of a card (e.g., Holofoil, Reverse Holofoil) instead of just the standard version.
+            <div className="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-slate-800"></div>
+          </div>
+        </div>
+
         <div className="md:col-span-2 space-y-1.5">
           <label className="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Sort By</label>
           <div className="flex space-x-4">
@@ -126,7 +141,7 @@ const FilterForm = ({
         {progress !== null && (
           <div className="space-y-2">
             <div className="flex justify-between items-center text-xs font-bold text-slate-500 uppercase tracking-widest">
-              <span>Processing Data</span>
+              <span>{status || 'Processing Data'}</span>
               <span>{progress}%</span>
             </div>
             <div className="w-full bg-slate-100 rounded-full h-2.5 overflow-hidden">
