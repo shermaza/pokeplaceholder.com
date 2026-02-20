@@ -8,6 +8,9 @@ const Footer = () => {
           Created for the Pokémon TCG Community. Card data and images by the <a href="https://pokemontcg.io/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300 underline underline-offset-4">Pokémon TCG API</a>.
         </p>
         <p className="text-sm">
+          Special variants (stamped/signature) provided by <a href="https://tcgcsv.com/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300 underline underline-offset-4">tcgcsv.com</a>.
+        </p>
+        <p className="text-sm">
           Cameo data provided by the <a href="https://docs.google.com/spreadsheets/d/18nIkOgqQrHZTz0TrH_gL1e1nL1RcHiCmPF5finAjToY/edit?gid=1923267969#gid=1923267969" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300 underline underline-offset-4">Cameo Pokémon Card Database</a>.
         </p>
         <p className="text-xs opacity-50 uppercase tracking-widest">

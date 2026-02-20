@@ -52,17 +52,4 @@ The application is automatically deployed to **GitHub Pages** using a GitHub Act
 
 - **Card Data & Images**: All card data and images provided by the [Pokémon TCG API](https://pokemontcg.io/).
 - **Cameo Data**: Cameo card information provided by the [Cameo Pokémon Card Database](https://docs.google.com/spreadsheets/d/18nIkOgqQrHZTz0TrH_gL1e1nL1RcHiCmPF5finAjToY/edit?gid=1923267969#gid=1923267969).
-
-## Holofoil Variant Logic
-
-The tool automatically generates card variants based on the `rarity` field:
-
-- **Promo only**:
-    - Any rarity containing the word `Promo`.
-- **Holofoil only**: 
-    - Specific High-Tier Rarities: `Illustration Rare`, `Special Illustration Rare`, `Ultra Rare`, `Hyper Rare`, `Double Rare`, `Radiant Rare`, `Amazing Rare`, `Rare Shiny GX`, `Shiny Ultra Rare`, `ACE SPEC Rare`.
-    - Special Card Types (case-insensitive): Any rarity containing `VMAX`, `VSTAR`, `V`, `EX`, `GX`, `BREAK`, or `Prism Star`.
-- **Holofoil and Reverse Holofoil**: 
-    - Any other rarity containing the word `Rare` (case-insensitive).
-- **Normal and Reverse Holofoil**: 
-    - All other rarities (e.g., `Common`, `Uncommon`, `Trainer`).
+- **Special Variants (Stamped/Signature)**: Provided by [tcgcsv.com](https://tcgcsv.com/).
