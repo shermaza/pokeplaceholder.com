@@ -108,4 +108,16 @@ describe('CardService', () => {
     expect(sorted[2].number).toBe('102a');
   });
 
+  test('sortCards sorts by release date', () => {
+    const cards = [
+      { release_date: '2023/11/03', number: '1' },
+      { release_date: '2021/01/01', number: '2' },
+      { release_date: '2024/01/01', number: '3' }
+    ];
+    const sorted = CardService.sortCards(cards, 'releaseDate');
+    expect(sorted[0].release_date).toBe('2021/01/01');
+    expect(sorted[1].release_date).toBe('2023/11/03');
+    expect(sorted[2].release_date).toBe('2024/01/01');
+  });
+
 });

@@ -94,6 +94,12 @@ export const CardService = {
     if (!sortBy) return cards;
 
     return [...cards].sort((a, b) => {
+      if (sortBy === 'releaseDate') {
+        const dateA = a.release_date || '0000/00/00';
+        const dateB = b.release_date || '0000/00/00';
+        if (dateA !== dateB) return dateA.localeCompare(dateB);
+      }
+
       if (sortBy === 'pokedex') {
         const numA = a.national_pokedex_number || 9999;
         const numB = b.national_pokedex_number || 9999;

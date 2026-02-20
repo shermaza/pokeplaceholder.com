@@ -196,6 +196,17 @@ const FilterForm = ({
               />
               <span className="text-sm font-medium text-slate-700">Card Number</span>
             </label>
+            <label className="flex items-center space-x-2 cursor-pointer">
+              <input 
+                type="radio" 
+                name="sortBy" 
+                value="releaseDate" 
+                checked={sortBy === 'releaseDate'} 
+                onChange={(e) => setSortBy(e.target.value)}
+                className="text-red-500 focus:ring-red-500"
+              />
+              <span className="text-sm font-medium text-slate-700">Release Date</span>
+            </label>
           </div>
         </div>
       </div>
