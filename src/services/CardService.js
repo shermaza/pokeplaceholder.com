@@ -2,9 +2,12 @@ import { Pokedex } from '../utils/pokedex';
 
 export const CardService = {
   processCards: (cardsJSON, set, variantsData = {}, filters = {}) => {
-    const { pokedexNumber, generation, name, allVariants } = filters;
+    const { pokedexNumber, generation, name, allVariants, includeCameos, cameosData = {} } = filters;
     const allCards = [];
     
+    const nameLower = name?.toLowerCase();
+    const setCameos = (includeCameos && nameLower) ? (cameosData[nameLower] || []) : [];
+
     cardsJSON.forEach(cardJson => {
       const cardPokedexNumbers = cardJson.nationalPokedexNumbers || [];
       
@@ -21,9 +24,38 @@ export const CardService = {
         }
       }
 
-      // Filter by name
-      if (name && !cardJson.name.toLowerCase().includes(name.toLowerCase())) {
-        return;
+      // Filter by name and cameo
+      let nameMatch = false;
+      let isCameoMatch = false;
+      if (nameLower) {
+        // Direct name match
+        if (cardJson.name.toLowerCase().includes(nameLower)) {
+          nameMatch = true;
+        }
+        
+        // Cameo match
+        if (!nameMatch && includeCameos) {
+          const isCameo = setCameos.some(cameo => {
+            // Match by set ID and number
+            if (cameo.setId === set.id && (cameo.number === cardJson.number || cameo.number === cardJson.number?.replace(/^0+/, ''))) {
+              return true;
+            }
+            // Fallback match by card name if set ID or number is missing/mismatched
+            if (cameo.cardName.toLowerCase() === cardJson.name.toLowerCase() && cameo.setId === set.id) {
+              return true;
+            }
+            return false;
+          });
+          
+          if (isCameo) {
+            nameMatch = true;
+            isCameoMatch = true;
+          }
+        }
+
+        if (!nameMatch) {
+          return;
+        }
       }
 
       
@@ -49,7 +81,8 @@ export const CardService = {
           rarity: cardJson.rarity || "N/A",
           image_url: cardJson.images?.small,
           holo: variant,
-          generation: Pokedex.getGenerationByNumber(pokedexNumberValue)
+          generation: Pokedex.getGenerationByNumber(pokedexNumberValue),
+          is_cameo: !!isCameoMatch
         });
       });
     });

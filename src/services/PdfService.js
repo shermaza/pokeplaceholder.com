@@ -117,6 +117,7 @@ export const PdfService = {
     const textLines = [
       card.national_pokedex_number ? `#${card.national_pokedex_number}` : "",
       card.name,
+      card.is_cameo ? "Cameo" : "",
       card.series_name,
       card.set_name,
       `${card.number}/${card.total_cards}`,

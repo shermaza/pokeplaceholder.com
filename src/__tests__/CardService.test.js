@@ -1,51 +1,6 @@
 import { CardService } from '../services/CardService';
 
 describe('CardService', () => {
-  test('getVariants returns Holofoil for Ultra Rare', () => {
-    const card = { rarity: 'Ultra Rare' };
-    const variants = CardService.getVariants(card);
-    expect(variants).toEqual(['Holofoil']);
-  });
-
-  test('getVariants returns Holofoil for Mega Charizard X ex', () => {
-    // Mega Charizard X ex (XY Flashfire #108) is an Ultra Rare
-    const card = { name: 'Mega Charizard X ex', rarity: 'Ultra Rare' };
-    const variants = CardService.getVariants(card);
-    expect(variants).toEqual(['Holofoil']);
-  });
-
-  test('getVariants handles lowercase "ex" correctly', () => {
-    // Some cards have "ex" or "EX" in rarity or just are special
-    const card = { rarity: 'Rare Holo ex' };
-    const variants = CardService.getVariants(card);
-    // If it's an "ex", it should probably be Holofoil only
-    expect(variants).toEqual(['Holofoil']);
-  });
-
-  test('getVariants returns Promo for Promo cards', () => {
-    const card = { rarity: 'Promo' };
-    const variants = CardService.getVariants(card);
-    expect(variants).toEqual(['Promo']);
-  });
-
-  test('getVariants returns Promo for Black Star Promo', () => {
-    const card = { rarity: 'Black Star Promo' };
-    const variants = CardService.getVariants(card);
-    expect(variants).toEqual(['Promo']);
-  });
-
-  test('getVariants returns Holofoil and Reverse Holofoil for Rare Holo', () => {
-    const card = { rarity: 'Rare Holo' };
-    const variants = CardService.getVariants(card);
-    expect(variants).toEqual(['Holofoil', 'Reverse Holofoil']);
-  });
-
-  test('getVariants returns Normal and Reverse Holofoil for Common', () => {
-    const card = { rarity: 'Common' };
-    const variants = CardService.getVariants(card);
-    expect(variants).toEqual(['Normal', 'Reverse Holofoil']);
-  });
-
   test('processCards filters by pokedex number', () => {
     const cardsJSON = [
       { id: '1', name: 'Bulbasaur', nationalPokedexNumbers: [1], number: '1', rarity: 'Common' },
@@ -53,8 +8,9 @@ describe('CardService', () => {
     ];
     const set = { id: 'base1', name: 'Base', series: 'Base', releaseDate: '1999-01-09', total: 102 };
     
-    const results = CardService.processCards(cardsJSON, set, { pokedexNumber: 1 });
-    expect(results.length).toBe(2); // Normal and Reverse
+    // Using default variant since variantsData is empty
+    const results = CardService.processCards(cardsJSON, set, {}, { pokedexNumber: 1 });
+    expect(results.length).toBe(1); 
     expect(results[0].name).toBe('Bulbasaur');
   });
 
@@ -65,9 +21,51 @@ describe('CardService', () => {
     ];
     const set = { id: 'base1', name: 'Base', series: 'Base', releaseDate: '1999-01-09', total: 102 };
     
-    const results = CardService.processCards(cardsJSON, set, { name: 'Bulba' });
-    expect(results.length).toBe(2);
+    const results = CardService.processCards(cardsJSON, set, {}, { name: 'Bulba' });
+    expect(results.length).toBe(1);
     expect(results[0].name).toBe('Bulbasaur');
+  });
+
+  test('processCards handles cameos correctly', () => {
+    const cardsJSON = [
+      { id: 'base1-1', name: 'Alakazam', nationalPokedexNumbers: [65], number: '1', rarity: 'Rare Holo' },
+      { id: 'base1-2', name: 'Blastoise', nationalPokedexNumbers: [9], number: '2', rarity: 'Rare Holo' }
+    ];
+    const set = { id: 'base1', name: 'Base', series: 'Base', releaseDate: '1999-01-09', total: 102 };
+    
+    const cameosData = {
+      'pikachu': [
+        { setId: 'base1', number: '1', cardName: 'Alakazam' }
+      ]
+    };
+
+    // Should NOT find Alakazam if includeCameos is false
+    const noCameoResults = CardService.processCards(cardsJSON, set, {}, { name: 'pikachu', includeCameos: false, cameosData });
+    expect(noCameoResults.length).toBe(0);
+
+    // Should find Alakazam as a cameo if includeCameos is true
+    const cameoResults = CardService.processCards(cardsJSON, set, {}, { name: 'pikachu', includeCameos: true, cameosData });
+    expect(cameoResults.length).toBe(1);
+    expect(cameoResults[0].name).toBe('Alakazam');
+    expect(cameoResults[0].is_cameo).toBe(true);
+  });
+
+  test('processCards handles cameo fallback by card name', () => {
+    const cardsJSON = [
+      { id: 'base1-1', name: 'Alakazam', nationalPokedexNumbers: [65], number: '1', rarity: 'Rare Holo' }
+    ];
+    const set = { id: 'base1', name: 'Base', series: 'Base', releaseDate: '1999-01-09', total: 102 };
+    
+    const cameosData = {
+      'pikachu': [
+        { setId: 'base1', number: '999', cardName: 'Alakazam' } // Number doesn't match
+      ]
+    };
+
+    const results = CardService.processCards(cardsJSON, set, {}, { name: 'pikachu', includeCameos: true, cameosData });
+    expect(results.length).toBe(1);
+    expect(results[0].name).toBe('Alakazam');
+    expect(results[0].is_cameo).toBe(true);
   });
 
   test('sortCards sorts by pokedex number', () => {

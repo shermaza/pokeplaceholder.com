@@ -26,6 +26,7 @@ function App() {
             generation={state.generation} setGeneration={actions.setGeneration}
             useImages={state.useImages} setUseImages={actions.setUseImages}
             allVariants={state.allVariants} setAllVariants={actions.setAllVariants}
+            includeCameos={state.includeCameos} setIncludeCameos={actions.setIncludeCameos}
             cardsPerPage={state.cardsPerPage} setCardsPerPage={actions.setCardsPerPage}
             sortBy={state.sortBy} setSortBy={actions.setSortBy}
             loading={state.loading}

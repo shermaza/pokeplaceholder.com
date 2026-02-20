@@ -12,11 +12,13 @@ export const useCardGenerator = () => {
   const [sortBy, setSortBy] = useState('pokedex');
   const [useImages, setUseImages] = useState(false);
   const [allVariants, setAllVariants] = useState(false);
+  const [includeCameos, setIncludeCameos] = useState(false);
   const [cardsPerPage, setCardsPerPage] = useState(9);
   const [error, setError] = useState(null);
   const [progress, setProgress] = useState(null);
   const [status, setStatus] = useState('');
   const [variantsData, setVariantsData] = useState({});
+  const [cameosData, setCameosData] = useState({});
 
   useEffect(() => {
     // Fetch sets
@@ -35,6 +37,12 @@ export const useCardGenerator = () => {
       .then(res => res.json())
       .then(data => setVariantsData(data))
       .catch(err => console.error("Failed to fetch variants data", err));
+
+    // Fetch cameos data
+    fetch(`${process.env.PUBLIC_URL}/data/cameos.json`)
+      .then(res => res.json())
+      .then(data => setCameosData(data))
+      .catch(err => console.error("Failed to fetch cameos data", err));
   }, []);
 
   const handleGenerate = async () => {
@@ -63,7 +71,9 @@ export const useCardGenerator = () => {
             pokedexNumber: pokedexNum,
             generation: genNum,
             name,
-            allVariants
+            allVariants,
+            includeCameos,
+            cameosData
           });
           allFoundCards = [...allFoundCards, ...filtered];
         } catch (e) {
@@ -106,6 +116,7 @@ export const useCardGenerator = () => {
       sortBy,
       useImages,
       allVariants,
+      includeCameos,
       cardsPerPage,
       error,
       progress,
@@ -120,6 +131,7 @@ export const useCardGenerator = () => {
       setSortBy,
       setUseImages,
       setAllVariants,
+      setIncludeCameos,
       setCardsPerPage,
       handleGenerate
     }
