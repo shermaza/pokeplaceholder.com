@@ -1,4 +1,5 @@
 # pokeplaceholder.com
+https://shermaza.github.io/pokeplaceholder.com/
 
 A web-based tool to generate PDF files of Pokémon TCG cards for use as proxy cards. This is a React-based migration of the original Python CLI tool.
 
