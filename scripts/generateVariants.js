@@ -1,6 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
+// Load scraped variants if available
+const scrapedPath = path.join(__dirname, '../bulbapedia_variants.json');
+const SCRAPED_VARIANTS = fs.existsSync(scrapedPath) 
+  ? JSON.parse(fs.readFileSync(scrapedPath, 'utf8')) 
+  : {};
+
 const HOLOFOIL_ONLY_RARITIES = [
   "Illustration Rare",
   "Special Illustration Rare",
@@ -19,6 +25,7 @@ const HOLOFOIL_ONLY_RARITIES = [
 ];
 
 function getVariants(card, set) {
+  const variants = [];
   const rarity = card.rarity || "";
   const rarityLower = rarity.toLowerCase();
   const setId = set.id;
@@ -32,39 +39,48 @@ function getVariants(card, set) {
   let isSpecial = ["vmax", "vstar", " v", "ex", "gx", "break", "prism star", "rainbow"].some(x => rarityLower.includes(x));
 
   if (rarityLower.includes("promo")) {
-    return ["Promo"];
-  }
-
-  if (HOLOFOIL_ONLY_RARITIES.includes(rarity) || isSpecial) {
-    return ["Holofoil"];
-  }
-
-  const variants = [];
-
-  if (rarityLower.includes("rare holo")) {
+    variants.push("Promo");
+  } else if (HOLOFOIL_ONLY_RARITIES.includes(rarity) || isSpecial) {
     variants.push("Holofoil");
-  } else if (rarityLower.includes("rare") || rarityLower.includes("common") || rarityLower.includes("uncommon")) {
-    // For non-holo rares, and all commons/uncommons
-    // They have a Normal version
-    variants.push("Normal");
   } else {
-    // Trainer, Energy, etc.
-    variants.push("Normal");
-  }
+    if (rarityLower.includes("rare holo")) {
+      variants.push("Holofoil");
+    } else if (rarityLower.includes("rare") || rarityLower.includes("common") || rarityLower.includes("uncommon")) {
+      // For non-holo rares, and all commons/uncommons
+      // They have a Normal version
+      variants.push("Normal");
+    } else {
+      // Trainer, Energy, etc.
+      variants.push("Normal");
+    }
 
-  // Reverse Holo check
-  // Legendary Collection (base6) was the first set with reverse holos for every card
-  if (!isPreReverseHolo) {
-    variants.push("Reverse Holofoil");
+    // Reverse Holo check
+    // Legendary Collection (base6) was the first set with reverse holos for every card
+    if (!isPreReverseHolo) {
+      variants.push("Reverse Holofoil");
 
-    // Prismatic Evolutions specific variants
-    if (setId === "sv8pt5") {
-      variants.push("Pokeball");
-      variants.push("Masterball");
+      // Prismatic Evolutions specific variants
+      if (setId === "sv8pt5") {
+        variants.push("Pokeball");
+        variants.push("Masterball");
+      }
     }
   }
 
-  return variants.length > 0 ? variants : ["Normal"];
+  if (variants.length === 0) {
+    variants.push("Normal");
+  }
+
+  // Add additional variants from scraped data
+  if (SCRAPED_VARIANTS[card.id]) {
+    SCRAPED_VARIANTS[card.id].forEach(v => {
+      if (!variants.includes(v)) {
+        variants.push(v);
+      }
+    });
+  }
+
+  return variants;
 }
 
 const setsDir = path.join(__dirname, '../public/data/sets');
@@ -78,6 +94,9 @@ const files = fs.readdirSync(cardsDir);
 
 const variantMap = {};
 
+// Track which IDs were added from SCRAPED_VARIANTS to verify existence
+const extraIdsFound = new Set();
+
 files.forEach(file => {
   if (!file.endsWith('.json')) return;
   const setId = file.replace('.json', '');
@@ -90,7 +109,17 @@ files.forEach(file => {
 
   cards.forEach(card => {
     variantMap[card.id] = getVariants(card, set);
+    if (SCRAPED_VARIANTS[card.id]) {
+      extraIdsFound.add(card.id);
+    }
   });
+});
+
+// Check if any IDs in SCRAPED_VARIANTS were NOT found in the cards data
+Object.keys(SCRAPED_VARIANTS).forEach(id => {
+  if (!extraIdsFound.has(id)) {
+    console.warn(`Warning: Variant ID ${id} was not found in any card data.`);
+  }
 });
 
 const outputDir = path.join(__dirname, '../public/data');
