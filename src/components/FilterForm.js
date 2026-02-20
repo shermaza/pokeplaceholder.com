@@ -8,6 +8,7 @@ const FilterForm = ({
   generation, setGeneration,
   useImages, setUseImages,
   allVariants, setAllVariants,
+  includeCameos, setIncludeCameos,
   cardsPerPage, setCardsPerPage,
   sortBy, setSortBy,
   loading,
@@ -121,6 +122,21 @@ const FilterForm = ({
             <div className="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-slate-800"></div>
           </div>
         </div>
+
+        {name && (
+          <div className="flex items-center space-x-3 bg-slate-50 px-4 py-3 rounded-xl border-2 border-slate-100 cursor-pointer hover:border-slate-200 transition-all duration-200 group relative" onClick={() => setIncludeCameos(!includeCameos)}>
+            <div className={`w-10 h-6 flex items-center rounded-full p-1 transition-colors duration-200 ${includeCameos ? 'bg-red-500' : 'bg-slate-300'}`}>
+              <div className={`bg-white w-4 h-4 rounded-full shadow-sm transform transition-transform duration-200 ${includeCameos ? 'translate-x-4' : 'translate-x-0'}`}></div>
+            </div>
+            <span className="text-sm font-bold text-slate-700 select-none">Include Cameos</span>
+            
+            {/* Tooltip */}
+            <div className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 w-48 p-2 bg-slate-800 text-white text-[10px] rounded shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50">
+              Include cards where the Pokémon appears in the artwork but not in the name.
+              <div className="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-slate-800"></div>
+            </div>
+          </div>
+        )}
 
         <div className="md:col-span-2 space-y-2">
           <label className="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Grid Layout (Cards Per Page)</label>
