@@ -62,6 +62,9 @@ export const PdfService = {
         try {
           const imgData = await PdfService.getImageData(card.image_url);
           doc.addImage(imgData, 'JPEG', x, y, cellWidth, cellHeight);
+          if (showVariant) {
+            PdfService.drawOverlay(doc, card, x, y, cellWidth, cellHeight, showVariant);
+          }
         } catch (e) {
           console.error(`Failed to load image for ${card.name}`, e);
           PdfService.drawText(doc, card, x, y, cellWidth, cellHeight, showVariant, cardsPerPage);
@@ -153,6 +156,54 @@ export const PdfService = {
       const textWidth = doc.getTextWidth(displayLine);
       const xCenter = x + (width - textWidth) / 2;
       doc.text(displayLine, xCenter, currentY);
+      currentY += lineHeight;
+    });
+  },
+
+  drawOverlay: (doc, card, x, y, width, height, showVariant = true) => {
+    const textLines = [
+      card.national_pokedex_number ? `#${card.national_pokedex_number}` : "",
+      card.name,
+      card.is_cameo ? "Cameo" : "",
+      card.series_name,
+      card.set_name,
+      `${card.number}/${card.total_cards}`,
+      showVariant ? card.holo : "",
+      `Released: ${card.release_date}`
+    ].filter(l => l !== "");
+
+    const fontSize = 7; // Slightly smaller to fit more lines
+    doc.setFontSize(fontSize);
+
+    const padding = 0.03;
+    const lineHeight = fontSize * 0.014;
+    const totalTextHeight = textLines.length * lineHeight;
+    const boxHeight = totalTextHeight + padding * 2;
+    const boxY = y + height - boxHeight;
+
+    // Draw semi-transparent box
+    doc.setFillColor(255, 255, 255);
+    doc.setGState(new doc.GState({ opacity: 0.7 }));
+    doc.rect(x, boxY, width, boxHeight, 'F');
+    doc.setGState(new doc.GState({ opacity: 1.0 }));
+
+    // Draw text
+    doc.setTextColor(0, 0, 0);
+    let currentY = boxY + padding + (lineHeight * 0.75);
+
+    textLines.forEach(line => {
+      let displayLine = line;
+      const maxWidth = width - 0.1;
+      if (doc.getTextWidth(displayLine) > maxWidth) {
+        while (displayLine.length > 0 && doc.getTextWidth(displayLine + "...") > maxWidth) {
+          displayLine = displayLine.substring(0, displayLine.length - 1);
+        }
+        displayLine += "...";
+      }
+
+      const textWidth = doc.getTextWidth(displayLine);
+      const textX = x + (width - textWidth) / 2;
+      doc.text(displayLine, textX, currentY);
       currentY += lineHeight;
     });
   }
