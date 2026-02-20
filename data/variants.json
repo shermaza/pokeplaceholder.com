@@ -423,7 +423,8 @@
     "Normal"
   ],
   "base2-40": [
-    "Normal"
+    "Normal",
+    "2005 (Jeremy Maron) Signature"
   ],
   "base2-41": [
     "Normal"
@@ -546,7 +547,8 @@
     "Normal"
   ],
   "base3-17": [
-    "Normal"
+    "Normal",
+    "2015 (Jacob Van Wagner) Signature"
   ],
   "base3-18": [
     "Normal"
@@ -642,7 +644,8 @@
     "Normal"
   ],
   "base3-49": [
-    "Normal"
+    "Normal",
+    "2011 (Gustavo Wada) Signature"
   ],
   "base3-50": [
     "Normal"
@@ -2007,7 +2010,8 @@
   ],
   "bw1-15": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (David Cohen) Signature"
   ],
   "bw1-16": [
     "Normal",
@@ -2019,7 +2023,8 @@
   ],
   "bw1-18": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (David Cohen) Signature"
   ],
   "bw1-19": [
     "Holofoil",
@@ -2027,7 +2032,8 @@
   ],
   "bw1-20": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (David Cohen) Signature"
   ],
   "bw1-21": [
     "Normal",
@@ -2051,7 +2057,9 @@
   ],
   "bw1-26": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Christopher Kan) Signature",
+    "2011 (David Cohen) Signature"
   ],
   "bw1-27": [
     "Normal",
@@ -2135,11 +2143,13 @@
   ],
   "bw1-47": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Ross Cawthon) Signature"
   ],
   "bw1-48": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Ian Whiton) Signature"
   ],
   "bw1-49": [
     "Normal",
@@ -2167,15 +2177,18 @@
   ],
   "bw1-55": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Ross Cawthon) Signature"
   ],
   "bw1-56": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Ross Cawthon) Signature"
   ],
   "bw1-57": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Ross Cawthon) Signature"
   ],
   "bw1-58": [
     "Normal",
@@ -2315,15 +2328,22 @@
   ],
   "bw1-92": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Christopher Kan) Signature",
+    "2011 (David Cohen) Signature",
+    "2012 (Zachary Bokhari) Signature",
+    "2012 (Shuto Itagaki) Signature"
   ],
   "bw1-93": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Zachary Bokhari) Signature"
   ],
   "bw1-94": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Shuto Itagaki) Signature",
+    "2013 (Jason Klaczynski) Signature"
   ],
   "bw1-95": [
     "Normal",
@@ -2331,7 +2351,12 @@
   ],
   "bw1-96": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Christopher Kan) Signature",
+    "2012 (Zachary Bokhari) Signature",
+    "2012 (Chase Moloney) Signature",
+    "2012 (Igor Costa) Signature",
+    "2012 (Shuto Itagaki) Signature"
   ],
   "bw1-97": [
     "Normal",
@@ -2347,23 +2372,34 @@
   ],
   "bw1-100": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Zachary Bokhari) Signature"
   ],
   "bw1-101": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Christopher Kan) Signature"
   ],
   "bw1-102": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Christopher Kan) Signature",
+    "2012 (Zachary Bokhari) Signature"
   ],
   "bw1-103": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Igor Costa) Signature"
   ],
   "bw1-104": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature",
+    "2011 (David Cohen) Signature",
+    "2012 (Chase Moloney) Signature",
+    "2012 (Igor Costa) Signature",
+    "2012 (Shuto Itagaki) Signature",
+    "2012 (Zachary Bokhari) Signature"
   ],
   "bw1-105": [
     "Normal",
@@ -2434,7 +2470,8 @@
   ],
   "bw10-7": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Trent Orndorff) Signature"
   ],
   "bw10-8": [
     "Normal",
@@ -2468,7 +2505,8 @@
   ],
   "bw10-16": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Jacob Van Wagner) Signature"
   ],
   "bw10-17": [
     "Normal",
@@ -2484,7 +2522,8 @@
   ],
   "bw10-20": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Michikazu Tsuda) Signature"
   ],
   "bw10-21": [
     "Normal",
@@ -2736,7 +2775,10 @@
   ],
   "bw10-84": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Jacob Van Wagner) Signature",
+    "2015 (Alejandro Ng-Guzman) Signature",
+    "2015 (Patrick Martinez) Signature"
   ],
   "bw10-85": [
     "Normal",
@@ -2764,11 +2806,14 @@
   ],
   "bw10-91": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Andrew Estrada) Signature",
+    "2014 (Haruto Kobayashi) Signature"
   ],
   "bw10-92": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Andrew Estrada) Signature"
   ],
   "bw10-93": [
     "Normal",
@@ -2780,7 +2825,8 @@
   ],
   "bw10-95": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Rowan Stavenow) Signature"
   ],
   "bw10-96": [
     "Normal",
@@ -3240,7 +3286,8 @@
   ],
   "bw11-109": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Michikazu Tsuda) Signature"
   ],
   "bw11-110": [
     "Normal",
@@ -3252,7 +3299,8 @@
   ],
   "bw11-112": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Andrew Estrada) Signature"
   ],
   "bw11-113": [
     "Normal",
@@ -3534,7 +3582,8 @@
   ],
   "bw2-43": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Ian Whiton) Signature"
   ],
   "bw2-44": [
     "Normal",
@@ -3546,11 +3595,13 @@
   ],
   "bw2-46": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Ian Whiton) Signature"
   ],
   "bw2-47": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Ian Whiton) Signature"
   ],
   "bw2-48": [
     "Normal",
@@ -3722,7 +3773,8 @@
   ],
   "bw2-90": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Yugo Sato) Signature"
   ],
   "bw2-91": [
     "Normal",
@@ -3738,7 +3790,11 @@
   ],
   "bw2-94": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Chase Moloney) Signature",
+    "2012 (Shuto Itagaki) Signature",
+    "2014 (Michikazu Tsuda) Signature",
+    "2014 (Haruto Kobayashi) Signature"
   ],
   "bw2-95": [
     "Normal",
@@ -3814,7 +3870,8 @@
   ],
   "bw3-15": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Clement Lamberton) Signature"
   ],
   "bw3-16": [
     "Normal",
@@ -3906,7 +3963,8 @@
   ],
   "bw3-38": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Clement Lamberton) Signature"
   ],
   "bw3-39": [
     "Normal",
@@ -3914,7 +3972,9 @@
   ],
   "bw3-40": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Chase Moloney) Signature",
+    "2013 (Clement Lamberton) Signature"
   ],
   "bw3-41": [
     "Holofoil",
@@ -4046,7 +4106,10 @@
   ],
   "bw3-73": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Zachary Bokhari) Signature",
+    "2012 (Igor Costa) Signature",
+    "2012 (Shuto Itagaki) Signature"
   ],
   "bw3-74": [
     "Holofoil",
@@ -4118,7 +4181,10 @@
   ],
   "bw3-91": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Zachary Bokhari) Signature",
+    "2012 (Igor Costa) Signature",
+    "2012 (Shuto Itagaki) Signature"
   ],
   "bw3-92": [
     "Normal",
@@ -4134,7 +4200,8 @@
   ],
   "bw3-95": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Chase Moloney) Signature"
   ],
   "bw3-96": [
     "Normal",
@@ -4358,7 +4425,8 @@
   ],
   "bw4-50": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Chase Moloney) Signature"
   ],
   "bw4-51": [
     "Holofoil"
@@ -4392,7 +4460,8 @@
   ],
   "bw4-59": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Ian Whiton) Signature"
   ],
   "bw4-60": [
     "Normal",
@@ -4507,11 +4576,17 @@
   ],
   "bw4-88": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Michikazu Tsuda) Signature"
   ],
   "bw4-89": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Chase Moloney) Signature",
+    "2013 (Ian Whiton) Signature",
+    "2013 (Clement Lamberton) Signature",
+    "2014 (Michikazu Tsuda) Signature",
+    "2014 (Trent Orndorff) Signature"
   ],
   "bw4-90": [
     "Normal",
@@ -4519,15 +4594,26 @@
   ],
   "bw4-91": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Zachary Bokhari) Signature",
+    "2012 (Chase Moloney) Signature",
+    "2014 (Andrew Estrada) Signature"
   ],
   "bw4-92": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Zachary Bokhari) Signature",
+    "2012 (Chase Moloney) Signature",
+    "2012 (Igor Costa) Signature",
+    "2012 (Shuto Itagaki) Signature",
+    "2013 (Ian Whiton) Signature"
   ],
   "bw4-93": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Igor Costa) Signature",
+    "2013 (Yugo Sato) Signature",
+    "2014 (Haruto Kobayashi) Signature"
   ],
   "bw4-94": [
     "Normal",
@@ -4603,11 +4689,14 @@
   ],
   "bw5-10": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Ian Whiton) Signature"
   ],
   "bw5-11": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Ian Whiton) Signature",
+    "2014 (Trent Orndorff) Signature"
   ],
   "bw5-12": [
     "Normal",
@@ -4740,7 +4829,8 @@
   ],
   "bw5-45": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Chase Moloney) Signature"
   ],
   "bw5-46": [
     "Normal",
@@ -4807,7 +4897,8 @@
   ],
   "bw5-62": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Jason Klaczynski) Signature"
   ],
   "bw5-63": [
     "Holofoil"
@@ -4925,15 +5016,20 @@
   ],
   "bw5-92": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Jason Klaczynski) Signature"
   ],
   "bw5-93": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Igor Costa) Signature",
+    "2013 (Jason Klaczynski) Signature"
   ],
   "bw5-94": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Jason Klaczynski) Signature",
+    "2014 (Andrew Estrada) Signature"
   ],
   "bw5-95": [
     "Normal",
@@ -4941,7 +5037,23 @@
   ],
   "bw5-96": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Zachary Bokhari) Signature",
+    "2012 (Chase Moloney) Signature",
+    "2012 (Igor Costa) Signature",
+    "2012 (Shuto Itagaki) Signature",
+    "2013 (Ian Whiton) Signature",
+    "2013 (Clement Lamberton) Signature",
+    "2013 (Jason Klaczynski) Signature",
+    "2013 (Yugo Sato) Signature",
+    "2014 (Michikazu Tsuda) Signature",
+    "2014 (Andrew Estrada) Signature",
+    "2014 (Haruto Kobayashi) Signature",
+    "2014 (Trent Orndorff) Signature",
+    "2015 (Jacob Van Wagner) Signature",
+    "2015 (Alejandro Ng-Guzman) Signature",
+    "2015 (Patrick Martinez) Signature",
+    "2015 (Rowan Stavenow) Signature"
   ],
   "bw5-97": [
     "Normal",
@@ -4949,15 +5061,30 @@
   ],
   "bw5-98": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Zachary Bokhari) Signature",
+    "2012 (Chase Moloney) Signature",
+    "2012 (Igor Costa) Signature",
+    "2012 (Shuto Itagaki) Signature",
+    "2013 (Ian Whiton) Signature",
+    "2013 (Clement Lamberton) Signature",
+    "2013 (Jason Klaczynski) Signature",
+    "2013 (Yugo Sato) Signature",
+    "2014 (Trent Orndorff) Signature"
   ],
   "bw5-99": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Zachary Bokhari) Signature",
+    "2012 (Chase Moloney) Signature",
+    "2012 (Igor Costa) Signature",
+    "2012 (Shuto Itagaki) Signature",
+    "2013 (Jason Klaczynski) Signature"
   ],
   "bw5-100": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Ian Whiton) Signature"
   ],
   "bw5-101": [
     "Normal",
@@ -4965,7 +5092,13 @@
   ],
   "bw5-102": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Chase Moloney) Signature",
+    "2012 (Igor Costa) Signature",
+    "2013 (Ian Whiton) Signature",
+    "2013 (Clement Lamberton) Signature",
+    "2013 (Jason Klaczynski) Signature",
+    "2013 (Yugo Sato) Signature"
   ],
   "bw5-103": [
     "Normal",
@@ -5456,7 +5589,11 @@
   ],
   "bw6-116": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Ian Whiton) Signature",
+    "2013 (Jason Klaczynski) Signature",
+    "2014 (Michikazu Tsuda) Signature",
+    "2014 (Andrew Estrada) Signature"
   ],
   "bw6-117": [
     "Normal",
@@ -5742,7 +5879,8 @@
   ],
   "bw7-61": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Ian Whiton) Signature"
   ],
   "bw7-62": [
     "Normal",
@@ -5750,7 +5888,9 @@
   ],
   "bw7-63": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Ian Whiton) Signature",
+    "2014 (Trent Orndorff) Signature"
   ],
   "bw7-64": [
     "Normal",
@@ -6006,7 +6146,10 @@
   ],
   "bw7-128": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Clement Lamberton) Signature",
+    "2013 (Jason Klaczynski) Signature",
+    "2013 (Yugo Sato) Signature"
   ],
   "bw7-129": [
     "Normal",
@@ -6030,19 +6173,35 @@
   ],
   "bw7-134": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Ian Whiton) Signature",
+    "2013 (Yugo Sato) Signature",
+    "2014 (Andrew Estrada) Signature",
+    "2014 (Haruto Kobayashi) Signature",
+    "2014 (Trent Orndorff) Signature"
   ],
   "bw7-135": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Yugo Sato) Signature",
+    "2014 (Haruto Kobayashi) Signature"
   ],
   "bw7-136": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Ian Whiton) Signature",
+    "2014 (Andrew Estrada) Signature",
+    "2014 (Trent Orndorff) Signature"
   ],
   "bw7-137": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Ian Whiton) Signature",
+    "2013 (Jason Klaczynski) Signature",
+    "2013 (Yugo Sato) Signature",
+    "2014 (Trent Orndorff) Signature",
+    "2015 (Jacob Van Wagner) Signature",
+    "2015 (Alejandro Ng-Guzman) Signature"
   ],
   "bw7-138": [
     "Normal",
@@ -6310,7 +6469,9 @@
   ],
   "bw8-53": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Patrick Martinez) Signature",
+    "2015 (Rowan Stavenow) Signature"
   ],
   "bw8-54": [
     "Normal",
@@ -6562,15 +6723,28 @@
   ],
   "bw8-117": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Jason Klaczynski) Signature"
   ],
   "bw8-118": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Ian Whiton) Signature",
+    "2013 (Clement Lamberton) Signature",
+    "2013 (Yugo Sato) Signature",
+    "2014 (Michikazu Tsuda) Signature",
+    "2014 (Andrew Estrada) Signature",
+    "2014 (Haruto Kobayashi) Signature",
+    "2014 (Trent Orndorff) Signature",
+    "2015 (Patrick Martinez) Signature",
+    "2015 (Rowan Stavenow) Signature"
   ],
   "bw8-119": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Yugo Sato) Signature",
+    "2014 (Andrew Estrada) Signature",
+    "2014 (Haruto Kobayashi) Signature"
   ],
   "bw8-120": [
     "Normal",
@@ -6586,7 +6760,11 @@
   ],
   "bw8-123": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Jason Klaczynski) Signature",
+    "2013 (Yugo Sato) Signature",
+    "2014 (Haruto Kobayashi) Signature",
+    "2015 (Patrick Martinez) Signature"
   ],
   "bw8-124": [
     "Normal",
@@ -6598,19 +6776,27 @@
   ],
   "bw8-126": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Jason Klaczynski) Signature",
+    "2013 (Yugo Sato) Signature",
+    "2014 (Haruto Kobayashi) Signature",
+    "2015 (Patrick Martinez) Signature"
   ],
   "bw8-127": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Yugo Sato) Signature"
   ],
   "bw8-128": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Clement Lamberton) Signature",
+    "2014 (Michikazu Tsuda) Signature"
   ],
   "bw8-129": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Haruto Kobayashi) Signature"
   ],
   "bw8-130": [
     "Normal",
@@ -6659,7 +6845,8 @@
   ],
   "bw9-4": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Jacob Van Wagner) Signature"
   ],
   "bw9-5": [
     "Normal",
@@ -6766,7 +6953,9 @@
   ],
   "bw9-31": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Yugo Sato) Signature",
+    "2014 (Haruto Kobayashi) Signature"
   ],
   "bw9-32": [
     "Normal",
@@ -6829,7 +7018,9 @@
   ],
   "bw9-47": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Jason Klaczynski) Signature",
+    "2014 (Andrew Estrada) Signature"
   ],
   "bw9-48": [
     "Normal",
@@ -7033,7 +7224,12 @@
   ],
   "bw9-99": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Ian Whiton) Signature",
+    "2013 (Clement Lamberton) Signature",
+    "2013 (Yugo Sato) Signature",
+    "2014 (Trent Orndorff) Signature",
+    "2015 (Jacob Van Wagner) Signature"
   ],
   "bw9-100": [
     "Normal",
@@ -7045,11 +7241,13 @@
   ],
   "bw9-102": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Andrew Estrada) Signature"
   ],
   "bw9-103": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Jacob Van Wagner) Signature"
   ],
   "bw9-104": [
     "Normal",
@@ -7057,7 +7255,9 @@
   ],
   "bw9-105": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Yugo Sato) Signature",
+    "2014 (Haruto Kobayashi) Signature"
   ],
   "bw9-106": [
     "Normal",
@@ -7069,7 +7269,8 @@
   ],
   "bw9-108": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Patrick Martinez) Signature"
   ],
   "bw9-109": [
     "Normal",
@@ -7204,7 +7405,7 @@
   ],
   "bwp-BW28": [
     "Promo",
-    "Staff"
+    "2011 (Ross Cawthon) Signature"
   ],
   "bwp-BW29": [
     "Promo"
@@ -7240,9 +7441,7 @@
     "Promo"
   ],
   "bwp-BW40": [
-    "Promo",
-    "Staff",
-    "Prerelease"
+    "Promo"
   ],
   "bwp-BW41": [
     "Promo"
@@ -7266,29 +7465,26 @@
     "Promo"
   ],
   "bwp-BW48": [
-    "Promo",
-    "Staff",
-    "Prerelease"
+    "Promo"
   ],
   "bwp-BW49": [
     "Promo"
   ],
   "bwp-BW50": [
     "Promo",
-    "Staff"
+    "2013 (Ian Whiton) Signature",
+    "2013 (Clement Lamberton) Signature",
+    "2014 (Haruto Kobayashi) Signature",
+    "2014 (Trent Orndorff) Signature"
   ],
   "bwp-BW51": [
-    "Promo",
-    "Staff",
-    "Prerelease"
+    "Promo"
   ],
   "bwp-BW52": [
     "Promo"
   ],
   "bwp-BW53": [
-    "Promo",
-    "Staff",
-    "Prerelease"
+    "Promo"
   ],
   "bwp-BW54": [
     "Promo"
@@ -7354,9 +7550,7 @@
     "Promo"
   ],
   "bwp-BW75": [
-    "Promo",
-    "Staff",
-    "Prerelease"
+    "Promo"
   ],
   "bwp-BW76": [
     "Promo"
@@ -7383,9 +7577,7 @@
     "Promo"
   ],
   "bwp-BW84": [
-    "Promo",
-    "Staff",
-    "Prerelease"
+    "Promo"
   ],
   "bwp-BW85": [
     "Promo"
@@ -7418,13 +7610,10 @@
     "Promo"
   ],
   "bwp-BW95": [
-    "Promo",
-    "Staff"
+    "Promo"
   ],
   "bwp-BW96": [
-    "Promo",
-    "Staff",
-    "Prerelease"
+    "Promo"
   ],
   "bwp-BW97": [
     "Promo"
@@ -7557,7 +7746,14 @@
   ],
   "cel25c-15_A4": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Jason Klaczynski) Signature",
+    "2009 (Stephen Silvestro) Signature",
+    "2009 (Jason Martinez) Signature",
+    "2009 (David Cohen) Signature",
+    "2010 (Michael Pramawat) Signature",
+    "2010 (Yuka Furusawa) Signature"
   ],
   "cel25c-73_A": [
     "Normal",
@@ -7581,15 +7777,26 @@
   ],
   "cel25c-9_A": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature"
   ],
   "cel25c-86_A": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Curran Hill) Signature",
+    "2005 (Takashi Yoneda) Signature",
+    "2005 (Michael Gonzalez) Signature",
+    "2005 (Jeremy Moran) Signature",
+    "2006 (Hiroki Yano) Signature",
+    "2006 (Jimmy Ballard) Signature",
+    "2006 (Jason Klaczynski) Signature",
+    "2006 (Miska Saari) Signature"
   ],
   "cel25c-88_A": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jason Klaczynski) Signature",
+    "2007 (Tom Roos) Signature"
   ],
   "cel25c-93_A": [
     "Normal",
@@ -7601,15 +7808,21 @@
   ],
   "cel25c-109_A": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2009 (Stephen Silvestro) Signature",
+    "2010 (Mychael Bryan) Signature",
+    "2010 (Yuta Komatsuda) Signature"
   ],
   "cel25c-145_A": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Yuta Komatsuda) Signature"
   ],
   "cel25c-107_A": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Ross Cawthon) Signature"
   ],
   "cel25c-113_A": [
     "Normal",
@@ -7705,7 +7918,8 @@
   ],
   "col1-18": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature"
   ],
   "col1-19": [
     "Holofoil",
@@ -7717,7 +7931,9 @@
   ],
   "col1-21": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Zachary Bokhari) Signature",
+    "2012 (Chase Moloney) Signature"
   ],
   "col1-22": [
     "Holofoil",
@@ -7729,7 +7945,9 @@
   ],
   "col1-24": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature",
+    "2011 (Ross Cawthon) Signature"
   ],
   "col1-25": [
     "Normal",
@@ -7829,7 +8047,8 @@
   ],
   "col1-49": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Christopher Kan) Signature"
   ],
   "col1-50": [
     "Normal",
@@ -7941,11 +8160,16 @@
   ],
   "col1-77": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature",
+    "2011 (Ross Cawthon) Signature"
   ],
   "col1-78": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Zachary Bokhari) Signature",
+    "2012 (Chase Moloney) Signature",
+    "2012 (Shuto Itagaki) Signature"
   ],
   "col1-79": [
     "Normal",
@@ -7953,7 +8177,8 @@
   ],
   "col1-80": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Shuto Itagaki) Signature"
   ],
   "col1-81": [
     "Normal",
@@ -7965,7 +8190,12 @@
   ],
   "col1-83": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Ross Cawthon) Signature",
+    "2011 (David Cohen) Signature",
+    "2012 (Zachary Bokhari) Signature",
+    "2012 (Chase Moloney) Signature",
+    "2012 (Shuto Itagaki) Signature"
   ],
   "col1-84": [
     "Normal",
@@ -7973,11 +8203,13 @@
   ],
   "col1-85": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Ross Cawthon) Signature"
   ],
   "col1-86": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Takashi Yoneda) Signature"
   ],
   "col1-87": [
     "Normal",
@@ -8273,7 +8505,10 @@
   ],
   "dp1-2": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Jason Klaczynski) Signature",
+    "2010 (Michael Pramawat) Signature"
   ],
   "dp1-3": [
     "Holofoil",
@@ -8281,7 +8516,8 @@
   ],
   "dp1-4": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Akira Miyazaki) Signature"
   ],
   "dp1-5": [
     "Holofoil",
@@ -8437,7 +8673,8 @@
   ],
   "dp1-43": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jun Hasebe) Signature"
   ],
   "dp1-44": [
     "Normal",
@@ -8497,7 +8734,8 @@
   ],
   "dp1-58": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Akira Miyazaki) Signature"
   ],
   "dp1-59": [
     "Normal",
@@ -8585,7 +8823,9 @@
   ],
   "dp1-80": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Jason Klaczynski) Signature"
   ],
   "dp1-81": [
     "Normal",
@@ -8609,7 +8849,8 @@
   ],
   "dp1-86": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Michael Pramawat) Signature"
   ],
   "dp1-87": [
     "Normal",
@@ -8637,7 +8878,8 @@
   ],
   "dp1-93": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Akira Miyazaki) Signature"
   ],
   "dp1-94": [
     "Normal",
@@ -8693,7 +8935,8 @@
   ],
   "dp1-107": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jeremy Scharff-Kim) Signature"
   ],
   "dp1-108": [
     "Normal",
@@ -8725,11 +8968,14 @@
   ],
   "dp1-115": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Tom Roos) Signature"
   ],
   "dp1-116": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jun Hasebe) Signature",
+    "2007 (Jeremy Scharff-Kim) Signature"
   ],
   "dp1-117": [
     "Normal",
@@ -8805,7 +9051,8 @@
   ],
   "dp2-5": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Paul Atanassov) Signature"
   ],
   "dp2-6": [
     "Holofoil",
@@ -8841,7 +9088,8 @@
   ],
   "dp2-14": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Mychael Bryan) Signature"
   ],
   "dp2-15": [
     "Holofoil",
@@ -9089,7 +9337,8 @@
   ],
   "dp2-76": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Paul Atanassov) Signature"
   ],
   "dp2-77": [
     "Normal",
@@ -9233,7 +9482,8 @@
   ],
   "dp2-112": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Jason Klaczynski) Signature"
   ],
   "dp2-113": [
     "Normal",
@@ -9245,7 +9495,9 @@
   ],
   "dp2-115": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Paul Atanassov) Signature",
+    "2008 (Jason Klaczynski) Signature"
   ],
   "dp2-116": [
     "Normal",
@@ -9257,7 +9509,9 @@
   ],
   "dp2-118": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Tristan Robinson) Signature",
+    "2009 (Stephen Silvestro) Signature"
   ],
   "dp2-119": [
     "Normal",
@@ -9280,7 +9534,8 @@
     "Reverse Holofoil"
   ],
   "dp2-124": [
-    "Holofoil"
+    "Holofoil",
+    "2008 (Paul Atanassov) Signature"
   ],
   "dp3-1": [
     "Holofoil",
@@ -9300,7 +9555,8 @@
   ],
   "dp3-5": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (David Cohen) Signature"
   ],
   "dp3-6": [
     "Holofoil",
@@ -9308,7 +9564,10 @@
   ],
   "dp3-7": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Kevin Nguyen) Signature",
+    "2008 (Jason Klaczynski) Signature",
+    "2010 (Michael Pramawat) Signature"
   ],
   "dp3-8": [
     "Holofoil",
@@ -9384,7 +9643,8 @@
   ],
   "dp3-26": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Tristan Robinson) Signature"
   ],
   "dp3-27": [
     "Normal",
@@ -9540,7 +9800,8 @@
   ],
   "dp3-65": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Yuka Furusawa) Signature"
   ],
   "dp3-66": [
     "Normal",
@@ -9624,7 +9885,8 @@
   ],
   "dp3-86": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Michael Pramawat) Signature"
   ],
   "dp3-87": [
     "Normal",
@@ -9740,7 +10002,8 @@
   ],
   "dp3-115": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (David Cohen) Signature"
   ],
   "dp3-116": [
     "Normal",
@@ -9748,7 +10011,8 @@
   ],
   "dp3-117": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Tristan Robinson) Signature"
   ],
   "dp3-118": [
     "Normal",
@@ -9756,15 +10020,26 @@
   ],
   "dp3-119": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Jason Klaczynski) Signature"
   ],
   "dp3-120": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Dylan Lefavour) Signature",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2009 (Stephen Silvestro) Signature",
+    "2009 (Jason Martinez) Signature",
+    "2009 (David Cohen) Signature",
+    "2010 (Michael Pramawat) Signature",
+    "2010 (Yuta Komatsuda) Signature",
+    "2010 (Yuka Furusawa) Signature"
   ],
   "dp3-121": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Paul Atanassov) Signature"
   ],
   "dp3-122": [
     "Normal",
@@ -9780,7 +10055,18 @@
   ],
   "dp3-125": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Paul Atanassov) Signature",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Tristan Robinson) Signature",
+    "2008 (Jason Klaczynski) Signature",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2009 (Stephen Silvestro) Signature",
+    "2009 (Jason Martinez) Signature",
+    "2009 (David Cohen) Signature",
+    "2010 (Michael Pramawat) Signature",
+    "2010 (Yuta Komatsuda) Signature",
+    "2010 (Yuka Furusawa) Signature"
   ],
   "dp3-126": [
     "Normal",
@@ -9804,7 +10090,9 @@
   ],
   "dp3-131": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Jason Klaczynski) Signature",
+    "2010 (Michael Pramawat) Signature"
   ],
   "dp3-132": [
     "Holofoil",
@@ -9868,7 +10156,14 @@
   ],
   "dp4-15": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Jason Klaczynski) Signature",
+    "2009 (Stephen Silvestro) Signature",
+    "2009 (Jason Martinez) Signature",
+    "2009 (David Cohen) Signature",
+    "2010 (Michael Pramawat) Signature",
+    "2010 (Yuka Furusawa) Signature"
   ],
   "dp4-16": [
     "Normal",
@@ -9912,7 +10207,8 @@
   ],
   "dp4-26": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (David Cohen) Signature"
   ],
   "dp4-27": [
     "Normal",
@@ -10036,7 +10332,12 @@
   ],
   "dp4-57": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2009 (Stephen Silvestro) Signature",
+    "2009 (Jason Martinez) Signature",
+    "2009 (David Cohen) Signature",
+    "2010 (Michael Pramawat) Signature"
   ],
   "dp4-58": [
     "Normal",
@@ -10048,7 +10349,13 @@
   ],
   "dp4-60": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Jason Klaczynski) Signature",
+    "2009 (Stephen Silvestro) Signature",
+    "2009 (Jason Martinez) Signature",
+    "2009 (David Cohen) Signature",
+    "2010 (Yuka Furusawa) Signature"
   ],
   "dp4-61": [
     "Normal",
@@ -10180,7 +10487,8 @@
   ],
   "dp4-93": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Stephen Silvestro) Signature"
   ],
   "dp4-94": [
     "Normal",
@@ -10200,7 +10508,8 @@
   ],
   "dp4-98": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Mychael Bryan) Signature"
   ],
   "dp4-99": [
     "Normal",
@@ -10208,7 +10517,9 @@
   ],
   "dp4-100": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2010 (Michael Pramawat) Signature"
   ],
   "dp4-101": [
     "Normal",
@@ -10216,7 +10527,12 @@
   ],
   "dp4-102": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Jason Klaczynski) Signature",
+    "2009 (Stephen Silvestro) Signature",
+    "2009 (Jason Martinez) Signature",
+    "2009 (David Cohen) Signature"
   ],
   "dp4-103": [
     "Holofoil",
@@ -10268,7 +10584,8 @@
   ],
   "dp5-9": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (David Cohen) Signature"
   ],
   "dp5-10": [
     "Holofoil",
@@ -10300,7 +10617,8 @@
   ],
   "dp5-17": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Dylan Lefavour) Signature"
   ],
   "dp5-18": [
     "Normal",
@@ -10348,7 +10666,8 @@
   ],
   "dp5-29": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Tristan Robinson) Signature"
   ],
   "dp5-30": [
     "Normal",
@@ -10356,7 +10675,8 @@
   ],
   "dp5-31": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Tristan Robinson) Signature"
   ],
   "dp5-32": [
     "Normal",
@@ -10416,7 +10736,8 @@
   ],
   "dp5-46": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Tristan Robinson) Signature"
   ],
   "dp5-47": [
     "Normal",
@@ -10428,7 +10749,9 @@
   ],
   "dp5-49": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Mychael Bryan) Signature",
+    "2010 (Yuka Furusawa) Signature"
   ],
   "dp5-50": [
     "Normal",
@@ -10452,7 +10775,11 @@
   ],
   "dp5-55": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Paul Atanassov) Signature",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Jason Klaczynski) Signature",
+    "2009 (Stephen Silvestro) Signature"
   ],
   "dp5-56": [
     "Normal",
@@ -10472,7 +10799,8 @@
   ],
   "dp5-60": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Tristan Robinson) Signature"
   ],
   "dp5-61": [
     "Normal",
@@ -10584,7 +10912,14 @@
   ],
   "dp5-88": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Paul Atanassov) Signature",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Jason Klaczynski) Signature",
+    "2009 (Stephen Silvestro) Signature",
+    "2009 (Jason Martinez) Signature",
+    "2010 (Michael Pramawat) Signature",
+    "2010 (Yuka Furusawa) Signature"
   ],
   "dp5-89": [
     "Normal",
@@ -10600,11 +10935,17 @@
   ],
   "dp5-92": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Jason Klaczynski) Signature",
+    "2009 (Jason Martinez) Signature",
+    "2009 (David Cohen) Signature",
+    "2010 (Michael Pramawat) Signature"
   ],
   "dp5-93": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature"
   ],
   "dp5-94": [
     "Normal",
@@ -10708,7 +11049,11 @@
   ],
   "dp6-19": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2009 (Stephen Silvestro) Signature",
+    "2009 (David Cohen) Signature",
+    "2010 (Michael Pramawat) Signature"
   ],
   "dp6-20": [
     "Normal",
@@ -10740,7 +11085,8 @@
   ],
   "dp6-27": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature"
   ],
   "dp6-28": [
     "Normal",
@@ -10804,7 +11150,14 @@
   ],
   "dp6-43": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2009 (Jason Martinez) Signature",
+    "2009 (David Cohen) Signature",
+    "2010 (Michael Pramawat) Signature",
+    "2010 (Mychael Bryan) Signature",
+    "2010 (Yuta Komatsuda) Signature",
+    "2010 (Yuka Furusawa) Signature"
   ],
   "dp6-44": [
     "Normal",
@@ -11156,7 +11509,9 @@
   ],
   "dp6-131": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Stephen Silvestro) Signature",
+    "2010 (Mychael Bryan) Signature"
   ],
   "dp6-132": [
     "Normal",
@@ -11192,7 +11547,8 @@
   ],
   "dp6-140": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Michael Pramawat) Signature"
   ],
   "dp6-141": [
     "Holofoil",
@@ -11208,7 +11564,8 @@
   ],
   "dp6-144": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (David Cohen) Signature"
   ],
   "dp6-145": [
     "Holofoil",
@@ -11216,7 +11573,9 @@
   ],
   "dp6-146": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2010 (Yuta Komatsuda) Signature"
   ],
   "dp7-1": [
     "Holofoil",
@@ -11288,15 +11647,18 @@
   ],
   "dp7-18": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Jason Martinez) Signature"
   ],
   "dp7-19": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Mychael Bryan) Signature"
   ],
   "dp7-20": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Michael Pramawat) Signature"
   ],
   "dp7-21": [
     "Normal",
@@ -11356,7 +11718,8 @@
   ],
   "dp7-35": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Michael Pramawat) Signature"
   ],
   "dp7-36": [
     "Normal",
@@ -11376,7 +11739,8 @@
   ],
   "dp7-40": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Jason Martinez) Signature"
   ],
   "dp7-41": [
     "Normal",
@@ -11388,7 +11752,9 @@
   ],
   "dp7-43": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature",
+    "2011 (David Cohen) Signature"
   ],
   "dp7-44": [
     "Normal",
@@ -11408,7 +11774,9 @@
   ],
   "dp7-48": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2010 (Mychael Bryan) Signature"
   ],
   "dp7-49": [
     "Normal",
@@ -11444,7 +11812,8 @@
   ],
   "dp7-57": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Mychael Bryan) Signature"
   ],
   "dp7-58": [
     "Normal",
@@ -11464,11 +11833,13 @@
   ],
   "dp7-62": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Jason Martinez) Signature"
   ],
   "dp7-63": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Takashi Yoneda) Signature"
   ],
   "dp7-64": [
     "Normal",
@@ -11476,7 +11847,8 @@
   ],
   "dp7-65": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Mychael Bryan) Signature"
   ],
   "dp7-66": [
     "Normal",
@@ -11492,7 +11864,8 @@
   ],
   "dp7-69": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Hiroki Yano) Signature"
   ],
   "dp7-70": [
     "Normal",
@@ -11560,7 +11933,13 @@
   ],
   "dp7-86": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Stephen Silvestro) Signature",
+    "2009 (Jason Martinez) Signature",
+    "2009 (David Cohen) Signature",
+    "2010 (Michael Pramawat) Signature",
+    "2010 (Yuta Komatsuda) Signature",
+    "2010 (Yuka Furusawa) Signature"
   ],
   "dp7-87": [
     "Normal",
@@ -11580,7 +11959,8 @@
   ],
   "dp7-91": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (David Cohen) Signature"
   ],
   "dp7-92": [
     "Normal",
@@ -11592,11 +11972,14 @@
   ],
   "dp7-94": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Mychael Bryan) Signature"
   ],
   "dp7-95": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Mychael Bryan) Signature",
+    "2010 (Yuta Komatsuda) Signature"
   ],
   "dp7-96": [
     "Holofoil",
@@ -11652,8 +12035,7 @@
     "Promo"
   ],
   "dpp-DP05": [
-    "Promo",
-    "Staff"
+    "Promo"
   ],
   "dpp-DP06": [
     "Promo"
@@ -11692,7 +12074,8 @@
     "Promo"
   ],
   "dpp-DP18": [
-    "Promo"
+    "Promo",
+    "2009 (David Cohen) Signature"
   ],
   "dpp-DP19": [
     "Promo"
@@ -11713,8 +12096,7 @@
     "Promo"
   ],
   "dpp-DP25": [
-    "Promo",
-    "Staff"
+    "Promo"
   ],
   "dpp-DP26": [
     "Promo"
@@ -11783,8 +12165,7 @@
     "Promo"
   ],
   "dpp-DP48": [
-    "Promo",
-    "Staff"
+    "Promo"
   ],
   "dpp-DP49": [
     "Promo"
@@ -11888,7 +12269,11 @@
   ],
   "dv1-20": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Ian Whiton) Signature",
+    "2013 (Clement Lamberton) Signature",
+    "2014 (Michikazu Tsuda) Signature",
+    "2014 (Andrew Estrada) Signature"
   ],
   "dv1-21": [
     "Normal",
@@ -12444,7 +12829,11 @@
   ],
   "ecard1-138": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature",
+    "2004 (Tsuguyoshi Yamato) Signature",
+    "2004 (Reed Weichler) Signature",
+    "2005 (Takashi Yoneda) Signature"
   ],
   "ecard1-139": [
     "Normal",
@@ -12484,11 +12873,15 @@
   ],
   "ecard1-148": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature",
+    "2004 (Reed Weichler) Signature",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ecard1-149": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Reed Weichler) Signature"
   ],
   "ecard1-150": [
     "Normal",
@@ -13096,7 +13489,9 @@
   ],
   "ecard2-136": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ecard2-137": [
     "Normal",
@@ -13116,7 +13511,8 @@
   ],
   "ecard2-141": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ecard2-142": [
     "Normal",
@@ -13132,7 +13528,8 @@
   ],
   "ecard2-145": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ecard2-146": [
     "Normal",
@@ -13140,7 +13537,8 @@
   ],
   "ecard2-147": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature"
   ],
   "ecard2-148": [
     "Holofoil"
@@ -13769,7 +14167,8 @@
   ],
   "ecard3-123": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ecard3-124": [
     "Normal",
@@ -13781,7 +14180,8 @@
   ],
   "ecard3-126": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature"
   ],
   "ecard3-127": [
     "Normal",
@@ -13829,7 +14229,10 @@
   ],
   "ecard3-138": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature",
+    "2004 (Reed Weichler) Signature",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ecard3-139": [
     "Normal",
@@ -13837,7 +14240,9 @@
   ],
   "ecard3-140": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature",
+    "2004 (Reed Weichler) Signature"
   ],
   "ecard3-141": [
     "Normal",
@@ -14011,7 +14416,8 @@
   ],
   "ex1-3": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature"
   ],
   "ex1-4": [
     "Holofoil",
@@ -14019,7 +14425,10 @@
   ],
   "ex1-5": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature",
+    "2004 (Reed Weichler) Signature",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ex1-6": [
     "Holofoil",
@@ -14027,7 +14436,10 @@
   ],
   "ex1-7": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Kevin Nguyen) Signature",
+    "2008 (Jason Klaczynski) Signature",
+    "2010 (Michael Pramawat) Signature"
   ],
   "ex1-8": [
     "Holofoil",
@@ -14051,7 +14463,8 @@
   ],
   "ex1-13": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Reed Weichler) Signature"
   ],
   "ex1-14": [
     "Holofoil",
@@ -14111,7 +14524,8 @@
   ],
   "ex1-28": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature"
   ],
   "ex1-29": [
     "Normal",
@@ -14135,7 +14549,8 @@
   ],
   "ex1-34": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ex1-35": [
     "Normal",
@@ -14159,7 +14574,8 @@
   ],
   "ex1-40": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Reed Weichler) Signature"
   ],
   "ex1-41": [
     "Normal",
@@ -14175,7 +14591,9 @@
   ],
   "ex1-44": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature",
+    "2004 (Reed Weichler) Signature"
   ],
   "ex1-45": [
     "Normal",
@@ -14235,7 +14653,8 @@
   ],
   "ex1-59": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Reed Weichler) Signature"
   ],
   "ex1-60": [
     "Normal",
@@ -14295,7 +14714,8 @@
   ],
   "ex1-74": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature"
   ],
   "ex1-75": [
     "Normal",
@@ -14363,15 +14783,21 @@
   ],
   "ex1-91": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Reed Weichler) Signature"
   ],
   "ex1-92": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature",
+    "2004 (Tsuguyoshi Yamato) Signature",
+    "2004 (Reed Weichler) Signature",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ex1-93": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature"
   ],
   "ex1-94": [
     "Normal",
@@ -14379,7 +14805,8 @@
   ],
   "ex1-95": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature"
   ],
   "ex1-96": [
     "Holofoil"
@@ -14411,23 +14838,30 @@
   ],
   "ex1-105": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature"
   ],
   "ex1-106": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Reed Weichler) Signature"
   ],
   "ex1-107": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ex1-108": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature"
   ],
   "ex1-109": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ex10-1": [
     "Holofoil",
@@ -14559,7 +14993,8 @@
   ],
   "ex10-33": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature"
   ],
   "ex10-34": [
     "Normal",
@@ -14575,7 +15010,8 @@
   ],
   "ex10-37": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Akira Miyazaki) Signature"
   ],
   "ex10-38": [
     "Normal",
@@ -14611,7 +15047,8 @@
   ],
   "ex10-46": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Tristan Robinson) Signature"
   ],
   "ex10-47": [
     "Normal",
@@ -14755,11 +15192,13 @@
   ],
   "ex10-82": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Miska Saari) Signature"
   ],
   "ex10-83": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Miska Saari) Signature"
   ],
   "ex10-84": [
     "Normal",
@@ -14771,7 +15210,10 @@
   ],
   "ex10-86": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Miska Saari) Signature",
+    "2006 (Jason Klaczynski) Signature",
+    "2007 (Tom Roos) Signature"
   ],
   "ex10-87": [
     "Normal",
@@ -14783,7 +15225,10 @@
   ],
   "ex10-89": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Hiroki Yano) Signature",
+    "2006 (Jimmy Ballard) Signature",
+    "2006 (Jason Klaczynski) Signature"
   ],
   "ex10-90": [
     "Normal",
@@ -14799,7 +15244,9 @@
   ],
   "ex10-93": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Hiroki Yano) Signature",
+    "2006 (Miska Saari) Signature"
   ],
   "ex10-94": [
     "Normal",
@@ -14833,7 +15280,9 @@
     "Holofoil"
   ],
   "ex10-102": [
-    "Holofoil"
+    "Holofoil",
+    "2006 (Jimmy Ballard) Signature",
+    "2007 (Tom Roos) Signature"
   ],
   "ex10-103": [
     "Holofoil"
@@ -14842,7 +15291,8 @@
     "Holofoil"
   ],
   "ex10-105": [
-    "Holofoil"
+    "Holofoil",
+    "2006 (Hiroki Yano) Signature"
   ],
   "ex10-106": [
     "Holofoil"
@@ -14854,7 +15304,8 @@
     "Holofoil"
   ],
   "ex10-109": [
-    "Holofoil"
+    "Holofoil",
+    "2006 (Hiroki Yano) Signature"
   ],
   "ex10-110": [
     "Holofoil"
@@ -14863,7 +15314,8 @@
     "Holofoil"
   ],
   "ex10-112": [
-    "Holofoil"
+    "Holofoil",
+    "2006 (Jimmy Ballard) Signature"
   ],
   "ex10-113": [
     "Holofoil",
@@ -15077,11 +15529,17 @@
   ],
   "ex11-21": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Hiroki Yano) Signature",
+    "2006 (Jimmy Ballard) Signature",
+    "2007 (Akira Miyazaki) Signature"
   ],
   "ex11-22": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jason Klaczynski) Signature",
+    "2006 (Hiroki Yano) Signature",
+    "2007 (Jeremy Scharff-Kim) Signature"
   ],
   "ex11-23": [
     "Normal",
@@ -15269,7 +15727,9 @@
   ],
   "ex11-69": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jimmy Ballard) Signature",
+    "2007 (Tom Roos) Signature"
   ],
   "ex11-70": [
     "Normal",
@@ -15277,7 +15737,9 @@
   ],
   "ex11-71": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jun Hasebe) Signature",
+    "2007 (Tom Roos) Signature"
   ],
   "ex11-72": [
     "Normal",
@@ -15349,15 +15811,19 @@
   ],
   "ex11-89": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jason Klaczynski) Signature"
   ],
   "ex11-90": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Miska Saari) Signature"
   ],
   "ex11-91": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Miska Saari) Signature",
+    "2007 (Akira Miyazaki) Signature"
   ],
   "ex11-92": [
     "Normal",
@@ -15365,7 +15831,8 @@
   ],
   "ex11-93": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Miska Saari) Signature"
   ],
   "ex11-94": [
     "Normal",
@@ -15373,7 +15840,8 @@
   ],
   "ex11-95": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jun Hasebe) Signature"
   ],
   "ex11-96": [
     "Normal",
@@ -15381,11 +15849,21 @@
   ],
   "ex11-97": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Miska Saari) Signature",
+    "2007 (Jun Hasebe) Signature",
+    "2007 (Tom Roos) Signature",
+    "2007 (Jeremy Scharff-Kim) Signature",
+    "2007 (Akira Miyazaki) Signature"
   ],
   "ex11-98": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Miska Saari) Signature",
+    "2007 (Jun Hasebe) Signature",
+    "2007 (Tom Roos) Signature",
+    "2007 (Jeremy Scharff-Kim) Signature",
+    "2007 (Akira Miyazaki) Signature"
   ],
   "ex11-99": [
     "Normal",
@@ -15393,7 +15871,9 @@
   ],
   "ex11-100": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Patrick Martinez) Signature",
+    "2015 (Rowan Stavenow) Signature"
   ],
   "ex11-101": [
     "Normal",
@@ -15401,7 +15881,8 @@
   ],
   "ex11-102": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jason Klaczynski) Signature"
   ],
   "ex11-103": [
     "Normal",
@@ -15409,7 +15890,9 @@
   ],
   "ex11-104": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jimmy Ballard) Signature",
+    "2006 (Miska Saari) Signature"
   ],
   "ex11-105": [
     "Normal",
@@ -15417,20 +15900,28 @@
   ],
   "ex11-106": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jimmy Ballard) Signature"
   ],
   "ex11-107": [
     "Normal",
     "Reverse Holofoil"
   ],
   "ex11-108": [
-    "Holofoil"
+    "Holofoil",
+    "2006 (Jimmy Ballard) Signature"
   ],
   "ex11-109": [
-    "Holofoil"
+    "Holofoil",
+    "2006 (Jimmy Ballard) Signature",
+    "2007 (Jun Hasebe) Signature",
+    "2007 (Tom Roos) Signature"
   ],
   "ex11-110": [
-    "Holofoil"
+    "Holofoil",
+    "2006 (Jimmy Ballard) Signature",
+    "2007 (Jun Hasebe) Signature",
+    "2007 (Tom Roos) Signature"
   ],
   "ex11-111": [
     "Holofoil",
@@ -15509,7 +16000,9 @@
   ],
   "ex12-16": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jason Klaczynski) Signature",
+    "2006 (Miska Saari) Signature"
   ],
   "ex12-17": [
     "Normal",
@@ -15613,7 +16106,8 @@
   ],
   "ex12-42": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jason Klaczynski) Signature"
   ],
   "ex12-43": [
     "Normal",
@@ -15697,7 +16191,8 @@
   ],
   "ex12-63": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Magnus Pedersen) Signature"
   ],
   "ex12-64": [
     "Normal",
@@ -15733,23 +16228,32 @@
   ],
   "ex12-72": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jason Klaczynski) Signature",
+    "2006 (Miska Saari) Signature",
+    "2007 (Akira Miyazaki) Signature"
   ],
   "ex12-73": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jun Hasebe) Signature"
   ],
   "ex12-74": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jimmy Ballard) Signature"
   ],
   "ex12-75": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jimmy Ballard) Signature",
+    "2007 (Tom Roos) Signature"
   ],
   "ex12-76": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Hiroki Yano) Signature",
+    "2007 (Jun Hasebe) Signature"
   ],
   "ex12-77": [
     "Normal",
@@ -15769,7 +16273,8 @@
   ],
   "ex12-81": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jeremy Scharff-Kim) Signature"
   ],
   "ex12-82": [
     "Normal",
@@ -15782,7 +16287,8 @@
     "Holofoil"
   ],
   "ex12-85": [
-    "Holofoil"
+    "Holofoil",
+    "2007 (Jeremy Scharff-Kim) Signature"
   ],
   "ex12-86": [
     "Holofoil"
@@ -15791,7 +16297,9 @@
     "Holofoil"
   ],
   "ex12-88": [
-    "Holofoil"
+    "Holofoil",
+    "2006 (Jason Klaczynski) Signature",
+    "2007 (Tom Roos) Signature"
   ],
   "ex12-89": [
     "Holofoil"
@@ -15985,7 +16493,10 @@
   ],
   "ex13-44": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jun Hasebe) Signature",
+    "2007 (Tom Roos) Signature",
+    "2008 (Dylan Lefavour) Signature"
   ],
   "ex13-45": [
     "Normal",
@@ -16149,7 +16660,12 @@
   ],
   "ex13-85": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Miska Saari) Signature",
+    "2007 (Jun Hasebe) Signature",
+    "2007 (Tom Roos) Signature",
+    "2007 (Jeremy Scharff-Kim) Signature",
+    "2007 (Akira Miyazaki) Signature"
   ],
   "ex13-86": [
     "Normal",
@@ -16169,7 +16685,11 @@
   ],
   "ex13-90": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Hiroki Yano) Signature",
+    "2006 (Jimmy Ballard) Signature",
+    "2007 (Jun Hasebe) Signature",
+    "2007 (Akira Miyazaki) Signature"
   ],
   "ex13-91": [
     "Normal",
@@ -16193,7 +16713,10 @@
   ],
   "ex13-96": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jason Klaczynski) Signature",
+    "2006 (Miska Saari) Signature",
+    "2007 (Tom Roos) Signature"
   ],
   "ex13-97": [
     "Normal",
@@ -16253,7 +16776,8 @@
   ],
   "ex14-1": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jeremy Scharff-Kim) Signature"
   ],
   "ex14-2": [
     "Holofoil",
@@ -16289,7 +16813,8 @@
   ],
   "ex14-10": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Tristan Robinson) Signature"
   ],
   "ex14-11": [
     "Holofoil",
@@ -16297,7 +16822,8 @@
   ],
   "ex14-12": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Dylan Lefavour) Signature"
   ],
   "ex14-13": [
     "Holofoil",
@@ -16409,7 +16935,8 @@
   ],
   "ex14-40": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jeremy Scharff-Kim) Signature"
   ],
   "ex14-41": [
     "Normal",
@@ -16493,7 +17020,8 @@
   ],
   "ex14-61": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jun Hasebe) Signature"
   ],
   "ex14-62": [
     "Normal",
@@ -16537,23 +17065,42 @@
   ],
   "ex14-72": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jeremy Scharff-Kim) Signature",
+    "2007 (Akira Miyazaki) Signature",
+    "2008 (Paul Atanassov) Signature",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Tristan Robinson) Signature"
   ],
   "ex14-73": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Akira Miyazaki) Signature",
+    "2008 (Paul Atanassov) Signature",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Tristan Robinson) Signature",
+    "2008 (Jason Klaczynski) Signature"
   ],
   "ex14-74": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Akira Miyazaki) Signature",
+    "2008 (Paul Atanassov) Signature",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Tristan Robinson) Signature"
   ],
   "ex14-75": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jeremy Scharff-Kim) Signature",
+    "2008 (Paul Atanassov) Signature",
+    "2008 (Tristan Robinson) Signature"
   ],
   "ex14-76": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jun Hasebe) Signature",
+    "2007 (Jeremy Scharff-Kim) Signature"
   ],
   "ex14-77": [
     "Normal",
@@ -16561,7 +17108,10 @@
   ],
   "ex14-78": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Zachary Bokhari) Signature",
+    "2012 (Chase Moloney) Signature",
+    "2012 (Shuto Itagaki) Signature"
   ],
   "ex14-79": [
     "Normal",
@@ -16589,7 +17139,11 @@
   ],
   "ex14-85": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jun Hasebe) Signature",
+    "2007 (Tom Roos) Signature",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Jason Klaczynski) Signature"
   ],
   "ex14-86": [
     "Normal",
@@ -16601,7 +17155,10 @@
   ],
   "ex14-88": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Akira Miyazaki) Signature",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Jason Klaczynski) Signature"
   ],
   "ex14-89": [
     "Holofoil"
@@ -16619,7 +17176,9 @@
     "Holofoil"
   ],
   "ex14-94": [
-    "Holofoil"
+    "Holofoil",
+    "2007 (Tom Roos) Signature",
+    "2008 (Jason Klaczynski) Signature"
   ],
   "ex14-95": [
     "Holofoil"
@@ -16927,11 +17486,16 @@
   ],
   "ex15-72": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jeremy Scharff-Kim) Signature"
   ],
   "ex15-73": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jun Hasebe) Signature",
+    "2007 (Akira Miyazaki) Signature",
+    "2008 (Tristan Robinson) Signature",
+    "2008 (Dylan Lefavour) Signature"
   ],
   "ex15-74": [
     "Normal",
@@ -16939,7 +17503,11 @@
   ],
   "ex15-75": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Tom Roos) Signature",
+    "2007 (Jeremy Scharff-Kim) Signature",
+    "2007 (Akira Miyazaki) Signature",
+    "2007 (Jun Hasebe) Signature"
   ],
   "ex15-76": [
     "Normal",
@@ -16955,7 +17523,10 @@
   ],
   "ex15-79": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Tom Roos) Signature",
+    "2007 (Jeremy Scharff-Kim) Signature",
+    "2007 (Jun Hasebe) Signature"
   ],
   "ex15-80": [
     "Normal",
@@ -16963,11 +17534,14 @@
   ],
   "ex15-81": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jeremy Scharff-Kim) Signature"
   ],
   "ex15-82": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jeremy Scharff-Kim) Signature",
+    "2008 (Paul Atanassov) Signature"
   ],
   "ex15-83": [
     "Normal",
@@ -16975,7 +17549,8 @@
   ],
   "ex15-84": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Paul Atanassov) Signature"
   ],
   "ex15-85": [
     "Normal",
@@ -16995,7 +17570,10 @@
   ],
   "ex15-89": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Akira Miyazaki) Signature",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Jason Klaczynski) Signature"
   ],
   "ex15-90": [
     "Holofoil"
@@ -17253,7 +17831,8 @@
   ],
   "ex16-55": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Curran Hill) Signature"
   ],
   "ex16-56": [
     "Normal",
@@ -17329,7 +17908,8 @@
   ],
   "ex16-74": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Paul Atanassov) Signature"
   ],
   "ex16-75": [
     "Normal",
@@ -17349,7 +17929,8 @@
   ],
   "ex16-79": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jeremy Scharff-Kim) Signature"
   ],
   "ex16-80": [
     "Normal",
@@ -17357,7 +17938,11 @@
   ],
   "ex16-81": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Tom Roos) Signature",
+    "2007 (Jeremy Scharff-Kim) Signature",
+    "2008 (Paul Atanassov) Signature",
+    "2008 (Tristan Robinson) Signature"
   ],
   "ex16-82": [
     "Normal",
@@ -17365,7 +17950,12 @@
   ],
   "ex16-83": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Akira Miyazaki) Signature",
+    "2008 (Paul Atanassov) Signature",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Tristan Robinson) Signature",
+    "2008 (Jason Klaczynski) Signature"
   ],
   "ex16-84": [
     "Normal",
@@ -17381,11 +17971,14 @@
   ],
   "ex16-87": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Tom Roos) Signature"
   ],
   "ex16-88": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Curran Hill) Signature",
+    "2005 (Takashi Yoneda) Signature"
   ],
   "ex16-89": [
     "Normal",
@@ -17393,14 +17986,18 @@
   ],
   "ex16-90": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jeremy Scharff-Kim) Signature",
+    "2008 (Jason Klaczynski) Signature"
   ],
   "ex16-91": [
     "Normal",
     "Reverse Holofoil"
   ],
   "ex16-92": [
-    "Holofoil"
+    "Holofoil",
+    "2007 (Jun Hasebe) Signature",
+    "2007 (Tom Roos) Signature"
   ],
   "ex16-93": [
     "Holofoil"
@@ -17453,7 +18050,9 @@
   ],
   "ex16-107": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ex16-108": [
     "Holofoil",
@@ -17497,7 +18096,8 @@
   ],
   "ex2-10": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Tristan Robinson) Signature"
   ],
   "ex2-11": [
     "Holofoil",
@@ -17561,7 +18161,9 @@
   ],
   "ex2-26": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Reed Weichler) Signature",
+    "2005 (Curran Hill) Signature"
   ],
   "ex2-27": [
     "Normal",
@@ -17637,7 +18239,8 @@
   ],
   "ex2-45": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Michael Gonzalez) Signature"
   ],
   "ex2-46": [
     "Normal",
@@ -17697,11 +18300,17 @@
   ],
   "ex2-60": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature",
+    "2004 (Reed Weichler) Signature",
+    "2004 (Kevin Nguyen) Signature",
+    "2005 (Takashi Yoneda) Signature",
+    "2005 (Michael Gonzalez) Signature"
   ],
   "ex2-61": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Ian Whiton) Signature"
   ],
   "ex2-62": [
     "Normal",
@@ -17753,7 +18362,8 @@
   ],
   "ex2-74": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ex2-75": [
     "Normal",
@@ -17773,7 +18383,8 @@
   ],
   "ex2-79": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ex2-80": [
     "Normal",
@@ -17809,11 +18420,15 @@
   ],
   "ex2-88": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature",
+    "2004 (Reed Weichler) Signature",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ex2-89": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Reed Weichler) Signature"
   ],
   "ex2-90": [
     "Normal",
@@ -17829,7 +18444,9 @@
   ],
   "ex2-93": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature",
+    "2004 (Reed Weichler) Signature"
   ],
   "ex2-94": [
     "Holofoil"
@@ -17838,7 +18455,8 @@
     "Holofoil"
   ],
   "ex2-96": [
-    "Holofoil"
+    "Holofoil",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ex2-97": [
     "Holofoil"
@@ -17914,11 +18532,15 @@
   ],
   "ex3-16": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jason Klaczynski) Signature",
+    "2006 (Miska Saari) Signature"
   ],
   "ex3-17": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Reed Weichler) Signature",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ex3-18": [
     "Normal",
@@ -18010,7 +18632,8 @@
   ],
   "ex3-40": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature"
   ],
   "ex3-41": [
     "Normal",
@@ -18098,11 +18721,13 @@
   ],
   "ex3-62": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ex3-63": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Reed Weichler) Signature"
   ],
   "ex3-64": [
     "Normal",
@@ -18198,11 +18823,15 @@
   ],
   "ex3-87": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature",
+    "2005 (Jeremy Maron) Signature"
   ],
   "ex3-88": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature",
+    "2005 (Curran Hill) Signature"
   ],
   "ex3-89": [
     "Holofoil"
@@ -18229,7 +18858,8 @@
     "Holofoil"
   ],
   "ex3-97": [
-    "Holofoil"
+    "Holofoil",
+    "2004 (Chris Fulop) Signature"
   ],
   "ex3-98": [
     "Holofoil"
@@ -18254,7 +18884,8 @@
   ],
   "ex4-4": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature"
   ],
   "ex4-5": [
     "Holofoil",
@@ -18270,11 +18901,13 @@
   ],
   "ex4-8": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature"
   ],
   "ex4-9": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature"
   ],
   "ex4-10": [
     "Holofoil",
@@ -18314,7 +18947,8 @@
   ],
   "ex4-19": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature"
   ],
   "ex4-20": [
     "Normal",
@@ -18330,7 +18964,8 @@
   ],
   "ex4-23": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature"
   ],
   "ex4-24": [
     "Normal",
@@ -18346,7 +18981,8 @@
   ],
   "ex4-27": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature"
   ],
   "ex4-28": [
     "Normal",
@@ -18478,7 +19114,8 @@
   ],
   "ex4-60": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature"
   ],
   "ex4-61": [
     "Normal",
@@ -18494,7 +19131,8 @@
   ],
   "ex4-64": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature"
   ],
   "ex4-65": [
     "Normal",
@@ -18530,7 +19168,8 @@
   ],
   "ex4-73": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature"
   ],
   "ex4-74": [
     "Normal",
@@ -18550,7 +19189,8 @@
   ],
   "ex4-78": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Curran Hill) Signature"
   ],
   "ex4-79": [
     "Normal",
@@ -18558,7 +19198,8 @@
   ],
   "ex4-80": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature"
   ],
   "ex4-81": [
     "Normal",
@@ -18566,7 +19207,8 @@
   ],
   "ex4-82": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature"
   ],
   "ex4-83": [
     "Normal",
@@ -18578,7 +19220,8 @@
   ],
   "ex4-85": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ex4-86": [
     "Normal",
@@ -18586,14 +19229,19 @@
   ],
   "ex4-87": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature"
   ],
   "ex4-88": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Akira Miyazaki) Signature",
+    "2008 (Dylan Lefavour) Signature",
+    "2008 (Jason Klaczynski) Signature"
   ],
   "ex4-89": [
-    "Holofoil"
+    "Holofoil",
+    "2004 (Chris Fulop) Signature"
   ],
   "ex4-90": [
     "Holofoil"
@@ -18608,10 +19256,12 @@
     "Holofoil"
   ],
   "ex4-94": [
-    "Holofoil"
+    "Holofoil",
+    "2004 (Reed Weichler) Signature"
   ],
   "ex4-95": [
-    "Holofoil"
+    "Holofoil",
+    "2004 (Reed Weichler) Signature"
   ],
   "ex4-96": [
     "Holofoil"
@@ -18621,7 +19271,8 @@
   ],
   "ex5-1": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jeremy Scharff-Kim) Signature"
   ],
   "ex5-2": [
     "Holofoil",
@@ -18649,7 +19300,8 @@
   ],
   "ex5-8": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Takashi Yoneda) Signature"
   ],
   "ex5-9": [
     "Holofoil",
@@ -18665,7 +19317,8 @@
   ],
   "ex5-12": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Jeremy Maron) Signature"
   ],
   "ex5-13": [
     "Holofoil",
@@ -18681,7 +19334,8 @@
   ],
   "ex5-16": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature"
   ],
   "ex5-17": [
     "Normal",
@@ -18801,7 +19455,8 @@
   ],
   "ex5-46": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Michael Gonzalez) Signature"
   ],
   "ex5-47": [
     "Normal",
@@ -18861,7 +19516,8 @@
   ],
   "ex5-61": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Jeremy Maron) Signature"
   ],
   "ex5-62": [
     "Normal",
@@ -18889,7 +19545,8 @@
   ],
   "ex5-68": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature"
   ],
   "ex5-69": [
     "Normal",
@@ -18897,7 +19554,8 @@
   ],
   "ex5-70": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Michael Gonzalez) Signature"
   ],
   "ex5-71": [
     "Normal",
@@ -18957,7 +19615,11 @@
   ],
   "ex5-85": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Reed Weichler) Signature",
+    "2005 (Takashi Yoneda) Signature",
+    "2005 (Michael Gonzalez) Signature",
+    "2006 (Jimmy Ballard) Signature"
   ],
   "ex5-86": [
     "Normal",
@@ -18965,15 +19627,23 @@
   ],
   "ex5-87": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Kevin Nguyen) Signature",
+    "2005 (Takashi Yoneda) Signature"
   ],
   "ex5-88": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Tsuguyoshi Yamato) Signature",
+    "2005 (Takashi Yoneda) Signature",
+    "2005 (Michael Gonzalez) Signature",
+    "2005 (Jeremy Maron) Signature",
+    "2006 (Miska Saari) Signature"
   ],
   "ex5-89": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Curran Hill) Signature"
   ],
   "ex5-90": [
     "Normal",
@@ -18981,11 +19651,23 @@
   ],
   "ex5-91": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "ex5-92": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature",
+    "2004 (Tsuguyoshi Yamato) Signature",
+    "2004 (Reed Weichler) Signature",
+    "2004 (Kevin Nguyen) Signature",
+    "2005 (Curran Hill) Signature",
+    "2005 (Takashi Yoneda) Signature",
+    "2005 (Michael Gonzalez) Signature",
+    "2005 (Jeremy Maron) Signature",
+    "2006 (Hiroki Yano) Signature",
+    "2006 (Jimmy Ballard) Signature",
+    "2006 (Miska Saari) Signature"
   ],
   "ex5-93": [
     "Holofoil"
@@ -19003,7 +19685,8 @@
     "Holofoil"
   ],
   "ex5-98": [
-    "Holofoil"
+    "Holofoil",
+    "2006 (Jason Klaczynski) Signature"
   ],
   "ex5-99": [
     "Holofoil"
@@ -19051,11 +19734,16 @@
   ],
   "ex6-9": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Jeremy Maron) Signature"
   ],
   "ex6-10": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Takashi Yoneda) Signature",
+    "2005 (Jeremy Maron) Signature",
+    "2006 (Hiroki Yano) Signature",
+    "2006 (Jimmy Ballard) Signature"
   ],
   "ex6-11": [
     "Holofoil",
@@ -19175,7 +19863,8 @@
   ],
   "ex6-40": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Jeremy Maron) Signature"
   ],
   "ex6-41": [
     "Normal",
@@ -19195,7 +19884,11 @@
   ],
   "ex6-45": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Takashi Yoneda) Signature",
+    "2005 (Jeremy Maron) Signature",
+    "2006 (Hiroki Yano) Signature",
+    "2006 (Jimmy Ballard) Signature"
   ],
   "ex6-46": [
     "Normal",
@@ -19215,7 +19908,8 @@
   ],
   "ex6-50": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Hiroki Yano) Signature"
   ],
   "ex6-51": [
     "Normal",
@@ -19287,7 +19981,9 @@
   ],
   "ex6-68": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature",
+    "2011 (David Cohen) Signature"
   ],
   "ex6-69": [
     "Normal",
@@ -19307,7 +20003,11 @@
   ],
   "ex6-73": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Takashi Yoneda) Signature",
+    "2005 (Jeremy Maron) Signature",
+    "2006 (Hiroki Yano) Signature",
+    "2006 (Jimmy Ballard) Signature"
   ],
   "ex6-74": [
     "Normal",
@@ -19347,7 +20047,8 @@
   ],
   "ex6-83": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Hiroki Yano) Signature"
   ],
   "ex6-84": [
     "Normal",
@@ -19363,15 +20064,23 @@
   ],
   "ex6-87": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Takashi Yoneda) Signature",
+    "2006 (Jimmy Ballard) Signature"
   ],
   "ex6-88": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Takashi Yoneda) Signature",
+    "2005 (Michael Gonzalez) Signature",
+    "2005 (Jeremy Maron) Signature",
+    "2006 (Hiroki Yano) Signature",
+    "2006 (Jimmy Ballard) Signature"
   ],
   "ex6-89": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Curran Hill) Signature"
   ],
   "ex6-90": [
     "Normal",
@@ -19383,7 +20092,8 @@
   ],
   "ex6-92": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Jeremy Maron) Signature"
   ],
   "ex6-93": [
     "Normal",
@@ -19423,14 +20133,16 @@
   ],
   "ex6-102": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jason Klaczynski) Signature"
   ],
   "ex6-103": [
     "Normal",
     "Reverse Holofoil"
   ],
   "ex6-104": [
-    "Holofoil"
+    "Holofoil",
+    "2006 (Hiroki Yano) Signature"
   ],
   "ex6-105": [
     "Holofoil"
@@ -19630,7 +20342,8 @@
   ],
   "ex7-41": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Takashi Yoneda) Signature"
   ],
   "ex7-42": [
     "Normal",
@@ -19718,7 +20431,8 @@
   ],
   "ex7-63": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Takashi Yoneda) Signature"
   ],
   "ex7-64": [
     "Normal",
@@ -19726,7 +20440,8 @@
   ],
   "ex7-65": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Mychael Bryan) Signature"
   ],
   "ex7-66": [
     "Normal",
@@ -19742,7 +20457,8 @@
   ],
   "ex7-69": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Hiroki Yano) Signature"
   ],
   "ex7-70": [
     "Normal",
@@ -19798,7 +20514,11 @@
   ],
   "ex7-83": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Michael Gonzalez) Signature",
+    "2005 (Jeremy Maron) Signature",
+    "2006 (Jimmy Ballard) Signature",
+    "2006 (Hiroki Yano) Signature"
   ],
   "ex7-84": [
     "Normal",
@@ -19806,11 +20526,21 @@
   ],
   "ex7-85": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Curran Hill) Signature",
+    "2006 (Jason Klaczynski) Signature"
   ],
   "ex7-86": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Curran Hill) Signature",
+    "2005 (Takashi Yoneda) Signature",
+    "2005 (Michael Gonzalez) Signature",
+    "2005 (Jeremy Moran) Signature",
+    "2006 (Hiroki Yano) Signature",
+    "2006 (Jimmy Ballard) Signature",
+    "2006 (Jason Klaczynski) Signature",
+    "2006 (Miska Saari) Signature"
   ],
   "ex7-87": [
     "Normal",
@@ -19830,11 +20560,14 @@
   ],
   "ex7-91": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jimmy Ballard) Signature"
   ],
   "ex7-92": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Curran Hill) Signature",
+    "2005 (Michael Gonzalez) Signature"
   ],
   "ex7-93": [
     "Normal",
@@ -19846,7 +20579,8 @@
   ],
   "ex7-95": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Takashi Yoneda) Signature"
   ],
   "ex7-96": [
     "Holofoil"
@@ -19933,11 +20667,14 @@
   ],
   "ex8-9": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Curran Hill) Signature",
+    "2005 (Michael Gonzalez) Signature"
   ],
   "ex8-10": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Michael Gonzalez) Signature"
   ],
   "ex8-11": [
     "Holofoil",
@@ -19977,7 +20714,8 @@
   ],
   "ex8-20": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Michael Gonzalez) Signature"
   ],
   "ex8-21": [
     "Normal",
@@ -20041,7 +20779,8 @@
   ],
   "ex8-36": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Jeremy Scharff-Kim) Signature"
   ],
   "ex8-37": [
     "Normal",
@@ -20073,7 +20812,8 @@
   ],
   "ex8-44": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Hiroki Yano) Signature"
   ],
   "ex8-45": [
     "Normal",
@@ -20137,7 +20877,8 @@
   ],
   "ex8-60": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jason Klaczynski) Signature"
   ],
   "ex8-61": [
     "Normal",
@@ -20193,7 +20934,8 @@
   ],
   "ex8-74": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Michael Gonzalez) Signature"
   ],
   "ex8-75": [
     "Normal",
@@ -20237,7 +20979,8 @@
   ],
   "ex8-85": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Michael Gonzalez) Signature"
   ],
   "ex8-86": [
     "Normal",
@@ -20265,7 +21008,9 @@
   ],
   "ex8-92": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Michael Gonzalez) Signature",
+    "2006 (Jimmy Ballard) Signature"
   ],
   "ex8-93": [
     "Normal",
@@ -20273,11 +21018,16 @@
   ],
   "ex8-94": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Takashi Yoneda) Signature",
+    "2005 (Michael Gonzalez) Signature",
+    "2005 (Jeremy Maron) Signature"
   ],
   "ex8-95": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Takashi Yoneda) Signature",
+    "2005 (Michael Gonzalez) Signature"
   ],
   "ex8-96": [
     "Holofoil"
@@ -20295,7 +21045,8 @@
     "Holofoil"
   ],
   "ex8-101": [
-    "Holofoil"
+    "Holofoil",
+    "2006 (Jason Klaczynski) Signature"
   ],
   "ex8-102": [
     "Holofoil"
@@ -20539,7 +21290,8 @@
   ],
   "ex9-55": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Curran Hill) Signature"
   ],
   "ex9-56": [
     "Normal",
@@ -20619,7 +21371,8 @@
   ],
   "ex9-75": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jason Klaczynski) Signature"
   ],
   "ex9-76": [
     "Normal",
@@ -20651,27 +21404,39 @@
   ],
   "ex9-83": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Takashi Yoneda) Signature",
+    "2005 (Michael Gonzalez) Signature",
+    "2005 (Jeremy Maron) Signature"
   ],
   "ex9-84": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Curran Hill) Signature",
+    "2005 (Takashi Yoneda) Signature",
+    "2006 (Jason Klaczynski) Signature"
   ],
   "ex9-85": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Curran Hill) Signature"
   ],
   "ex9-86": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Takashi Yoneda) Signature"
   ],
   "ex9-87": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Michael Gonzalez) Signature",
+    "2005 (Jeremy Maron) Signature"
   ],
   "ex9-88": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2005 (Curran Hill) Signature",
+    "2005 (Takashi Yoneda) Signature"
   ],
   "ex9-89": [
     "Normal",
@@ -20687,13 +21452,15 @@
     "Holofoil"
   ],
   "ex9-93": [
-    "Holofoil"
+    "Holofoil",
+    "2006 (Jason Klaczynski) Signature"
   ],
   "ex9-94": [
     "Holofoil"
   ],
   "ex9-95": [
-    "Holofoil"
+    "Holofoil",
+    "2005 (Curran Hill) Signature"
   ],
   "ex9-96": [
     "Holofoil"
@@ -20995,7 +21762,8 @@
   ],
   "g1-62": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Robin Schulz) Signature"
   ],
   "g1-63": [
     "Normal",
@@ -21027,7 +21795,9 @@
   ],
   "g1-70": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature",
+    "2017 (Kabu Fukase) Signature"
   ],
   "g1-71": [
     "Normal",
@@ -21126,7 +21896,8 @@
   ],
   "g1-RC11": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Magnus Pedersen) Signature"
   ],
   "g1-RC12": [
     "Normal",
@@ -22025,7 +22796,8 @@
   ],
   "hgss1-6": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Yuka Furusawa) Signature"
   ],
   "hgss1-7": [
     "Holofoil",
@@ -22069,7 +22841,8 @@
   ],
   "hgss1-17": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (David Cohen) Signature"
   ],
   "hgss1-18": [
     "Normal",
@@ -22113,7 +22886,8 @@
   ],
   "hgss1-28": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Ross Cawthon) Signature"
   ],
   "hgss1-29": [
     "Normal",
@@ -22133,7 +22907,8 @@
   ],
   "hgss1-33": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature"
   ],
   "hgss1-34": [
     "Normal",
@@ -22149,7 +22924,8 @@
   ],
   "hgss1-37": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2007 (Akira Miyazaki) Signature"
   ],
   "hgss1-38": [
     "Normal",
@@ -22197,7 +22973,8 @@
   ],
   "hgss1-49": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Christopher Kan) Signature"
   ],
   "hgss1-50": [
     "Normal",
@@ -22233,7 +23010,8 @@
   ],
   "hgss1-58": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Ross Cawthon) Signature"
   ],
   "hgss1-59": [
     "Normal",
@@ -22245,7 +23023,8 @@
   ],
   "hgss1-61": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Christopher Kan) Signature"
   ],
   "hgss1-62": [
     "Normal",
@@ -22309,7 +23088,8 @@
   ],
   "hgss1-77": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Ross Cawthon) Signature"
   ],
   "hgss1-78": [
     "Normal",
@@ -22369,7 +23149,8 @@
   ],
   "hgss1-92": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (David Cohen) Signature"
   ],
   "hgss1-93": [
     "Normal",
@@ -22401,23 +23182,33 @@
   ],
   "hgss1-100": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Christopher Kan) Signature"
   ],
   "hgss1-101": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Yuta Komatsuda) Signature",
+    "2011 (Gustavo Wada) Signature",
+    "2011 (Christopher Kan) Signature",
+    "2012 (Igor Costa) Signature"
   ],
   "hgss1-102": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jason Klaczynski) Signature"
   ],
   "hgss1-103": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Michael Pramawat) Signature",
+    "2010 (Yuta Komatsuda) Signature",
+    "2011 (Ross Cawthon) Signature"
   ],
   "hgss1-104": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Ross Cawthon) Signature"
   ],
   "hgss1-105": [
     "Normal",
@@ -22425,11 +23216,13 @@
   ],
   "hgss1-106": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Ross Cawthon) Signature"
   ],
   "hgss1-107": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Ross Cawthon) Signature"
   ],
   "hgss1-108": [
     "Normal",
@@ -22441,7 +23234,8 @@
   ],
   "hgss1-110": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Christopher Kan) Signature"
   ],
   "hgss1-111": [
     "Normal",
@@ -22528,7 +23322,9 @@
   ],
   "hgss2-8": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Zachary Bokhari) Signature",
+    "2012 (Igor Costa) Signature"
   ],
   "hgss2-9": [
     "Holofoil",
@@ -22656,7 +23452,8 @@
   ],
   "hgss2-40": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature"
   ],
   "hgss2-41": [
     "Normal",
@@ -22692,7 +23489,8 @@
   ],
   "hgss2-49": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature"
   ],
   "hgss2-50": [
     "Normal",
@@ -22796,7 +23594,8 @@
   ],
   "hgss2-75": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Christopher Kan) Signature"
   ],
   "hgss2-76": [
     "Normal",
@@ -22808,7 +23607,10 @@
   ],
   "hgss2-78": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Michael Pramawat) Signature",
+    "2010 (Yuka Furusawa) Signature",
+    "2011 (Gustavo Wada) Signature"
   ],
   "hgss2-79": [
     "Normal",
@@ -22816,7 +23618,8 @@
   ],
   "hgss2-80": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Yuka Furusawa) Signature"
   ],
   "hgss2-81": [
     "Normal",
@@ -22824,11 +23627,18 @@
   ],
   "hgss2-82": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Michael Pramawat) Signature",
+    "2010 (Yuka Furusawa) Signature",
+    "2011 (Gustavo Wada) Signature",
+    "2011 (Christopher Kan) Signature",
+    "2011 (Ross Cawthon) Signature",
+    "2011 (David Cohen) Signature"
   ],
   "hgss2-83": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Mychael Bryan) Signature"
   ],
   "hgss2-84": [
     "Normal",
@@ -22836,7 +23646,8 @@
   ],
   "hgss2-85": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature"
   ],
   "hgss2-86": [
     "Normal",
@@ -22911,7 +23722,8 @@
   ],
   "hgss3-8": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Igor Costa) Signature"
   ],
   "hgss3-9": [
     "Holofoil",
@@ -22975,7 +23787,8 @@
   ],
   "hgss3-24": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Ross Cawthon) Signature"
   ],
   "hgss3-25": [
     "Normal",
@@ -22987,7 +23800,8 @@
   ],
   "hgss3-27": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Ross Cawthon) Signature"
   ],
   "hgss3-28": [
     "Normal",
@@ -23119,7 +23933,8 @@
   ],
   "hgss3-60": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Ross Cawthon) Signature"
   ],
   "hgss3-61": [
     "Normal",
@@ -23183,11 +23998,13 @@
   ],
   "hgss3-76": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Shuto Itagaki) Signature"
   ],
   "hgss3-77": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Christopher Kan) Signature"
   ],
   "hgss3-78": [
     "Normal",
@@ -23414,7 +24231,9 @@
   ],
   "hgss4-43": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature",
+    "2011 (David Cohen) Signature"
   ],
   "hgss4-44": [
     "Normal",
@@ -23514,7 +24333,9 @@
   ],
   "hgss4-68": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature",
+    "2011 (David Cohen) Signature"
   ],
   "hgss4-69": [
     "Normal",
@@ -23578,7 +24399,8 @@
   ],
   "hgss4-84": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature"
   ],
   "hgss4-85": [
     "Normal",
@@ -23590,19 +24412,31 @@
   ],
   "hgss4-87": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature",
+    "2011 (Christopher Kan) Signature",
+    "2011 (David Cohen) Signature",
+    "2012 (Zachary Bokhari) Signature",
+    "2012 (Chase Moloney) Signature",
+    "2012 (Igor Costa) Signature",
+    "2012 (Shuto Itagaki) Signature"
   ],
   "hgss4-88": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Ross Cawthon) Signature"
   ],
   "hgss4-89": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Ross Cawthon) Signature",
+    "2011 (David Cohen) Signature"
   ],
   "hgss4-90": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Christopher Kan) Signature",
+    "2011 (David Cohen) Signature"
   ],
   "hgss4-91": [
     "Normal",
@@ -23610,7 +24444,8 @@
   ],
   "hgss4-92": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2012 (Zachary Bokhari) Signature"
   ],
   "hgss4-93": [
     "Normal",
@@ -23626,7 +24461,9 @@
   ],
   "hgss4-96": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature",
+    "2011 (David Cohen) Signature"
   ],
   "hgss4-97": [
     "Normal",
@@ -23634,7 +24471,8 @@
   ],
   "hgss4-98": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature"
   ],
   "hgss4-99": [
     "Normal",
@@ -23708,6 +24546,7 @@
   ],
   "hsp-HGSS18": [
     "Promo",
+    "Worlds Stamp",
     "Staff"
   ],
   "hsp-HGSS19": [
@@ -24288,7 +25127,8 @@
   ],
   "me1-4": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Jacob Van Wagner) Signature"
   ],
   "me1-5": [
     "Normal",
@@ -26707,10 +27547,12 @@
     "Normal"
   ],
   "neo1-68": [
-    "Normal"
+    "Normal",
+    "2004 (Chris Fulop) Signature"
   ],
   "neo1-69": [
-    "Normal"
+    "Normal",
+    "2006 (Hiroki Yano) Signature"
   ],
   "neo1-70": [
     "Normal"
@@ -26830,7 +27672,9 @@
     "Normal"
   ],
   "neo1-109": [
-    "Normal"
+    "Normal",
+    "2004 (Chris Fulop) Signature",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "neo1-110": [
     "Normal"
@@ -26923,7 +27767,8 @@
     "Normal"
   ],
   "neo2-29": [
-    "Normal"
+    "Normal",
+    "2008 (Tristan Robinson) Signature"
   ],
   "neo2-30": [
     "Normal"
@@ -26947,7 +27792,8 @@
     "Normal"
   ],
   "neo2-37": [
-    "Normal"
+    "Normal",
+    "2007 (Akira Miyazaki) Signature"
   ],
   "neo2-38": [
     "Normal"
@@ -26974,7 +27820,8 @@
     "Normal"
   ],
   "neo2-46": [
-    "Normal"
+    "Normal",
+    "2008 (Tristan Robinson) Signature"
   ],
   "neo2-47": [
     "Normal"
@@ -27442,7 +28289,8 @@
     "Normal"
   ],
   "neo4-61": [
-    "Normal"
+    "Normal",
+    "2011 (Christopher Kan) Signature"
   ],
   "neo4-62": [
     "Normal"
@@ -28060,7 +28908,8 @@
   ],
   "pl1-3": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Chris Fulop) Signature"
   ],
   "pl1-4": [
     "Holofoil",
@@ -28076,7 +28925,9 @@
   ],
   "pl1-7": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2010 (Yuta Komatsuda) Signature"
   ],
   "pl1-8": [
     "Holofoil",
@@ -28212,7 +29063,9 @@
   ],
   "pl1-41": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2010 (Yuta Komatsuda) Signature"
   ],
   "pl1-42": [
     "Normal",
@@ -28236,7 +29089,13 @@
   ],
   "pl1-47": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2009 (Stephen Silvestro) Signature",
+    "2009 (Jason Martinez) Signature",
+    "2010 (Mychael Bryan) Signature",
+    "2010 (Yuta Komatsuda) Signature",
+    "2010 (Yuka Furusawa) Signature"
   ],
   "pl1-48": [
     "Normal",
@@ -28252,7 +29111,8 @@
   ],
   "pl1-51": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Michael Pramawat) Signature"
   ],
   "pl1-52": [
     "Normal",
@@ -28312,7 +29172,8 @@
   ],
   "pl1-66": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Jason Martinez) Signature"
   ],
   "pl1-67": [
     "Normal",
@@ -28356,7 +29217,8 @@
   ],
   "pl1-77": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature"
   ],
   "pl1-78": [
     "Normal",
@@ -28404,7 +29266,8 @@
   ],
   "pl1-89": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Michael Pramawat) Signature"
   ],
   "pl1-90": [
     "Normal",
@@ -28424,7 +29287,8 @@
   ],
   "pl1-94": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature"
   ],
   "pl1-95": [
     "Normal",
@@ -28464,15 +29328,23 @@
   ],
   "pl1-104": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Stephen Silvestro) Signature",
+    "2009 (Jason Martinez) Signature",
+    "2010 (Mychael Bryan) Signature",
+    "2010 (Yuka Furusawa) Signature"
   ],
   "pl1-105": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2009 (Stephen Silvestro) Signature",
+    "2010 (Yuta Komatsuda) Signature"
   ],
   "pl1-106": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature"
   ],
   "pl1-107": [
     "Normal",
@@ -28484,11 +29356,14 @@
   ],
   "pl1-109": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Jason Martinez) Signature",
+    "2010 (Michael Pramawat) Signature"
   ],
   "pl1-110": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (David Cohen) Signature"
   ],
   "pl1-111": [
     "Normal",
@@ -28512,11 +29387,16 @@
   ],
   "pl1-116": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2009 (Stephen Silvestro) Signature",
+    "2010 (Yuta Komatsuda) Signature"
   ],
   "pl1-117": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2010 (Yuta Komatsuda) Signature"
   ],
   "pl1-118": [
     "Normal",
@@ -28536,7 +29416,9 @@
   ],
   "pl1-122": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2010 (Yuta Komatsuda) Signature"
   ],
   "pl1-123": [
     "Holofoil",
@@ -28597,7 +29479,8 @@
   ],
   "pl2-5": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (David Cohen) Signature"
   ],
   "pl2-6": [
     "Holofoil",
@@ -28609,11 +29492,17 @@
   ],
   "pl2-8": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2010 (Yuta Komatsuda) Signature"
   ],
   "pl2-9": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2009 (Stephen Silvestro) Signature",
+    "2010 (Mychael Bryan) Signature",
+    "2010 (Yuta Komatsuda) Signature"
   ],
   "pl2-10": [
     "Holofoil",
@@ -28697,7 +29586,9 @@
   ],
   "pl2-30": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Jason Martinez) Signature",
+    "2009 (David Cohen) Signature"
   ],
   "pl2-31": [
     "Normal",
@@ -28789,7 +29680,8 @@
   ],
   "pl2-53": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (David Cohen) Signature"
   ],
   "pl2-54": [
     "Normal",
@@ -28841,7 +29733,8 @@
   ],
   "pl2-66": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Stephen Silvestro) Signature"
   ],
   "pl2-67": [
     "Normal",
@@ -28869,7 +29762,8 @@
   ],
   "pl2-73": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Jason Martinez) Signature"
   ],
   "pl2-74": [
     "Normal",
@@ -28929,11 +29823,20 @@
   ],
   "pl2-88": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2010 (Yuta Komatsuda) Signature"
   ],
   "pl2-89": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2009 (Stephen Silvestro) Signature",
+    "2009 (Jason Martinez) Signature",
+    "2009 (David Cohen) Signature",
+    "2010 (Michael Pramawat) Signature",
+    "2010 (Mychael Bryan) Signature",
+    "2010 (Yuka Furusawa) Signature"
   ],
   "pl2-90": [
     "Normal",
@@ -28945,7 +29848,8 @@
   ],
   "pl2-92": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Michael Pramawat) Signature"
   ],
   "pl2-93": [
     "Normal",
@@ -28961,7 +29865,10 @@
   ],
   "pl2-96": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2009 (Stephen Silvestro) Signature",
+    "2010 (Yuta Komatsuda) Signature"
   ],
   "pl2-97": [
     "Normal",
@@ -28981,11 +29888,13 @@
   ],
   "pl2-101": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature"
   ],
   "pl2-102": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (David Cohen) Signature"
   ],
   "pl2-103": [
     "Holofoil",
@@ -28997,7 +29906,8 @@
   ],
   "pl2-105": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (David Cohen) Signature"
   ],
   "pl2-106": [
     "Holofoil",
@@ -29013,7 +29923,11 @@
   ],
   "pl2-109": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (Tsubasa Nakamura) Signature",
+    "2009 (Stephen Silvestro) Signature",
+    "2010 (Mychael Bryan) Signature",
+    "2010 (Yuta Komatsuda) Signature"
   ],
   "pl2-110": [
     "Holofoil",
@@ -29278,7 +30192,8 @@
   ],
   "pl3-56": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Yuta Komatsuda) Signature"
   ],
   "pl3-57": [
     "Normal",
@@ -29294,7 +30209,8 @@
   ],
   "pl3-60": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Yuta Komatsuda) Signature"
   ],
   "pl3-61": [
     "Normal",
@@ -29410,7 +30326,8 @@
   ],
   "pl3-89": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Michael Pramawat) Signature"
   ],
   "pl3-90": [
     "Normal",
@@ -29614,7 +30531,8 @@
   ],
   "pl3-140": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Mychael Bryan) Signature"
   ],
   "pl3-141": [
     "Holofoil",
@@ -29634,7 +30552,8 @@
   ],
   "pl3-145": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Yuta Komatsuda) Signature"
   ],
   "pl3-146": [
     "Holofoil",
@@ -29791,7 +30710,8 @@
   ],
   "pl4-32": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Michael Pramawat) Signature"
   ],
   "pl4-33": [
     "Normal",
@@ -30011,7 +30931,10 @@
   ],
   "pl4-87": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Michael Pramawat) Signature",
+    "2010 (Mychael Bryan) Signature",
+    "2010 (Yuka Furusawa) Signature"
   ],
   "pl4-88": [
     "Normal",
@@ -30219,7 +31142,8 @@
   ],
   "pop2-11": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jason Klaczynski) Signature"
   ],
   "pop2-12": [
     "Normal",
@@ -30523,7 +31447,9 @@
   ],
   "pop7-2": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Jason Klaczynski) Signature",
+    "2010 (Michael Pramawat) Signature"
   ],
   "pop7-3": [
     "Normal",
@@ -30547,7 +31473,8 @@
   ],
   "pop7-8": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2008 (Jason Klaczynski) Signature"
   ],
   "pop7-9": [
     "Normal",
@@ -31357,7 +32284,8 @@
   ],
   "ru1-9": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2009 (David Cohen) Signature"
   ],
   "ru1-10": [
     "Normal",
@@ -31475,11 +32403,13 @@
   ],
   "sm1-9": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Kabu Fukase) Signature"
   ],
   "sm1-10": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Kabu Fukase) Signature"
   ],
   "sm1-11": [
     "Normal",
@@ -31884,7 +32814,8 @@
   ],
   "sm1-113": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Pedro Eugenio Torres) Signature"
   ],
   "sm1-114": [
     "Normal",
@@ -31944,11 +32875,13 @@
   ],
   "sm1-128": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Zachary Bokhari) Signature"
   ],
   "sm1-129": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Diego Cassiraga) Signature"
   ],
   "sm1-130": [
     "Normal",
@@ -31972,15 +32905,24 @@
   ],
   "sm1-135": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Naoto Suzuki) Signature",
+    "2017 (Zachary Bokhari) Signature",
+    "2017 (Diego Cassiraga) Signature",
+    "2017 (Kabu Fukase) Signature"
   ],
   "sm1-136": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Naoto Suzuki) Signature",
+    "2017 (Zachary Bokhari) Signature",
+    "2017 (Diego Cassiraga) Signature",
+    "2017 (Kabu Fukase) Signature"
   ],
   "sm1-137": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Naoto Suzuki) Signature"
   ],
   "sm1-138": [
     "Normal",
@@ -32404,7 +33346,9 @@
   ],
   "sm10-76": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Shintaro Ito) Signature",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "sm10-77": [
     "Normal",
@@ -32424,7 +33368,9 @@
   ],
   "sm10-81": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Henry Brand) Signature",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "sm10-82": [
     "Holofoil"
@@ -32768,7 +33714,9 @@
   ],
   "sm10-169": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Henry Brand) Signature",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "sm10-170": [
     "Normal",
@@ -32784,7 +33732,8 @@
   ],
   "sm10-173": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Henry Brand) Signature"
   ],
   "sm10-174": [
     "Normal",
@@ -32832,7 +33781,8 @@
   ],
   "sm10-183": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "sm10-184": [
     "Holofoil",
@@ -32856,7 +33806,10 @@
   ],
   "sm10-189": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Kaya Lichtleitner) Signature",
+    "2019 (Shintaro Ito) Signature",
+    "2019 (Henry Brand) Signature"
   ],
   "sm10-189a": [
     "Normal",
@@ -33232,7 +34185,8 @@
   ],
   "sm11-53": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "sm11-54": [
     "Holofoil"
@@ -33575,7 +34529,8 @@
   ],
   "sm11-140": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "sm11-141": [
     "Holofoil"
@@ -33775,7 +34730,11 @@
   ],
   "sm11-191": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Kaya Lichtleitner) Signature",
+    "2019 (Shintaro Ito) Signature",
+    "2019 (Henry Brand) Signature",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "sm11-191a": [
     "Normal",
@@ -33803,7 +34762,9 @@
   ],
   "sm11-197": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Kaya Lichtleitner) Signature",
+    "2019 (Henry Brand) Signature"
   ],
   "sm11-198": [
     "Normal",
@@ -33815,7 +34776,8 @@
   ],
   "sm11-200": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Shintaro Ito) Signature"
   ],
   "sm11-201": [
     "Normal",
@@ -33839,7 +34801,9 @@
   ],
   "sm11-206": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Shintaro Ito) Signature",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "sm11-206a": [
     "Normal",
@@ -33851,11 +34815,13 @@
   ],
   "sm11-208": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "sm11-209": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "sm11-210": [
     "Normal",
@@ -34561,7 +35527,9 @@
   ],
   "sm12-68": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2011 (Gustavo Wada) Signature",
+    "2011 (David Cohen) Signature"
   ],
   "sm12-69": [
     "Holofoil",
@@ -35419,7 +36387,9 @@
   ],
   "sm2-21": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Zachary Bokhari) Signature",
+    "2017 (Diego Cassiraga) Signature"
   ],
   "sm2-21a": [
     "Normal",
@@ -35604,7 +36574,9 @@
   ],
   "sm2-66": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Zachary Bokhari) Signature",
+    "2017 (Kabu Fukase) Signature"
   ],
   "sm2-67": [
     "Normal",
@@ -35814,15 +36786,25 @@
   ],
   "sm2-119": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Zachary Bokhari) Signature"
   ],
   "sm2-120": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Naohito Inoue) Signature"
   ],
   "sm2-121": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Naoto Suzuki) Signature",
+    "2017 (Zachary Bokhari) Signature",
+    "2017 (Diego Cassiraga) Signature",
+    "2017 (Kabu Fukase) Signature",
+    "2018 (Naohito Inoue) Signature",
+    "2018 (Pedro Eugenio Torres) Signature",
+    "2018 (Magnus Pedersen) Signature",
+    "2018 (Robin Schulz) Signature"
   ],
   "sm2-121a": [
     "Normal",
@@ -35838,7 +36820,8 @@
   ],
   "sm2-124": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Robin Schulz) Signature"
   ],
   "sm2-124a": [
     "Normal",
@@ -35846,7 +36829,15 @@
   ],
   "sm2-125": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Naoto SuzukI) Signature",
+    "2017 (Zachary Bokhari) Signature",
+    "2017 (Diego Cassiraga) Signature",
+    "2017 (Kabu Fukase) Signature",
+    "2018 (Naohito Inoue) Signature",
+    "2018 (Pedro Eugenio Torres) Signature",
+    "2018 (Magnus Pedersen) Signature",
+    "2018 (Robin Schulz) Signature"
   ],
   "sm2-125a": [
     "Normal",
@@ -35874,7 +36865,12 @@
   ],
   "sm2-130": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Naoto Suzuki) Signature",
+    "2017 (Diego Cassiraga) Signature",
+    "2018 (Pedro Eugenio Torres) Signature",
+    "2018 (Magnus Pedersen) Signature",
+    "2018 (Robin Schulz) Signature"
   ],
   "sm2-130a": [
     "Normal",
@@ -36078,7 +37074,9 @@
   ],
   "sm3-16": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Naoko Suzuki) Signature",
+    "2017 (Kabu Fukase) Signature"
   ],
   "sm3-17": [
     "Holofoil"
@@ -36378,11 +37376,13 @@
   ],
   "sm3-91": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Diego Cassiraga) Signature"
   ],
   "sm3-92": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Diego Cassiraga) Signature"
   ],
   "sm3-92a": [
     "Normal",
@@ -36393,7 +37393,8 @@
   ],
   "sm3-94": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Diego Cassiraga) Signature"
   ],
   "sm3-95": [
     "Normal",
@@ -36468,7 +37469,10 @@
   ],
   "sm3-112": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Naoto Suzuki) Signature",
+    "2017 (Diego Cassiraga) Signature",
+    "2017 (Kabu Fukase) Signature"
   ],
   "sm3-112a": [
     "Normal",
@@ -36480,11 +37484,20 @@
   ],
   "sm3-114": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Pedro Eugenio Torres) Signature"
   ],
   "sm3-115": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Naoto Suzuki) Signature",
+    "2017 (Zachary Bokhari) Signature",
+    "2017 (Diego Cassiraga) Signature",
+    "2017 (Kabu Fukase) Signature",
+    "2018 (Naohito Inoue) Signature",
+    "2018 (Pedro Eugenio Torres) Signature",
+    "2018 (Magnus Pedersen) Signature",
+    "2018 (Robin Schulz) Signature"
   ],
   "sm3-115a": [
     "Normal",
@@ -36866,7 +37879,8 @@
   ],
   "sm35-45": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Pedro Eugenio Torres) Signature"
   ],
   "sm35-46": [
     "Normal",
@@ -36894,7 +37908,8 @@
   ],
   "sm35-52": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Robin Schulz) Signature"
   ],
   "sm35-53": [
     "Holofoil"
@@ -36957,7 +37972,10 @@
   ],
   "sm35-68": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Naohito Inoue) Signature",
+    "2018 (Pedro Eugenio Torres) Signature",
+    "2018 (Magnus Pedersen) Signature"
   ],
   "sm35-68a": [
     "Normal",
@@ -36965,7 +37983,9 @@
   ],
   "sm35-69": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Magnus Pedersen) Signature",
+    "2018 (Robin Schulz) Signature"
   ],
   "sm35-70": [
     "Normal",
@@ -37016,7 +38036,8 @@
   ],
   "sm4-4": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Jacob Van Wagner) Signature"
   ],
   "sm4-5": [
     "Normal",
@@ -37947,7 +38968,12 @@
   ],
   "sm5-119": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Naohito Inoue) Signature",
+    "2018 (Magnus Pedersen) Signature",
+    "2018 (Robin Schulz) Signature",
+    "2019 (Shintaro Ito) Signature",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "sm5-119a": [
     "Normal",
@@ -37962,7 +38988,8 @@
   ],
   "sm5-122": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Kaya Lichtleitner) Signature"
   ],
   "sm5-122a": [
     "Normal",
@@ -37978,7 +39005,9 @@
   ],
   "sm5-125": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Pedro Eugenio Torres) Signature",
+    "2019 (Shintaro Ito) Signature"
   ],
   "sm5-125a": [
     "Normal",
@@ -38010,7 +39039,8 @@
   ],
   "sm5-132": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Kaya Lichtleitner) Signature"
   ],
   "sm5-133": [
     "Normal",
@@ -38022,7 +39052,8 @@
   ],
   "sm5-135": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "sm5-135a": [
     "Normal",
@@ -38462,7 +39493,8 @@
   ],
   "sm6-75": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Naohito Inoue) Signature"
   ],
   "sm6-76": [
     "Normal",
@@ -38470,7 +39502,9 @@
   ],
   "sm6-77": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Naohito Inoue) Signature",
+    "2018 (Magnus Pedersen) Signature"
   ],
   "sm6-78": [
     "Normal",
@@ -38565,7 +39599,9 @@
   ],
   "sm6-102": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Naohito Inoue) Signature",
+    "2019 (Shintaro Ito) Signature"
   ],
   "sm6-102a": [
     "Normal",
@@ -38593,7 +39629,8 @@
   ],
   "sm6-108": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "sm6-109": [
     "Normal",
@@ -38604,7 +39641,8 @@
   ],
   "sm6-111": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "sm6-112": [
     "Normal",
@@ -38616,7 +39654,12 @@
   ],
   "sm6-113": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Pedro Eugenio Torres) Signature",
+    "2018 (Magnus Pedersen) Signature",
+    "2018 (Robin Schulz) Signature",
+    "2019 (Shintaro Ito) Signature",
+    "2019 (Henry Brand) Signature"
   ],
   "sm6-113a": [
     "Normal",
@@ -38628,7 +39671,8 @@
   ],
   "sm6-115": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Shintaro Ito) Signature"
   ],
   "sm6-116": [
     "Normal",
@@ -38756,11 +39800,13 @@
   ],
   "sm7-5": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature"
   ],
   "sm7-6": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature"
   ],
   "sm7-7": [
     "Normal",
@@ -38987,7 +40033,8 @@
   ],
   "sm7-63": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Magnus Pedersen) Signature"
   ],
   "sm7-64": [
     "Normal",
@@ -39054,7 +40101,8 @@
   ],
   "sm7-80": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Naohito Inoue) Signature"
   ],
   "sm7-81": [
     "Holofoil",
@@ -39218,7 +40266,10 @@
   ],
   "sm7-123": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Pedro Eugenio Torres) Signature",
+    "2019 (Kaya Lichtleitner) Signature",
+    "2019 (Henry Brand) Signature"
   ],
   "sm7-123a": [
     "Normal",
@@ -39246,7 +40297,8 @@
   ],
   "sm7-129": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "sm7-130": [
     "Normal",
@@ -39318,7 +40370,10 @@
   ],
   "sm7-147": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Kaya Lichtleitner) Signature",
+    "2019 (Henry Brand) Signature",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "sm7-148": [
     "Normal",
@@ -39338,7 +40393,8 @@
   ],
   "sm7-151": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Magnus Pedersen) Signature"
   ],
   "sm7-152": [
     "Normal",
@@ -39652,7 +40708,8 @@
   ],
   "sm75-50": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Kaya Lichtleitner) Signature"
   ],
   "sm75-51": [
     "Normal",
@@ -39692,7 +40749,8 @@
   ],
   "sm75-60": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Kaya Lichtleitner) Signature"
   ],
   "sm75-60a": [
     "Normal",
@@ -40182,7 +41240,8 @@
   ],
   "sm8-108": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Shintaro Ito) Signature"
   ],
   "sm8-109": [
     "Normal",
@@ -40427,11 +41486,15 @@
   ],
   "sm8-171": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Shintaro Ito) Signature",
+    "2019 (Henry Brand) Signature",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "sm8-172": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "sm8-172a": [
     "Normal",
@@ -40735,11 +41798,13 @@
   ],
   "sm9-15": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Kaya Lichtleitner) Signature"
   ],
   "sm9-16": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Kaya Lichtleitner) Signature"
   ],
   "sm9-17": [
     "Normal",
@@ -41063,7 +42128,8 @@
   ],
   "sm9-99": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Kaya Lichtleitner) Signature"
   ],
   "sm9-100": [
     "Normal",
@@ -41198,7 +42264,8 @@
   ],
   "sm9-133": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Henry Brand) Signature"
   ],
   "sm9-134": [
     "Holofoil"
@@ -41297,7 +42364,8 @@
   ],
   "sm9-156": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Henry Brand) Signature"
   ],
   "sm9-157": [
     "Normal",
@@ -41805,8 +42873,8 @@
   ],
   "smp-SM10": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM11": [
     "Promo",
@@ -41815,8 +42883,8 @@
   ],
   "smp-SM12": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM13": [
     "Promo",
@@ -41837,23 +42905,23 @@
   ],
   "smp-SM18": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM19": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM20": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM21": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM22": [
     "Promo"
@@ -41880,7 +42948,10 @@
     "Promo"
   ],
   "smp-SM30": [
-    "Promo"
+    "Promo",
+    "2017 (Naoto Suzuki) Signature",
+    "2017 (Zachary Bokhari) Signature",
+    "2017 (Kabu Fukase) Signature"
   ],
   "smp-SM30a": [
     "Promo"
@@ -41932,8 +43003,8 @@
   ],
   "smp-SM46": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM47": [
     "Promo",
@@ -41947,8 +43018,8 @@
   ],
   "smp-SM49": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM50": [
     "Promo"
@@ -42018,23 +43089,23 @@
   ],
   "smp-SM72": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM73": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM74": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM75": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM76": [
     "Promo"
@@ -42044,7 +43115,8 @@
   ],
   "smp-SM78": [
     "Promo",
-    "Staff"
+    "Staff",
+    "Worlds Stamp"
   ],
   "smp-SM79": [
     "Promo"
@@ -42093,23 +43165,23 @@
   ],
   "smp-SM94": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM95": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM96": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM97": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM98": [
     "Promo"
@@ -42170,23 +43242,23 @@
   ],
   "smp-SM115": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM116": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM117": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM118": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM119": [
     "Promo"
@@ -42220,8 +43292,8 @@
   ],
   "smp-SM129": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM130": [
     "Promo",
@@ -42285,27 +43357,27 @@
   ],
   "smp-SM148": [
     "Promo",
+    "Worlds Stamp",
     "Staff"
   ],
   "smp-SM149": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM150": [
     "Promo",
-    "Staff",
     "Prerelease"
   ],
   "smp-SM151": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM152": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM153": [
     "Promo"
@@ -42324,23 +43396,21 @@
   ],
   "smp-SM158": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Staff"
   ],
   "smp-SM159": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM160": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM161": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Staff"
   ],
   "smp-SM162": [
     "Promo"
@@ -42395,23 +43465,23 @@
   ],
   "smp-SM179": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM180": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM181": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM182": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM183": [
     "Promo"
@@ -42472,23 +43542,23 @@
   ],
   "smp-SM202": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM203": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM204": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM205": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM206": [
     "Promo"
@@ -42528,8 +43598,8 @@
   ],
   "smp-SM218": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM219": [
     "Promo",
@@ -42538,13 +43608,13 @@
   ],
   "smp-SM220": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM221": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "smp-SM222": [
     "Promo"
@@ -42575,6 +43645,7 @@
   ],
   "smp-SM231": [
     "Promo",
+    "Worlds Stamp",
     "Staff"
   ],
   "smp-SM232": [
@@ -42875,7 +43946,8 @@
   ],
   "sv1-63": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Reed Weichler) Signature"
   ],
   "sv1-64": [
     "Normal",
@@ -43091,7 +44163,8 @@
   ],
   "sv1-118": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Evan Pavelski) Signature"
   ],
   "sv1-119": [
     "Normal",
@@ -43286,15 +44359,18 @@
   ],
   "sv1-168": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Fernando Cifuentes) Signature"
   ],
   "sv1-169": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Sakuya O.) Signature"
   ],
   "sv1-170": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Jesse Parker) Signature"
   ],
   "sv1-171": [
     "Normal",
@@ -43306,7 +44382,8 @@
   ],
   "sv1-173": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Evan Pavelski) Signature"
   ],
   "sv1-174": [
     "Normal",
@@ -43318,7 +44395,8 @@
   ],
   "sv1-176": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Fernando Cifuentes) Signature"
   ],
   "sv1-177": [
     "Normal",
@@ -43338,11 +44416,16 @@
   ],
   "sv1-181": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Shao Tong Yen) Signature"
   ],
   "sv1-182": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Vance Kelley) Signature",
+    "2023 (Tord Reklev) Signature",
+    "2023 (Shao Tong Yen) Signature",
+    "2024 (Sakuya O.) Signature"
   ],
   "sv1-183": [
     "Normal",
@@ -43390,7 +44473,8 @@
   ],
   "sv1-194": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Evan Pavelski) Signature"
   ],
   "sv1-195": [
     "Normal",
@@ -43398,7 +44482,10 @@
   ],
   "sv1-196": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Sakuya O.) Signature",
+    "2024 (Evan Pavelski) Signature",
+    "2024 (Jesse Parker) Signature"
   ],
   "sv1-197": [
     "Normal",
@@ -45142,7 +46229,9 @@
     "Reverse Holofoil"
   ],
   "sv2-169": [
-    "Holofoil"
+    "Holofoil",
+    "2024 (Evan Pavelski) Signature",
+    "2024 (Jesse Parker) Signature"
   ],
   "sv2-170": [
     "Normal",
@@ -45150,7 +46239,8 @@
   ],
   "sv2-171": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Tord Reklev) Signature"
   ],
   "sv2-172": [
     "Normal",
@@ -45158,7 +46248,8 @@
   ],
   "sv2-173": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Jesse Parker) Signature"
   ],
   "sv2-174": [
     "Normal",
@@ -45206,7 +46297,10 @@
   ],
   "sv2-185": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Gabriel Fernandez) Signature",
+    "2023 (Vance Kelley) Signature",
+    "2023 (Tord Reklev) Signature"
   ],
   "sv2-186": [
     "Normal",
@@ -45226,7 +46320,9 @@
   ],
   "sv2-190": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Gabriel Fernandez) Signature",
+    "2023 (Vance Kelley) Signature"
   ],
   "sv2-191": [
     "Normal",
@@ -45234,11 +46330,13 @@
   ],
   "sv2-192": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Tord Reklev) Signature"
   ],
   "sv2-193": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Gabriel Fernandez) Signature"
   ],
   "sv2-194": [
     "Holofoil"
@@ -45744,7 +46842,8 @@
   ],
   "sv3-63": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Reed Weichler) Signature"
   ],
   "sv3-64": [
     "Normal",
@@ -46219,7 +47318,9 @@
   ],
   "sv3-186": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Jesse Parker) Signature",
+    "2024 (Fernando Cifuentes) Signature"
   ],
   "sv3-187": [
     "Normal",
@@ -46259,7 +47360,8 @@
   ],
   "sv3-196": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Jesse Parker) Signature"
   ],
   "sv3-197": [
     "Normal",
@@ -46924,7 +48026,8 @@
   ],
   "sv3pt5-143": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Gabriel Fernandez) Signature"
   ],
   "sv3pt5-144": [
     "Normal",
@@ -47756,7 +48859,8 @@
   ],
   "sv4-160": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Sakuya O.) Signature"
   ],
   "sv4-161": [
     "Normal",
@@ -47768,7 +48872,10 @@
   ],
   "sv4-163": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Evan Pavelski) Signature",
+    "2024 (Fernando Cifuentes) Signature",
+    "2024 (Sakuya O.) Signature"
   ],
   "sv4-164": [
     "Normal",
@@ -47796,7 +48903,8 @@
   ],
   "sv4-170": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Sakuya O.) Signature"
   ],
   "sv4-171": [
     "Normal",
@@ -47832,11 +48940,13 @@
   ],
   "sv4-179": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Fernando Cifuentes) Signature"
   ],
   "sv4-180": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Fernando Cifuentes) Signature"
   ],
   "sv4-181": [
     "Normal",
@@ -49457,7 +50567,9 @@
   ],
   "sv5-109": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Sakuya O.) Signature",
+    "2024 (Sakuya O. Gold Signature) Signature"
   ],
   "sv5-110": [
     "Normal",
@@ -49577,7 +50689,8 @@
   ],
   "sv5-140": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Sakuya O.) Signature"
   ],
   "sv5-141": [
     "Holofoil"
@@ -49612,7 +50725,8 @@
   ],
   "sv5-149": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Fernando Cifuentes) Signature"
   ],
   "sv5-150": [
     "Normal",
@@ -49640,14 +50754,19 @@
     "Reverse Holofoil"
   ],
   "sv5-157": [
-    "Holofoil"
+    "Holofoil",
+    "2024 (Sakuya O.) Signature",
+    "2024 (Evan Pavelski) Signature",
+    "2024 (Jesse Parker) Signature",
+    "2024 (Fernando Cifuentes) Signature"
   ],
   "sv5-158": [
     "Holofoil"
   ],
   "sv5-159": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Jesse Parker) Signature"
   ],
   "sv5-160": [
     "Normal",
@@ -50461,7 +51580,8 @@
     "Holofoil"
   ],
   "sv6-163": [
-    "Holofoil"
+    "Holofoil",
+    "2024 (Sakuya O.) Signature"
   ],
   "sv6-164": [
     "Holofoil"
@@ -54163,11 +55283,13 @@
   ],
   "sve-9": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Evan Pavelski) Signature"
   ],
   "sve-10": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Evan Pavelski) Signature"
   ],
   "sve-11": [
     "Normal",
@@ -54175,7 +55297,9 @@
   ],
   "sve-12": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Jesse Parker) Signature",
+    "2024 (Fernando Cifuentes) Signature"
   ],
   "sve-13": [
     "Normal",
@@ -54187,7 +55311,8 @@
   ],
   "sve-15": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Sakuya O.) Signature"
   ],
   "sve-16": [
     "Normal",
@@ -54207,23 +55332,23 @@
   ],
   "svp-5": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-6": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-7": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-8": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-9": [
     "Promo"
@@ -54238,10 +55363,12 @@
     "Promo"
   ],
   "svp-13": [
-    "Promo"
+    "Promo",
+    "Pokémon Center Stamp"
   ],
   "svp-14": [
-    "Promo"
+    "Promo",
+    "Pokémon Center Stamp"
   ],
   "svp-15": [
     "Promo"
@@ -54257,23 +55384,23 @@
   ],
   "svp-19": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-20": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-21": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-22": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-23": [
     "Promo"
@@ -54288,7 +55415,8 @@
     "Promo"
   ],
   "svp-27": [
-    "Promo"
+    "Promo",
+    "Pokémon Center Stamp"
   ],
   "svp-28": [
     "Promo"
@@ -54316,23 +55444,23 @@
   ],
   "svp-36": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-37": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-38": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-39": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-40": [
     "Promo"
@@ -54347,10 +55475,12 @@
     "Promo"
   ],
   "svp-44": [
-    "Promo"
+    "Promo",
+    "Pokémon Center Stamp"
   ],
   "svp-45": [
     "Promo",
+    "Worlds Stamp",
     "Staff"
   ],
   "svp-46": [
@@ -54369,7 +55499,8 @@
     "Promo"
   ],
   "svp-51": [
-    "Promo"
+    "Promo",
+    "Pokémon Center Stamp"
   ],
   "svp-52": [
     "Promo"
@@ -54388,23 +55519,23 @@
   ],
   "svp-57": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-58": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-59": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-60": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-61": [
     "Promo"
@@ -54419,10 +55550,12 @@
     "Promo"
   ],
   "svp-65": [
-    "Promo"
+    "Promo",
+    "Pokémon Center Stamp"
   ],
   "svp-66": [
-    "Promo"
+    "Promo",
+    "Pokémon Center Stamp"
   ],
   "svp-67": [
     "Promo"
@@ -54449,7 +55582,8 @@
     "Promo"
   ],
   "svp-75": [
-    "Promo"
+    "Promo",
+    "Pokémon Center Stamp"
   ],
   "svp-76": [
     "Promo"
@@ -54492,23 +55626,23 @@
   ],
   "svp-89": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-90": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-91": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-92": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "svp-93": [
     "Promo"
@@ -54609,7 +55743,8 @@
     "Promo"
   ],
   "svp-123": [
-    "Promo"
+    "Promo",
+    "Pokémon Center Stamp"
   ],
   "svp-124": [
     "Promo"
@@ -54627,7 +55762,8 @@
     "Promo"
   ],
   "svp-129": [
-    "Promo"
+    "Promo",
+    "Pokémon Center Stamp"
   ],
   "svp-130": [
     "Promo"
@@ -54671,7 +55807,8 @@
     "Promo"
   ],
   "svp-141": [
-    "Promo"
+    "Promo",
+    "Pokémon Center Stamp"
   ],
   "svp-142": [
     "Promo"
@@ -54699,27 +55836,20 @@
   ],
   "svp-150": [
     "Promo",
+    "Worlds Stamp",
     "Staff"
   ],
   "svp-151": [
-    "Promo",
-    "Staff",
-    "Prerelease"
+    "Promo"
   ],
   "svp-152": [
-    "Promo",
-    "Staff",
-    "Prerelease"
+    "Promo"
   ],
   "svp-153": [
-    "Promo",
-    "Staff",
-    "Prerelease"
+    "Promo"
   ],
   "svp-154": [
-    "Promo",
-    "Staff",
-    "Prerelease"
+    "Promo"
   ],
   "svp-155": [
     "Promo"
@@ -54734,7 +55864,8 @@
     "Promo"
   ],
   "svp-159": [
-    "Promo"
+    "Promo",
+    "Pokémon Center Stamp"
   ],
   "svp-160": [
     "Promo"
@@ -55385,7 +56516,10 @@
   ],
   "swsh1-163": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Sebastian Lashmet) Signature",
+    "2022 (Rikuto Ohashi) Signature",
+    "2022 (Ondrej Skubal) Signature"
   ],
   "swsh1-164": [
     "Normal",
@@ -55417,7 +56551,8 @@
   ],
   "swsh1-171": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Sebastian Lashmet) Signature"
   ],
   "swsh1-172": [
     "Normal",
@@ -55465,7 +56600,9 @@
   ],
   "swsh1-183": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Ondrej Skubal) Signature",
+    "2022 (Andre Chiasson) Signature"
   ],
   "swsh1-184": [
     "Normal",
@@ -55610,7 +56747,8 @@
   ],
   "swsh10-7": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature"
   ],
   "swsh10-8": [
     "Normal",
@@ -56088,7 +57226,8 @@
     "Holofoil"
   ],
   "swsh10-134": [
-    "Holofoil"
+    "Holofoil",
+    "2023 (Gabriel Fernandez) Signature"
   ],
   "swsh10-135": [
     "Holofoil",
@@ -56096,7 +57235,9 @@
   ],
   "swsh10-136": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Evan Pavelski) Signature",
+    "2024 (Fernando Cifuentes) Signature"
   ],
   "swsh10-137": [
     "Normal",
@@ -56108,11 +57249,13 @@
   ],
   "swsh10-139": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Sakuya O.) Signature"
   ],
   "swsh10-140": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Fernando Cifuentes) Signature"
   ],
   "swsh10-141": [
     "Normal",
@@ -56136,7 +57279,10 @@
   ],
   "swsh10-146": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Sebastian Lashmet) Signature",
+    "2023 (Shao Tong Yen) Signature",
+    "2024 (Sakuya O.) Signature"
   ],
   "swsh10-147": [
     "Holofoil",
@@ -56168,11 +57314,14 @@
   ],
   "swsh10-154": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Vance Kelley) Signature",
+    "2024 (Jesse Parker) Signature"
   ],
   "swsh10-155": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2024 (Evan Pavelski) Signature"
   ],
   "swsh10-156": [
     "Normal",
@@ -56832,7 +57981,8 @@
   ],
   "swsh11-86": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2010 (Michael Pramawat) Signature"
   ],
   "swsh11-87": [
     "Normal",
@@ -56957,7 +58107,8 @@
     "Reverse Holofoil"
   ],
   "swsh11-118": [
-    "Holofoil"
+    "Holofoil",
+    "2023 (Gabriel Fernandez) Signature"
   ],
   "swsh11-119": [
     "Holofoil"
@@ -57003,7 +58154,8 @@
     "Holofoil"
   ],
   "swsh11-131": [
-    "Holofoil"
+    "Holofoil",
+    "2024 (Evan Pavelski) Signature"
   ],
   "swsh11-132": [
     "Normal",
@@ -57021,7 +58173,8 @@
     "Holofoil"
   ],
   "swsh11-136": [
-    "Holofoil"
+    "Holofoil",
+    "2024 (Evan Pavelski) Signature"
   ],
   "swsh11-137": [
     "Holofoil"
@@ -57048,7 +58201,8 @@
   ],
   "swsh11-143": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Gabriel Fernandez) Signature"
   ],
   "swsh11-144": [
     "Normal",
@@ -57090,11 +58244,13 @@
   ],
   "swsh11-154": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Vance Kelley) Signature"
   ],
   "swsh11-155": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Shao Tong Yen) Signature"
   ],
   "swsh11-156": [
     "Normal",
@@ -57118,15 +58274,22 @@
   ],
   "swsh11-161": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Vance Kelley) Signature",
+    "2024 (Fernando Cifuentes) Signature"
   ],
   "swsh11-162": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Vance Kelley) Signature",
+    "2023 (Tord Reklev) Signature",
+    "2023 (Shao Tong Yen) Signature",
+    "2024 (Fernando Cifuentes) Signature"
   ],
   "swsh11-163": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Shao Tong Yen) Signature"
   ],
   "swsh11-164": [
     "Normal",
@@ -57158,7 +58321,8 @@
   ],
   "swsh11-171": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Gabriel Fernandez) Signature"
   ],
   "swsh11-172": [
     "Normal",
@@ -57947,20 +59111,25 @@
     "Reverse Holofoil"
   ],
   "swsh12-135": [
-    "Holofoil"
+    "Holofoil",
+    "2024 (Evan Pavelski) Signature"
   ],
   "swsh12-136": [
-    "Holofoil"
+    "Holofoil",
+    "2024 (Evan Pavelski) Signature",
+    "2024 (Evan Pavelski Gold Signature) Signature"
   ],
   "swsh12-137": [
     "Normal",
     "Reverse Holofoil"
   ],
   "swsh12-138": [
-    "Holofoil"
+    "Holofoil",
+    "2023 (Gabriel Fernandez) Signature"
   ],
   "swsh12-139": [
-    "Holofoil"
+    "Holofoil",
+    "2023 (Gabriel Fernandez) Signature"
   ],
   "swsh12-140": [
     "Holofoil"
@@ -57991,7 +59160,8 @@
   ],
   "swsh12-147": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Gabriel Fernandez) Signature"
   ],
   "swsh12-148": [
     "Normal",
@@ -58015,7 +59185,9 @@
   ],
   "swsh12-153": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Gabriel Fernandez) Signature",
+    "2023 (Vance Kelley) Signature"
   ],
   "swsh12-154": [
     "Holofoil",
@@ -58027,7 +59199,11 @@
   ],
   "swsh12-156": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Vance Kelley) Signature",
+    "2023 (Tord Reklev) Signature",
+    "2023 (Shao Tong Yen) Signature",
+    "2024 (Jesse Parker) Signature"
   ],
   "swsh12-157": [
     "Normal",
@@ -58079,7 +59255,8 @@
   ],
   "swsh12-169": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Gabriel Fernandez) Signature"
   ],
   "swsh12-170": [
     "Normal",
@@ -58722,11 +59899,15 @@
   ],
   "swsh12pt5-128": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Clement Lamberton) Signature",
+    "2013 (Jason Klaczynski) Signature",
+    "2013 (Yugo Sato) Signature"
   ],
   "swsh12pt5-129": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2019 (Haruki Miyamoto) Signature"
   ],
   "swsh12pt5-130": [
     "Normal",
@@ -59811,7 +60992,8 @@
   ],
   "swsh2-156": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Rikuto Ohashi) Signature"
   ],
   "swsh2-157": [
     "Normal",
@@ -59847,7 +61029,9 @@
   ],
   "swsh2-165": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Sebastian Lashmet) Signature",
+    "2022 (Rikuto Ohashi) Signature"
   ],
   "swsh2-166": [
     "Normal",
@@ -59863,7 +61047,8 @@
   ],
   "swsh2-169": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Rikuto Ohashi) Signature"
   ],
   "swsh2-170": [
     "Normal",
@@ -59871,7 +61056,8 @@
   ],
   "swsh2-171": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Ondrej Skubal) Signature"
   ],
   "swsh2-172": [
     "Normal",
@@ -60410,7 +61596,8 @@
     "Reverse Holofoil"
   ],
   "swsh3-104": [
-    "Holofoil"
+    "Holofoil",
+    "2022 (Ondrej Skubal) Signature"
   ],
   "swsh3-105": [
     "Holofoil",
@@ -60661,7 +61848,8 @@
   ],
   "swsh3-169": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Andre Chiasson) Signature"
   ],
   "swsh3-170": [
     "Normal",
@@ -61092,7 +62280,8 @@
   ],
   "swsh4-4": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Jacob Van Wagner) Signature"
   ],
   "swsh4-5": [
     "Normal",
@@ -61104,7 +62293,8 @@
   ],
   "swsh4-7": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature"
   ],
   "swsh4-8": [
     "Normal",
@@ -63069,11 +64259,14 @@
   ],
   "swsh5-124": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Shao Tong Yen) Signature"
   ],
   "swsh5-125": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Vance Kelley) Signature",
+    "2023 (Shao Tong Yen) Signature"
   ],
   "swsh5-126": [
     "Normal",
@@ -63117,7 +64310,8 @@
   ],
   "swsh5-136": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Sebastian Lashmet) Signature"
   ],
   "swsh5-137": [
     "Normal",
@@ -63125,7 +64319,8 @@
   ],
   "swsh5-138": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Sebastian Lashmet) Signature"
   ],
   "swsh5-139": [
     "Normal",
@@ -63133,7 +64328,8 @@
   ],
   "swsh5-140": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Sebastian Lashmet) Signature"
   ],
   "swsh5-141": [
     "Normal",
@@ -63806,7 +65002,9 @@
   ],
   "swsh6-136": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Andre Chiasson) Signature",
+    "2023 (Shao Tong Yen) Signature"
   ],
   "swsh6-137": [
     "Normal",
@@ -63822,7 +65020,8 @@
   ],
   "swsh6-140": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Tord Reklev) Signature"
   ],
   "swsh6-141": [
     "Normal",
@@ -63842,7 +65041,8 @@
   ],
   "swsh6-145": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Shao Tong Yen) Signature"
   ],
   "swsh6-146": [
     "Normal",
@@ -63854,7 +65054,11 @@
   ],
   "swsh6-148": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Rikuto Ohashi) Signature",
+    "2022 (Ondrej Skubal) Signature",
+    "2023 (Gabriel Fernandez) Signature",
+    "2023 (Vance Kelley) Signature"
   ],
   "swsh6-149": [
     "Normal",
@@ -64702,7 +65906,8 @@
   ],
   "swsh7-144": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Vance Kelley) Signature"
   ],
   "swsh7-145": [
     "Normal",
@@ -65474,10 +66679,14 @@
     "Reverse Holofoil"
   ],
   "swsh8-113": [
-    "Holofoil"
+    "Holofoil",
+    "2022 (Andre Chiasson) Signature",
+    "2023 (Vance Kelley) Signature"
   ],
   "swsh8-114": [
-    "Holofoil"
+    "Holofoil",
+    "2022 (Andre Chiasson) Signature",
+    "2023 (Vance Kelley) Signature"
   ],
   "swsh8-115": [
     "Normal",
@@ -65517,7 +66726,9 @@
   ],
   "swsh8-124": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Andre Chiasson) Signature",
+    "2023 (Vance Kelley) Signature"
   ],
   "swsh8-125": [
     "Normal",
@@ -65756,7 +66967,9 @@
     "Reverse Holofoil"
   ],
   "swsh8-185": [
-    "Holofoil"
+    "Holofoil",
+    "2022 (Andre Chiasson) Signature",
+    "2023 (Vance Kelley) Signature"
   ],
   "swsh8-186": [
     "Normal",
@@ -65913,7 +67126,12 @@
   ],
   "swsh8-225": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Rikuto Ohashi) Signature",
+    "2022 (Andre Chiasson) Signature",
+    "2023 (Vance Kelley) Signature",
+    "2023 (Tord Reklev) Signature",
+    "2023 (Shao Tong Yen) Signature"
   ],
   "swsh8-226": [
     "Normal",
@@ -65929,7 +67147,9 @@
   ],
   "swsh8-229": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Andre Chiasson) Signature",
+    "2023 (Vance Kelley) Signature"
   ],
   "swsh8-230": [
     "Normal",
@@ -65953,11 +67173,14 @@
   ],
   "swsh8-235": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Vance Kelley) Signature"
   ],
   "swsh8-236": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Andre Chiasson) Signature",
+    "2023 (Vance Kelley) Signature"
   ],
   "swsh8-237": [
     "Normal",
@@ -65989,7 +67212,9 @@
   ],
   "swsh8-244": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Andre Chiasson) Signature",
+    "2023 (Vance Kelley) Signature"
   ],
   "swsh8-245": [
     "Normal",
@@ -66585,17 +67810,21 @@
   ],
   "swsh9-120": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Ondrej Skubal) Signature"
   ],
   "swsh9-121": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Ondrej Skubal) Signature"
   ],
   "swsh9-122": [
-    "Holofoil"
+    "Holofoil",
+    "2022 (Ondrej Skubal) Signature"
   ],
   "swsh9-123": [
-    "Holofoil"
+    "Holofoil",
+    "2022 (Ondrej Skubal) Signature"
   ],
   "swsh9-124": [
     "Normal",
@@ -66642,7 +67871,10 @@
   ],
   "swsh9-135": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Rikuto Ohashi) Signature",
+    "2022 (Andre Chiasson) Signature",
+    "2023 (Vance Kelley) Signature"
   ],
   "swsh9-136": [
     "Normal",
@@ -66650,7 +67882,10 @@
   ],
   "swsh9-137": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Gabriel Fernandez) Signature",
+    "2023 (Tord Reklev) Signature",
+    "2023 (Vance Kelley) Signature"
   ],
   "swsh9-138": [
     "Normal",
@@ -66702,11 +67937,20 @@
   ],
   "swsh9-150": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2023 (Gabriel Fernandez) Signature",
+    "2023 (Vance Kelley) Signature",
+    "2023 (Tord Reklev) Signature"
   ],
   "swsh9-151": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2022 (Ondrej Skubal) Signature",
+    "2022 (Andre Chiasson) Signature",
+    "2023 (Gabriel Fernandez) Signature",
+    "2023 (Vance Kelley) Signature",
+    "2024 (Fernando Cifuentes) Signature",
+    "2024 (Jesse Parker) Signature"
   ],
   "swsh9-152": [
     "Normal",
@@ -66963,8 +68207,8 @@
   ],
   "swshp-SWSH007": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "swshp-SWSH008": [
     "Promo",
@@ -66973,8 +68217,8 @@
   ],
   "swshp-SWSH009": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "swshp-SWSH010": [
     "Promo"
@@ -67014,23 +68258,23 @@
   ],
   "swshp-SWSH022": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "swshp-SWSH023": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "swshp-SWSH024": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "swshp-SWSH025": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "swshp-SWSH026": [
     "Promo"
@@ -67066,8 +68310,8 @@
   ],
   "swshp-SWSH036": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "swshp-SWSH037": [
     "Promo",
@@ -67076,8 +68320,8 @@
   ],
   "swshp-SWSH038": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "swshp-SWSH039": [
     "Promo"
@@ -67162,8 +68406,8 @@
   ],
   "swshp-SWSH066": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "swshp-SWSH067": [
     "Promo",
@@ -67172,8 +68416,8 @@
   ],
   "swshp-SWSH068": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "swshp-SWSH069": [
     "Promo",
@@ -67236,19 +68480,19 @@
   ],
   "swshp-SWSH088": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH089": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH090": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH091": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH092": [
     "Promo"
@@ -67312,19 +68556,19 @@
   ],
   "swshp-SWSH112": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH113": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH114": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH115": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH116": [
     "Promo"
@@ -67346,19 +68590,19 @@
   ],
   "swshp-SWSH122": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH123": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH124": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH125": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH126": [
     "Promo"
@@ -67488,19 +68732,19 @@
   ],
   "swshp-SWSH168": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH169": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH170": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH171": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH172": [
     "Promo"
@@ -67542,20 +68786,16 @@
     "Promo"
   ],
   "swshp-SWSH185": [
-    "Promo",
-    "Staff"
+    "Promo"
   ],
   "swshp-SWSH186": [
-    "Promo",
-    "Staff"
+    "Promo"
   ],
   "swshp-SWSH187": [
-    "Promo",
-    "Staff"
+    "Promo"
   ],
   "swshp-SWSH188": [
-    "Promo",
-    "Staff"
+    "Promo"
   ],
   "swshp-SWSH189": [
     "Promo"
@@ -67606,20 +68846,16 @@
     "Promo"
   ],
   "swshp-SWSH205": [
-    "Promo",
-    "Staff"
+    "Promo"
   ],
   "swshp-SWSH206": [
-    "Promo",
-    "Staff"
+    "Promo"
   ],
   "swshp-SWSH207": [
-    "Promo",
-    "Staff"
+    "Promo"
   ],
   "swshp-SWSH208": [
-    "Promo",
-    "Staff"
+    "Promo"
   ],
   "swshp-SWSH209": [
     "Promo"
@@ -67716,19 +68952,19 @@
   ],
   "swshp-SWSH240": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH241": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH242": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH243": [
     "Promo",
-    "Staff"
+    "Prerelease"
   ],
   "swshp-SWSH244": [
     "Promo"
@@ -67807,22 +69043,18 @@
   ],
   "swshp-SWSH269": [
     "Promo",
-    "Staff",
     "Prerelease"
   ],
   "swshp-SWSH270": [
     "Promo",
-    "Staff",
     "Prerelease"
   ],
   "swshp-SWSH271": [
     "Promo",
-    "Staff",
     "Prerelease"
   ],
   "swshp-SWSH272": [
     "Promo",
-    "Staff",
     "Prerelease"
   ],
   "swshp-SWSH273": [
@@ -67896,7 +69128,8 @@
   ],
   "swshp-SWSH296": [
     "Promo",
-    "Staff"
+    "Staff",
+    "Worlds Stamp"
   ],
   "swshp-SWSH297": [
     "Promo"
@@ -68463,11 +69696,13 @@
   ],
   "xy1-54": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Trent Orndorff) Signature"
   ],
   "xy1-55": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Trent Orndorff) Signature"
   ],
   "xy1-56": [
     "Normal",
@@ -68613,11 +69848,13 @@
   ],
   "xy1-92": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Michikazu Tsuda) Signature"
   ],
   "xy1-93": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Michikazu Tsuda) Signature"
   ],
   "xy1-94": [
     "Normal",
@@ -68629,7 +69866,8 @@
   ],
   "xy1-96": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Michikazu Tsuda) Signature"
   ],
   "xy1-97": [
     "Holofoil"
@@ -68708,11 +69946,13 @@
   ],
   "xy1-116": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Trent Orndorff) Signature"
   ],
   "xy1-117": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Michikazu Tsuda) Signature"
   ],
   "xy1-118": [
     "Normal",
@@ -68720,7 +69960,8 @@
   ],
   "xy1-119": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Alejandro Ng-Guzman) Signature"
   ],
   "xy1-120": [
     "Normal",
@@ -68728,15 +69969,27 @@
   ],
   "xy1-121": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Michikazu Tsuda) Signature",
+    "2014 (Haruto Kobayashi) Signature",
+    "2014 (Trent Orndorff) Signature",
+    "2014 (Andrew Estrada) Signature",
+    "2015 (Jacob Van Wagner) Signature",
+    "2015 (Patrick Martinez) Signature",
+    "2015 (Rowan Stavenow) Signature"
   ],
   "xy1-122": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Michikazu Tsuda) Signature",
+    "2014 (Andrew Estrada) Signature",
+    "2014 (Haruto Kobayashi) Signature"
   ],
   "xy1-123": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Andrew Estrada) Signature",
+    "2015 (Alejandro Ng-Guzman) Signature"
   ],
   "xy1-124": [
     "Normal",
@@ -68752,7 +70005,8 @@
   ],
   "xy1-127": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Michikazu Tsuda) Signature"
   ],
   "xy1-128": [
     "Normal",
@@ -68764,11 +70018,15 @@
   ],
   "xy1-130": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Michikazu Tsuda) Signature",
+    "2014 (Trent Orndorff) Signature"
   ],
   "xy1-131": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Michikazu Tsuda) Signature",
+    "2014 (Haruto Kobayashi) Signature"
   ],
   "xy1-132": [
     "Normal",
@@ -69186,7 +70444,8 @@
   ],
   "xy10-92": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Shintaro Ito) Signature"
   ],
   "xy10-93": [
     "Normal",
@@ -69238,7 +70497,18 @@
   ],
   "xy10-105": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature",
+    "2016 (Shunto Sadahiro) Signature",
+    "2016 (Shintaro Ito) Signature",
+    "2016 (Cody Walinski) Signature",
+    "2017 (Naoto Suzuki) Signature",
+    "2017 (Zachary Bokhari) Signature",
+    "2017 (Diego Cassiraga) Signature",
+    "2017 (Kabu Fukase) Signature",
+    "2018 (Naohito Inoue) Signature",
+    "2018 (Magnus Pedersen) Signature",
+    "2018 (Robin Schulz) Signature"
   ],
   "xy10-105a": [
     "Normal",
@@ -69278,15 +70548,21 @@
   ],
   "xy10-113": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Shunto Sadahiro) Signature",
+    "2016 (Shintaro Ito) Signature",
+    "2016 (Jesper Eriksen) Signature"
   ],
   "xy10-114": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature",
+    "2016 (Shintaro Ito) Signature"
   ],
   "xy10-115": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Naohito Inoue) Signature"
   ],
   "xy10-116": [
     "Normal",
@@ -69353,10 +70629,12 @@
   ],
   "xy11-7": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature"
   ],
   "xy11-8": [
-    "Holofoil"
+    "Holofoil",
+    "2016 (Jesper Eriksen) Signature"
   ],
   "xy11-9": [
     "Normal",
@@ -69580,7 +70858,8 @@
   ],
   "xy11-65": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Shunto Sadahiro) Signature"
   ],
   "xy11-66": [
     "Holofoil"
@@ -69613,7 +70892,8 @@
   ],
   "xy11-74": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Shintaro Ito) Signature"
   ],
   "xy11-75": [
     "Holofoil"
@@ -69696,7 +70976,8 @@
   ],
   "xy11-96": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Cody Walinski) Signature"
   ],
   "xy11-97": [
     "Normal",
@@ -69732,7 +71013,8 @@
   ],
   "xy11-105": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature"
   ],
   "xy11-106": [
     "Normal",
@@ -70354,11 +71636,13 @@
   ],
   "xy2-38": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Trent Orndorff) Signature"
   ],
   "xy2-39": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Trent Orndorff) Signature"
   ],
   "xy2-40": [
     "Holofoil",
@@ -70562,11 +71846,18 @@
   ],
   "xy2-90": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Michikazu Tsuda) Signature",
+    "2014 (Haruto Kobayashi) Signature",
+    "2015 (Jacob Van Wagner) Signature",
+    "2015 (Alejandro Ng-Guzman) Signature",
+    "2015 (Patrick Martinez) Signature",
+    "2015 (Rowan Stavenow) Signature"
   ],
   "xy2-91": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2004 (Kevin Nguyen) Signature"
   ],
   "xy2-92": [
     "Normal",
@@ -70586,11 +71877,18 @@
   ],
   "xy2-96": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Trent Orndorff) Signature"
   ],
   "xy2-97": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Michikazu Tsuda) Signature",
+    "2014 (Haruto Kobayashi) Signature",
+    "2014 (Trent Orndorff) Signature",
+    "2015 (Alejandro Ng-Guzman) Signature",
+    "2016 (Cody Walinski) Signature",
+    "2016 (Shintaro Ito) Signature"
   ],
   "xy2-98": [
     "Normal",
@@ -70598,7 +71896,11 @@
   ],
   "xy2-99": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2014 (Michikazu Tsuda) Signature",
+    "2014 (Andrew Estrada) Signature",
+    "2014 (Haruto Kobayashi) Signature",
+    "2014 (Trent Orndorff) Signature"
   ],
   "xy2-100": [
     "Normal",
@@ -70886,7 +72188,8 @@
   ],
   "xy3-63": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Rowan Stavenow) Signature"
   ],
   "xy3-64": [
     "Holofoil"
@@ -70992,11 +72295,14 @@
   ],
   "xy3-90": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Alejandro Ng-Guzman) Signature",
+    "2015 (Rowan Stavenow) Signature"
   ],
   "xy3-91": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Alejandro Ng-Guzman) Signature"
   ],
   "xy3-92": [
     "Normal",
@@ -71012,7 +72318,9 @@
   ],
   "xy3-95": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Alejandro Ng-Guzman) Signature",
+    "2015 (Rowan Stavenow) Signature"
   ],
   "xy3-96": [
     "Normal",
@@ -71032,7 +72340,9 @@
   ],
   "xy3-100": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Patrick Martinez) Signature",
+    "2015 (Rowan Stavenow) Signature"
   ],
   "xy3-101": [
     "Normal",
@@ -71048,7 +72358,9 @@
   ],
   "xy3-104": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Alejandro Ng-Guzman) Signature",
+    "2015 (Rowan Stavenow) Signature"
   ],
   "xy3-105": [
     "Normal",
@@ -71094,7 +72406,8 @@
   ],
   "xy4-3": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature"
   ],
   "xy4-4": [
     "Normal",
@@ -71212,11 +72525,15 @@
   ],
   "xy4-32": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Patrick Martinez) Signature",
+    "2015 (Rowan Stavenow) Signature"
   ],
   "xy4-33": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Patrick Martinez) Signature",
+    "2015 (Rowan Stavenow) Signature"
   ],
   "xy4-34": [
     "Holofoil"
@@ -71226,7 +72543,8 @@
   ],
   "xy4-36": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Alejandro Ng-Guzman) Signature"
   ],
   "xy4-37": [
     "Normal",
@@ -71446,7 +72764,12 @@
   ],
   "xy4-91": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Patrick Martinez) Signature",
+    "2015 (Rowan Stavenow) Signature",
+    "2016 (Jesper Eriksen) Signature",
+    "2016 (Shunto Sadahiro) Signature",
+    "2016 (Shintaro Ito) Signature"
   ],
   "xy4-92": [
     "Normal",
@@ -71458,7 +72781,9 @@
   ],
   "xy4-94": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2013 (Jason Klaczynski) Signature",
+    "2014 (Andrew Estrada) Signature"
   ],
   "xy4-95": [
     "Normal",
@@ -71486,7 +72811,8 @@
   ],
   "xy4-101": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Rowan Stavenow) Signature"
   ],
   "xy4-102": [
     "Normal",
@@ -71518,15 +72844,31 @@
   ],
   "xy4-109": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Jacob Van Wagner) Signature",
+    "2015 (Alejandro Ng-Guzman) Signature",
+    "2015 (Patrick Martinez) Signature",
+    "2015 (Rowan Stavenow) Signature",
+    "2016 (Jesper Eriksen) Signature",
+    "2016 (Shunto Sadahiro) Signature",
+    "2016 (Shintaro Ito) Signature",
+    "2016 (Cody Walinski) Signature",
+    "2017 (Naoto Suzuki) Signature",
+    "2017 (Zachary Bokhari) Signature",
+    "2017 (Diego Cassiraga) Signature",
+    "2017 (Kabu Fukase) Signature"
   ],
   "xy4-110": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Patrick Martinez) Signature",
+    "2016 (Shunto Sadahiro) Signature",
+    "2016 (Shintaro Ito) Signature"
   ],
   "xy4-111": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Patrick Martinez) Signature"
   ],
   "xy4-112": [
     "Normal",
@@ -71802,7 +73144,8 @@
   ],
   "xy5-60": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2006 (Jason Klaczynski) Signature"
   ],
   "xy5-61": [
     "Holofoil",
@@ -72039,11 +73382,13 @@
   ],
   "xy5-121": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Alejandro Ng-Guzman) Signature"
   ],
   "xy5-122": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Jacob Van Wagner) Signature"
   ],
   "xy5-123": [
     "Normal",
@@ -72051,11 +73396,13 @@
   ],
   "xy5-124": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Jacob Van Wagner) Signature"
   ],
   "xy5-125": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Cody Walinski) Signature"
   ],
   "xy5-126": [
     "Normal",
@@ -72063,7 +73410,9 @@
   ],
   "xy5-127": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Alejandro Ng-Guzman) Signature",
+    "2016 (Shintaro Ito) Signature"
   ],
   "xy5-128": [
     "Normal",
@@ -72103,7 +73452,10 @@
   ],
   "xy5-137": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Jacob Van Wagner) Signature",
+    "2016 (Cody Walinski) Signature",
+    "2017 (Zachary Bokhari) Signature"
   ],
   "xy5-138": [
     "Normal",
@@ -72111,15 +73463,20 @@
   ],
   "xy5-139": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Alejandro Ng-Guzman) Signature"
   ],
   "xy5-140": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Alejandro Ng-Guzman) Signature",
+    "2015 (Rowan Stavenow) Signature"
   ],
   "xy5-141": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Alejandro Ng-Guzman) Signature",
+    "2017 (Naoto Suzuki) Signature"
   ],
   "xy5-142": [
     "Normal",
@@ -72131,7 +73488,8 @@
   ],
   "xy5-144": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Diego Cassiraga) Signature"
   ],
   "xy5-145": [
     "Normal",
@@ -72275,7 +73633,8 @@
   ],
   "xy6-17": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Jacob Van Wagner) Signature"
   ],
   "xy6-18": [
     "Normal",
@@ -72364,7 +73723,8 @@
   ],
   "xy6-40": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Shintaro Ito) Signature"
   ],
   "xy6-41": [
     "Normal",
@@ -72544,7 +73904,9 @@
   ],
   "xy6-86": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Alejandro Ng-Guzman) Signature",
+    "2016 (Shintaro Ito) Signature"
   ],
   "xy6-87": [
     "Normal",
@@ -72564,11 +73926,15 @@
   ],
   "xy6-91": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Alejandro Ng-Guzman) Signature"
   ],
   "xy6-92": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Jacob Van Wagner) Signature",
+    "2016 (Shintaro Ito) Signature",
+    "2016 (Shunto Sadahiro) Signature"
   ],
   "xy6-92a": [
     "Normal",
@@ -72576,7 +73942,11 @@
   ],
   "xy6-93": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2015 (Jacob Van Wagner) Signature",
+    "2015 (Alejandro Ng-Guzman) Signature",
+    "2015 (Patrick Martinez) Signature",
+    "2015 (Rowan Stavenow) Signature"
   ],
   "xy6-94": [
     "Normal",
@@ -72592,7 +73962,8 @@
   ],
   "xy6-97": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Shunto Sadahiro) Signature"
   ],
   "xy6-98": [
     "Normal",
@@ -72662,11 +74033,13 @@
   ],
   "xy7-5": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature"
   ],
   "xy7-6": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature"
   ],
   "xy7-7": [
     "Holofoil"
@@ -72676,11 +74049,13 @@
   ],
   "xy7-9": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature"
   ],
   "xy7-10": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature"
   ],
   "xy7-11": [
     "Normal",
@@ -72907,7 +74282,8 @@
   ],
   "xy7-69": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Cody Walinski) Signature"
   ],
   "xy7-70": [
     "Normal",
@@ -72927,11 +74303,16 @@
   ],
   "xy7-74": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature",
+    "2017 (Kabu Fukase) Signature"
   ],
   "xy7-75": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Shintaro Ito) Signature",
+    "2017 (Naoto Suzuki) Signature",
+    "2017 (Diego Cassiraga) Signature"
   ],
   "xy7-75a": [
     "Normal",
@@ -72939,7 +74320,9 @@
   ],
   "xy7-76": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature",
+    "2016 (Cody Walinski) Signature"
   ],
   "xy7-77": [
     "Normal",
@@ -72947,7 +74330,10 @@
   ],
   "xy7-78": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature",
+    "2016 (Shunto Sadahiro) Signature",
+    "2016 (Shintaro Ito) Signature"
   ],
   "xy7-79": [
     "Normal",
@@ -73151,15 +74537,21 @@
   ],
   "xy8-31": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Zachary Bokhari) Signature"
   ],
   "xy8-32": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Diego Cassiraga) Signature",
+    "2018 (Naohito Inoue) Signature"
   ],
   "xy8-33": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Zachary Bokhari) Signature",
+    "2017 (Diego Cassiraga) Signature",
+    "2018 (Naohito Inoue) Signature"
   ],
   "xy8-34": [
     "Holofoil"
@@ -73355,7 +74747,8 @@
   ],
   "xy8-84": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Diego Cassiraga) Signature"
   ],
   "xy8-85": [
     "Holofoil",
@@ -73552,7 +74945,12 @@
   ],
   "xy8-134": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Naoto Suzuki) Signature",
+    "2017 (Zachary Bokhari) Signature",
+    "2017 (Diego Cassiraga) Signature",
+    "2018 (Magnus Pedersen) Signature",
+    "2018 (Robin Schulz) Signature"
   ],
   "xy8-135": [
     "Normal",
@@ -73560,11 +74958,21 @@
   ],
   "xy8-136": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Cody Walinski) Signature"
   ],
   "xy8-137": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Shunto Sadahiro) Signature",
+    "2016 (Shintaro Ito) Signature",
+    "2017 (Naoto Suzuki) Signature",
+    "2017 (Zachary Bokhari) Signature",
+    "2017 (Kabu Fukase) Signature",
+    "2018 (Naohito Inoue) Signature",
+    "2018 (Pedro Eugenio Torres) Signature",
+    "2018 (Magnus Pedersen) Signature",
+    "2018 (Robin Schulz) Signature"
   ],
   "xy8-138": [
     "Normal",
@@ -73576,7 +74984,8 @@
   ],
   "xy8-140": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2017 (Naoto Suzuki) Signature"
   ],
   "xy8-141": [
     "Normal",
@@ -73588,7 +74997,8 @@
   ],
   "xy8-143": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature"
   ],
   "xy8-144": [
     "Normal",
@@ -73596,7 +75006,11 @@
   ],
   "xy8-145": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Shunto Sadahiro) Signature",
+    "2016 (Shintaro Ito) Signature",
+    "2018 (Magnus Pedersen) Signature",
+    "2018 (Robin Schulz) Signature"
   ],
   "xy8-146": [
     "Normal",
@@ -73616,11 +75030,20 @@
   ],
   "xy8-149": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Shunto Sadahiro) Signature",
+    "2016 (Shintaro Ito) Signature",
+    "2016 (Cody Walinski) Signature",
+    "2017 (Diego Cassiraga) Signature",
+    "2018 (Naohito Inoue) Signature",
+    "2018 (Pedro Eugenio Torres) Signature",
+    "2023 (Tord Reklev) Signature",
+    "2023 (Shao Tong Yen) Signature"
   ],
   "xy8-150": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Robin Schulz) Signature"
   ],
   "xy8-151": [
     "Normal",
@@ -73820,18 +75243,21 @@
   ],
   "xy9-38": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Cody Walinski) Signature"
   ],
   "xy9-39": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Cody Walinski) Signature"
   ],
   "xy9-40": [
     "Normal",
     "Reverse Holofoil"
   ],
   "xy9-41": [
-    "Holofoil"
+    "Holofoil",
+    "2016 (Cody Walinski) Signature"
   ],
   "xy9-42": [
     "Normal",
@@ -73889,11 +75315,16 @@
   ],
   "xy9-56": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Shunto Sadahiro) Signature",
+    "2017 (Naoto Suzuki) Signature",
+    "2018 (Magnus Pedersen) Signature",
+    "2018 (Robin Schulz) Signature"
   ],
   "xy9-57": [
     "Holofoil",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Shunto Sadahiro) Signature"
   ],
   "xy9-58": [
     "Normal",
@@ -74046,7 +75477,9 @@
   ],
   "xy9-97": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature",
+    "2016 (Cody Walinski) Signature"
   ],
   "xy9-98": [
     "Normal",
@@ -74062,7 +75495,9 @@
   ],
   "xy9-99": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Shunto Sadahiro) Signature",
+    "2018 (Naohito Inoue) Signature"
   ],
   "xy9-100": [
     "Normal",
@@ -74074,7 +75509,10 @@
   ],
   "xy9-102": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Shunto Sadahiro) Signature",
+    "2018 (Naohito Inoue) Signature",
+    "2018 (Pedro Eugenio Torres) Signature"
   ],
   "xy9-103": [
     "Normal",
@@ -74094,7 +75532,19 @@
   ],
   "xy9-107": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Jesper Eriksen) Signature",
+    "2016 (Shunto Sadahiro) Signature",
+    "2016 (Shintaro Ito) Signature",
+    "2016 (Cody Walinski) Signature",
+    "2017 (Naoto Suzuki) Signature",
+    "2017 (Diego Cassiraga) Signature",
+    "2017 (Kabu Fukase) Signature",
+    "2018 (Naohito Inoue) Signature",
+    "2018 (Pedro Eugenio Torres) Signature",
+    "2018 (Magnus Pedersen) Signature",
+    "2018 (Robin Schulz) Signature",
+    "2017 (Zachary Bokhari) Signature"
   ],
   "xy9-107a": [
     "Normal",
@@ -74106,11 +75556,14 @@
   ],
   "xy9-109": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2018 (Pedro Eugenio Torres) Signature",
+    "2018 (Robin Schulz) Signature"
   ],
   "xy9-110": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Shunto Sadahiro) Signature"
   ],
   "xy9-111": [
     "Normal",
@@ -74122,7 +75575,8 @@
   ],
   "xy9-113": [
     "Normal",
-    "Reverse Holofoil"
+    "Reverse Holofoil",
+    "2016 (Cody Walinski) Signature"
   ],
   "xy9-114": [
     "Normal",
@@ -74203,8 +75657,8 @@
   ],
   "xyp-XY13": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "xyp-XY14": [
     "Promo"
@@ -74229,8 +75683,8 @@
   ],
   "xyp-XY21": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "xyp-XY22": [
     "Promo"
@@ -74248,8 +75702,7 @@
     "Promo"
   ],
   "xyp-XY27": [
-    "Promo",
-    "Staff"
+    "Promo"
   ],
   "xyp-XY28": [
     "Promo"
@@ -74286,8 +75739,8 @@
   ],
   "xyp-XY39": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "xyp-XY40": [
     "Promo"
@@ -74309,8 +75762,8 @@
   ],
   "xyp-XY46": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "xyp-XY47": [
     "Promo"
@@ -74353,8 +75806,8 @@
   ],
   "xyp-XY60": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "xyp-XY61": [
     "Promo"
@@ -74375,15 +75828,16 @@
     "Promo"
   ],
   "xyp-XY67": [
-    "Promo"
+    "Promo",
+    "2018 (Magnus Pedersen) Signature"
   ],
   "xyp-XY67a": [
     "Promo"
   ],
   "xyp-XY68": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "xyp-XY69": [
     "Promo"
@@ -74463,8 +75917,8 @@
   ],
   "xyp-XY94": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "xyp-XY95": [
     "Promo"
@@ -74564,13 +76018,13 @@
   ],
   "xyp-XY127": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "xyp-XY128": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "xyp-XY129": [
     "Promo",
@@ -74579,8 +76033,8 @@
   ],
   "xyp-XY130": [
     "Promo",
-    "Staff",
-    "Prerelease"
+    "Prerelease",
+    "Staff"
   ],
   "xyp-XY131": [
     "Promo"
@@ -74733,7 +76187,8 @@
     "Staff"
   ],
   "xyp-XY177": [
-    "Promo"
+    "Promo",
+    "2017 (Zachary Bokhari) Signature"
   ],
   "xyp-XY177a": [
     "Promo"
@@ -74757,7 +76212,8 @@
     "Promo"
   ],
   "xyp-XY184": [
-    "Promo"
+    "Promo",
+    "2017 (Zachary Bokhari) Signature"
   ],
   "xyp-XY185": [
     "Promo"
