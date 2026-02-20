@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Load scraped variants if available
-const scrapedPath = path.join(__dirname, '../bulbapedia_variants.json');
+const scrapedPath = path.join(__dirname, '../scraped_variants.json');
 const SCRAPED_VARIANTS = fs.existsSync(scrapedPath) 
   ? JSON.parse(fs.readFileSync(scrapedPath, 'utf8')) 
   : {};
