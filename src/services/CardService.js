@@ -2,58 +2,73 @@ import { Pokedex } from '../utils/pokedex';
 
 export const CardService = {
   processCards: (cardsJSON, set, variantsData = {}, filters = {}) => {
-    const { pokedexNumber, generation, name, allVariants, includeCameos, cameosData = {} } = filters;
+    const { pokedexNumber, generation, name, allVariants, includeCameos, cameosData = {}, pokedexMap = {} } = filters;
     const allCards = [];
     
     const nameLower = name?.toLowerCase();
-    const setCameos = (includeCameos && nameLower) ? (cameosData[nameLower] || []) : [];
+
+    // Build target cameo lists based on filters
+    let targetNames = [];
+    if (nameLower) {
+      targetNames.push(nameLower);
+    } else if (pokedexNumber && pokedexMap && pokedexMap[String(pokedexNumber)]) {
+      targetNames.push(String(pokedexMap[String(pokedexNumber)]).toLowerCase());
+    } else if (generation) {
+      const range = Pokedex.getRangeForGeneration(generation);
+      if (range && pokedexMap) {
+        for (let n = range[0]; n <= range[1]; n++) {
+          const nm = pokedexMap[String(n)];
+          if (nm) targetNames.push(String(nm).toLowerCase());
+        }
+      }
+    }
+
+    const setCameos = [];
+    if (includeCameos && targetNames.length > 0) {
+      targetNames.forEach(nm => {
+        const list = cameosData[nm] || [];
+        list.forEach(c => {
+          setCameos.push({ ...c, targetPokemon: nm });
+        });
+      });
+    }
 
     cardsJSON.forEach(cardJson => {
       const cardPokedexNumbers = cardJson.nationalPokedexNumbers || [];
+
+      // Determine cameo match for this card (if enabled and we have target names)
+      let matchedCameo = null;
+      if (includeCameos && setCameos.length > 0) {
+        matchedCameo = setCameos.find(cameo => {
+          // Match by set ID and number (normalize leading zeros)
+          const numMatches = (cameo.number === cardJson.number) || (cameo.number === cardJson.number?.replace(/^0+/, ''));
+          if (cameo.setId === set.id && numMatches) return true;
+          // Fallback match by card name if provided
+          if (cameo.cardName && cameo.cardName.toLowerCase() === cardJson.name.toLowerCase() && cameo.setId === set.id) return true;
+          return false;
+        });
+      }
       
-      // Filter by pokedexNumber
-      if (pokedexNumber && !cardPokedexNumbers.includes(pokedexNumber)) {
+      const isCameoMatch = !!matchedCameo;
+
+      // Filter by pokedexNumber (allow cameo matches to pass)
+      if (pokedexNumber && !cardPokedexNumbers.includes(pokedexNumber) && !isCameoMatch) {
         return;
       }
       
-      // Filter by generation
+      // Filter by generation (allow cameo matches to pass)
       if (generation) {
         const range = Pokedex.getRangeForGeneration(generation);
-        if (!range || !cardPokedexNumbers.some(num => num >= range[0] && num <= range[1])) {
+        const inGen = range && cardPokedexNumbers.some(num => num >= range[0] && num <= range[1]);
+        if (!isCameoMatch && !inGen) {
           return;
         }
       }
 
-      // Filter by name and cameo
-      let nameMatch = false;
-      let isCameoMatch = false;
+      // Filter by name (allow cameo matches to pass)
       if (nameLower) {
-        // Direct name match
-        if (cardJson.name.toLowerCase().includes(nameLower)) {
-          nameMatch = true;
-        }
-        
-        // Cameo match
-        if (!nameMatch && includeCameos) {
-          const isCameo = setCameos.some(cameo => {
-            // Match by set ID and number
-            if (cameo.setId === set.id && (cameo.number === cardJson.number || cameo.number === cardJson.number?.replace(/^0+/, ''))) {
-              return true;
-            }
-            // Fallback match by card name if set ID or number is missing/mismatched
-            if (cameo.cardName.toLowerCase() === cardJson.name.toLowerCase() && cameo.setId === set.id) {
-              return true;
-            }
-            return false;
-          });
-          
-          if (isCameo) {
-            nameMatch = true;
-            isCameoMatch = true;
-          }
-        }
-
-        if (!nameMatch) {
+        const directNameMatch = cardJson.name.toLowerCase().includes(nameLower);
+        if (!directNameMatch && !isCameoMatch) {
           return;
         }
       }
@@ -66,6 +81,10 @@ export const CardService = {
         // If not all variants, just take the first one
         variants = [variants[0]];
       }
+
+      // Capitalize target pokemon name for display
+      const capitalize = (s) => s ? s.charAt(0).toUpperCase() + s.slice(1) : "";
+      const cameoName = matchedCameo ? capitalize(matchedCameo.targetPokemon) : null;
       
       variants.forEach(variant => {
         allCards.push({
@@ -82,7 +101,8 @@ export const CardService = {
           image_url: cardJson.images?.small,
           holo: variant,
           generation: Pokedex.getGenerationByNumber(pokedexNumberValue),
-          is_cameo: !!isCameoMatch
+          is_cameo: isCameoMatch,
+          cameo_name: cameoName
         });
       });
     });

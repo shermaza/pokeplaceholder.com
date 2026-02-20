@@ -18,6 +18,36 @@ const FilterForm = ({
   progress,
   status
 }) => {
+  const [setSearch, setSetSearch] = React.useState('');
+  const [isOpen, setIsOpen] = React.useState(false);
+  const dropdownRef = React.useRef(null);
+
+  React.useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  const filteredSets = sets.filter(s => 
+    s.name.toLowerCase().includes(setSearch.toLowerCase()) || 
+    s.series.toLowerCase().includes(setSearch.toLowerCase())
+  );
+
+  const groupedSets = filteredSets.reduce((acc, set) => {
+    const series = set.series;
+    if (!acc[series]) {
+      acc[series] = [];
+    }
+    acc[series].push(set);
+    return acc;
+  }, {});
+
+  const selectedSet = sets.find(s => s.id === setId);
+
   const GridIcon = ({ size }) => {
     const cells = [];
     const width = 85;
@@ -77,16 +107,92 @@ const FilterForm = ({
 
         <div className="md:col-span-2 space-y-1.5">
           <label className="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Set Selection</label>
-          <select 
-            value={setId}
-            onChange={(e) => setSetId(e.target.value)}
-            className="w-full bg-slate-50 border-2 border-slate-100 focus:border-red-500 focus:ring-0 rounded-xl px-4 py-3 transition-all duration-200 outline-none appearance-none cursor-pointer"
-          >
-            <option value="">Search across all sets</option>
-            {sets.map(s => (
-              <option key={s.id} value={s.id}>{s.name} ({s.series})</option>
-            ))}
-          </select>
+          <div className="relative" ref={dropdownRef}>
+            <button
+              type="button"
+              onClick={() => setIsOpen(!isOpen)}
+              className="w-full bg-slate-50 border-2 border-slate-100 focus:border-red-500 rounded-xl px-4 py-3 transition-all duration-200 outline-none flex justify-between items-center text-left"
+            >
+              <span className={`block truncate ${!setId ? 'text-slate-400' : 'text-slate-900 font-medium'}`}>
+                {selectedSet ? selectedSet.name : 'Search across all sets'}
+              </span>
+              <svg 
+                className={`w-5 h-5 text-slate-400 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`} 
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+
+            {isOpen && (
+              <div className="absolute z-[100] mt-2 w-full bg-white border-2 border-slate-100 rounded-2xl shadow-2xl overflow-hidden animate-in fade-in zoom-in duration-200">
+                <div className="p-3 border-b border-slate-50">
+                  <div className="relative">
+                    <input 
+                      type="text" 
+                      value={setSearch}
+                      onChange={(e) => setSetSearch(e.target.value)}
+                      autoFocus
+                      className="w-full bg-slate-50 border-2 border-slate-100 focus:border-red-500 focus:ring-0 rounded-xl px-4 py-2 text-sm transition-all duration-200 outline-none"
+                      placeholder="Type to search sets or series..."
+                    />
+                    {setSearch && (
+                      <button 
+                        onClick={() => setSetSearch('')}
+                        className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600"
+                      >
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                      </button>
+                    )}
+                  </div>
+                </div>
+                
+                <div className="max-h-72 overflow-y-auto custom-scrollbar">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setSetId('');
+                      setIsOpen(false);
+                    }}
+                    className={`w-full px-4 py-2.5 text-sm text-left hover:bg-slate-50 transition-colors ${!setId ? 'text-red-600 font-bold bg-red-50/50' : 'text-slate-600'}`}
+                  >
+                    Search across all sets
+                  </button>
+                  
+                  {Object.keys(groupedSets).length === 0 ? (
+                    <div className="px-4 py-8 text-center">
+                      <p className="text-sm text-slate-400 italic">No sets found matching "{setSearch}"</p>
+                    </div>
+                  ) : (
+                    Object.keys(groupedSets).map(series => (
+                      <div key={series} className="pb-2">
+                        <div className="px-4 py-2 text-[10px] font-black uppercase tracking-widest text-slate-400 bg-slate-50/50">
+                          {series}
+                        </div>
+                        {groupedSets[series].map(s => (
+                          <button
+                            key={s.id}
+                            type="button"
+                            onClick={() => {
+                              setSetId(s.id);
+                              setIsOpen(false);
+                            }}
+                            className={`w-full px-6 py-2 text-sm text-left hover:bg-red-50 hover:text-red-600 transition-all duration-150 ${setId === s.id ? 'text-red-600 font-bold bg-red-50' : 'text-slate-600'}`}
+                          >
+                            {s.name}
+                          </button>
+                        ))}
+                      </div>
+                    ))
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
         </div>
 
         <div className="space-y-1.5">
@@ -123,7 +229,7 @@ const FilterForm = ({
           </div>
         </div>
 
-        {name && (
+        {(name || pokedexNumber || generation) && (
           <div className="flex items-center space-x-3 bg-slate-50 px-4 py-3 rounded-xl border-2 border-slate-100 cursor-pointer hover:border-slate-200 transition-all duration-200 group relative" onClick={() => setIncludeCameos(!includeCameos)}>
             <div className={`w-10 h-6 flex items-center rounded-full p-1 transition-colors duration-200 ${includeCameos ? 'bg-red-500' : 'bg-slate-300'}`}>
               <div className={`bg-white w-4 h-4 rounded-full shadow-sm transform transition-transform duration-200 ${includeCameos ? 'translate-x-4' : 'translate-x-0'}`}></div>

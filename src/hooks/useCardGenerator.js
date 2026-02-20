@@ -19,6 +19,7 @@ export const useCardGenerator = () => {
   const [status, setStatus] = useState('');
   const [variantsData, setVariantsData] = useState({});
   const [cameosData, setCameosData] = useState({});
+  const [pokedexMap, setPokedexMap] = useState({});
 
   useEffect(() => {
     // Fetch sets
@@ -43,6 +44,12 @@ export const useCardGenerator = () => {
       .then(res => res.json())
       .then(data => setCameosData(data))
       .catch(err => console.error("Failed to fetch cameos data", err));
+
+    // Fetch pokedex mapping (number -> name)
+    fetch(`${process.env.PUBLIC_URL}/data/pokedex.json`)
+      .then(res => res.json())
+      .then(data => setPokedexMap(data))
+      .catch(err => console.error("Failed to fetch pokedex mapping", err));
   }, []);
 
   const handleGenerate = async () => {
@@ -73,7 +80,8 @@ export const useCardGenerator = () => {
             name,
             allVariants,
             includeCameos,
-            cameosData
+            cameosData,
+            pokedexMap
           });
           allFoundCards = [...allFoundCards, ...filtered];
         } catch (e) {

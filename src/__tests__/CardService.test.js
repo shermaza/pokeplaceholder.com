@@ -48,6 +48,7 @@ describe('CardService', () => {
     expect(cameoResults.length).toBe(1);
     expect(cameoResults[0].name).toBe('Alakazam');
     expect(cameoResults[0].is_cameo).toBe(true);
+    expect(cameoResults[0].cameo_name).toBe('Pikachu');
   });
 
   test('processCards handles cameo fallback by card name', () => {
@@ -63,6 +64,44 @@ describe('CardService', () => {
     };
 
     const results = CardService.processCards(cardsJSON, set, {}, { name: 'pikachu', includeCameos: true, cameosData });
+    expect(results.length).toBe(1);
+    expect(results[0].name).toBe('Alakazam');
+    expect(results[0].is_cameo).toBe(true);
+  });
+
+  test('processCards includes cameos when filtering by pokedex number', () => {
+    const cardsJSON = [
+      { id: 'base1-1', name: 'Alakazam', nationalPokedexNumbers: [65], number: '1', rarity: 'Rare Holo' }
+    ];
+    const set = { id: 'base1', name: 'Base', series: 'Base', releaseDate: '1999-01-09', total: 102 };
+
+    const cameosData = {
+      'pikachu': [
+        { setId: 'base1', number: '1', cardName: 'Alakazam' }
+      ]
+    };
+    const pokedexMap = { '25': 'Pikachu' };
+
+    const results = CardService.processCards(cardsJSON, set, {}, { pokedexNumber: 25, includeCameos: true, cameosData, pokedexMap });
+    expect(results.length).toBe(1);
+    expect(results[0].name).toBe('Alakazam');
+    expect(results[0].is_cameo).toBe(true);
+  });
+
+  test('processCards includes cameos when filtering by generation', () => {
+    const cardsJSON = [
+      { id: 'base1-1', name: 'Alakazam', nationalPokedexNumbers: [65], number: '1', rarity: 'Rare Holo' }
+    ];
+    const set = { id: 'base1', name: 'Base', series: 'Base', releaseDate: '1999-01-09', total: 102 };
+
+    const cameosData = {
+      'pikachu': [
+        { setId: 'base1', number: '1', cardName: 'Alakazam' }
+      ]
+    };
+    const pokedexMap = { '25': 'Pikachu' };
+
+    const results = CardService.processCards(cardsJSON, set, {}, { generation: 1, includeCameos: true, cameosData, pokedexMap });
     expect(results.length).toBe(1);
     expect(results[0].name).toBe('Alakazam');
     expect(results[0].is_cameo).toBe(true);
