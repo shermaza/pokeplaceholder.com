@@ -6,12 +6,13 @@ describe('CardService', () => {
       { id: '1', name: 'Bulbasaur', nationalPokedexNumbers: [1], number: '1', rarity: 'Common' },
       { id: '2', name: 'Charmander', nationalPokedexNumbers: [4], number: '4', rarity: 'Common' }
     ];
-    const set = { id: 'base1', name: 'Base', series: 'Base', releaseDate: '1999-01-09', total: 102 };
+    const set = { id: 'base1', name: 'Base', series: 'Base', releaseDate: '1999-01-09', printedTotal: 102, total: 102 };
     
     // Using default variant since variantsData is empty
     const results = CardService.processCards(cardsJSON, set, {}, { pokedexNumber: 1 });
     expect(results.length).toBe(1); 
     expect(results[0].name).toBe('Bulbasaur');
+    expect(results[0].total_cards).toBe(102);
   });
 
   test('processCards filters by name', () => {
@@ -19,11 +20,12 @@ describe('CardService', () => {
       { id: '1', name: 'Bulbasaur', nationalPokedexNumbers: [1], number: '1', rarity: 'Common' },
       { id: '2', name: 'Charmander', nationalPokedexNumbers: [4], number: '4', rarity: 'Common' }
     ];
-    const set = { id: 'base1', name: 'Base', series: 'Base', releaseDate: '1999-01-09', total: 102 };
+    const set = { id: 'base1', name: 'Base', series: 'Base', releaseDate: '1999-01-09', printedTotal: 102, total: 102 };
     
     const results = CardService.processCards(cardsJSON, set, {}, { name: 'Bulba' });
     expect(results.length).toBe(1);
     expect(results[0].name).toBe('Bulbasaur');
+    expect(results[0].total_cards).toBe(102);
   });
 
   test('processCards handles cameos correctly', () => {
@@ -31,7 +33,7 @@ describe('CardService', () => {
       { id: 'base1-1', name: 'Alakazam', nationalPokedexNumbers: [65], number: '1', rarity: 'Rare Holo' },
       { id: 'base1-2', name: 'Blastoise', nationalPokedexNumbers: [9], number: '2', rarity: 'Rare Holo' }
     ];
-    const set = { id: 'base1', name: 'Base', series: 'Base', releaseDate: '1999-01-09', total: 102 };
+    const set = { id: 'base1', name: 'Base', series: 'Base', releaseDate: '1999-01-09', printedTotal: 102, total: 102 };
     
     const cameosData = {
       'pikachu': [
@@ -55,7 +57,7 @@ describe('CardService', () => {
     const cardsJSON = [
       { id: 'base1-1', name: 'Alakazam', nationalPokedexNumbers: [65], number: '1', rarity: 'Rare Holo' }
     ];
-    const set = { id: 'base1', name: 'Base', series: 'Base', releaseDate: '1999-01-09', total: 102 };
+    const set = { id: 'base1', name: 'Base', series: 'Base', releaseDate: '1999-01-09', printedTotal: 102, total: 102 };
     
     const cameosData = {
       'pikachu': [
@@ -73,7 +75,7 @@ describe('CardService', () => {
     const cardsJSON = [
       { id: 'base1-1', name: 'Alakazam', nationalPokedexNumbers: [65], number: '1', rarity: 'Rare Holo' }
     ];
-    const set = { id: 'base1', name: 'Base', series: 'Base', releaseDate: '1999-01-09', total: 102 };
+    const set = { id: 'base1', name: 'Base', series: 'Base', releaseDate: '1999-01-09', printedTotal: 102, total: 102 };
 
     const cameosData = {
       'pikachu': [
@@ -92,7 +94,7 @@ describe('CardService', () => {
     const cardsJSON = [
       { id: 'base1-1', name: 'Alakazam', nationalPokedexNumbers: [65], number: '1', rarity: 'Rare Holo' }
     ];
-    const set = { id: 'base1', name: 'Base', series: 'Base', releaseDate: '1999-01-09', total: 102 };
+    const set = { id: 'base1', name: 'Base', series: 'Base', releaseDate: '1999-01-09', printedTotal: 102, total: 102 };
 
     const cameosData = {
       'pikachu': [
