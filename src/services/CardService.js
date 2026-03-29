@@ -44,8 +44,7 @@ export const CardService = {
           const numMatches = (cameo.number === cardJson.number) || (cameo.number === cardJson.number?.replace(/^0+/, ''));
           if (cameo.setId === set.id && numMatches) return true;
           // Fallback match by card name if provided
-          if (cameo.cardName && cameo.cardName.toLowerCase() === cardJson.name.toLowerCase() && cameo.setId === set.id) return true;
-          return false;
+          return !!(cameo.cardName && cameo.cardName.toLowerCase() === cardJson.name.toLowerCase() && cameo.setId === set.id);
         });
       }
       
@@ -94,7 +93,7 @@ export const CardService = {
           set_name: set.name,
           series_name: set.series,
           release_date: set.releaseDate,
-          total_cards: set.total,
+          total_cards: set.printedTotal,
           national_pokedex_number: pokedexNumberValue,
           number: cardJson.number,
           rarity: cardJson.rarity || "N/A",
