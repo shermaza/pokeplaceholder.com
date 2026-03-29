@@ -64,6 +64,15 @@ function getVariants(card, set) {
         variants.push("Pokeball");
         variants.push("Masterball");
       }
+
+      // Ascended Hero specific variants
+      if (setId === "me2pt5") {
+        if (card.name.includes("Team Rocket")) {
+          variants.push("Reverse Holofoil (Team Rocket)");
+        } else {
+          variants.push("Reverse Holofoil (Pokeball)");
+        }
+      }
     }
   }
 
