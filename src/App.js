@@ -28,6 +28,7 @@ function App() {
             allVariants={state.allVariants} setAllVariants={actions.setAllVariants}
             includeCameos={state.includeCameos} setIncludeCameos={actions.setIncludeCameos}
             cardsPerPage={state.cardsPerPage} setCardsPerPage={actions.setCardsPerPage}
+            cutAndStack={state.cutAndStack} setCutAndStack={actions.setCutAndStack}
             sortBy={state.sortBy} setSortBy={actions.setSortBy}
             loading={state.loading}
             isFormValid={state.isFormValid}

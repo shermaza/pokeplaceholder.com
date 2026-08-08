@@ -1,8 +1,29 @@
 import { jsPDF } from 'jspdf';
 
 export const PdfService = {
+  /**
+   * Reorder cards so that after cutting a printed grid into piles and stacking
+   * those piles in reading order (top-left → bottom-right), the deck is sequential.
+   *
+   * Slot `s` on page `p` gets card index `s * numPages + p`.
+   */
+  reorderForCutAndStack: (cards, cardsPerPage) => {
+    const slotsPerPage = cardsPerPage;
+    const numPages = Math.ceil(cards.length / slotsPerPage);
+    const ordered = [];
+
+    for (let page = 0; page < numPages; page++) {
+      for (let slot = 0; slot < slotsPerPage; slot++) {
+        const cardIndex = slot * numPages + page;
+        ordered.push(cardIndex < cards.length ? cards[cardIndex] : null);
+      }
+    }
+
+    return ordered;
+  },
+
   generatePdf: async (cards, options = {}, onProgress) => {
-    const { useImages = false, showVariant = true, cardsPerPage = 9 } = options;
+    const { useImages = false, showVariant = true, cardsPerPage = 9, cutAndStack = false } = options;
     const doc = new jsPDF({
       unit: 'in',
       format: 'letter'
@@ -48,29 +69,35 @@ export const PdfService = {
     // Set line width for card borders
     doc.setLineWidth(borderWidth);
 
-    for (let i = 0; i < cards.length; i++) {
-      const card = cards[i];
+    const slots = cutAndStack
+      ? PdfService.reorderForCutAndStack(cards, cardsPerPage)
+      : cards;
+
+    for (let i = 0; i < slots.length; i++) {
+      const card = slots[i];
 
       if (onProgress) {
-        onProgress(Math.round((i / cards.length) * 100));
+        onProgress(Math.round((i / slots.length) * 100));
       }
 
       // Draw cell border
       doc.rect(x, y, cellWidth, cellHeight);
 
-      if (useImages && card.image_url) {
-        try {
-          const imgData = await PdfService.getImageData(card.image_url);
-          doc.addImage(imgData, 'JPEG', x, y, cellWidth, cellHeight);
-          if (showVariant) {
-            PdfService.drawOverlay(doc, card, x, y, cellWidth, cellHeight, showVariant);
+      if (card) {
+        if (useImages && card.image_url) {
+          try {
+            const imgData = await PdfService.getImageData(card.image_url);
+            doc.addImage(imgData, 'JPEG', x, y, cellWidth, cellHeight);
+            if (showVariant) {
+              PdfService.drawOverlay(doc, card, x, y, cellWidth, cellHeight, showVariant);
+            }
+          } catch (e) {
+            console.error(`Failed to load image for ${card.name}`, e);
+            PdfService.drawText(doc, card, x, y, cellWidth, cellHeight, showVariant, cardsPerPage);
           }
-        } catch (e) {
-          console.error(`Failed to load image for ${card.name}`, e);
+        } else {
           PdfService.drawText(doc, card, x, y, cellWidth, cellHeight, showVariant, cardsPerPage);
         }
-      } else {
-        PdfService.drawText(doc, card, x, y, cellWidth, cellHeight, showVariant, cardsPerPage);
       }
 
       // Move to next cell
@@ -84,7 +111,7 @@ export const PdfService = {
 
       // New page
       if (y + (cellHeight / 2) > pageHeight - bottomMargin) {
-        if (i < cards.length - 1) {
+        if (i < slots.length - 1) {
           doc.addPage();
           x = sideMargin;
           y = topMargin;

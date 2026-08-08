@@ -10,6 +10,7 @@ const FilterForm = ({
   allVariants, setAllVariants,
   includeCameos, setIncludeCameos,
   cardsPerPage, setCardsPerPage,
+  cutAndStack, setCutAndStack,
   sortBy, setSortBy,
   loading,
   isFormValid,
@@ -275,6 +276,21 @@ const FilterForm = ({
             </svg>
             Note: Increasing the number of cards per page will reduce the individual card size.
           </p>
+        </div>
+
+        <div
+          className="md:col-span-2 flex items-center space-x-3 bg-slate-50 px-4 py-3 rounded-xl border-2 border-slate-100 cursor-pointer hover:border-slate-200 transition-all duration-200 group relative"
+          onClick={() => setCutAndStack(!cutAndStack)}
+        >
+          <div className={`w-10 h-6 flex items-center rounded-full p-1 transition-colors duration-200 ${cutAndStack ? 'bg-red-500' : 'bg-slate-300'}`}>
+            <div className={`bg-white w-4 h-4 rounded-full shadow-sm transform transition-transform duration-200 ${cutAndStack ? 'translate-x-4' : 'translate-x-0'}`}></div>
+          </div>
+          <div className="flex-grow">
+            <span className="text-sm font-bold text-slate-700 select-none">Cut &amp; Stack Order</span>
+            <p className="text-[11px] text-slate-400 mt-0.5 select-none">
+              Arrange cards so stacking cut piles (left-to-right, top-to-bottom) keeps them in order.
+            </p>
+          </div>
         </div>
 
         <div className="md:col-span-2 space-y-1.5">
