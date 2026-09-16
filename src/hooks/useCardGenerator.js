@@ -9,7 +9,7 @@ export const useCardGenerator = () => {
   const [generation, setGeneration] = useState('');
   const [name, setName] = useState('');
   const [setId, setSetId] = useState('');
-  const [sortBy, setSortBy] = useState('pokedex');
+  const [sortBy, setSortBy] = useState('number');
   const [useImages, setUseImages] = useState(false);
   const [allVariants, setAllVariants] = useState(false);
   const [includeCameos, setIncludeCameos] = useState(false);

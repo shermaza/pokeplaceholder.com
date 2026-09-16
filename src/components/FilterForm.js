@@ -300,23 +300,23 @@ const FilterForm = ({
               <input 
                 type="radio" 
                 name="sortBy" 
-                value="pokedex" 
-                checked={sortBy === 'pokedex'} 
-                onChange={(e) => setSortBy(e.target.value)}
-                className="text-red-500 focus:ring-red-500"
-              />
-              <span className="text-sm font-medium text-slate-700">Pokédex Number</span>
-            </label>
-            <label className="flex items-center space-x-2 cursor-pointer">
-              <input 
-                type="radio" 
-                name="sortBy" 
                 value="number" 
                 checked={sortBy === 'number'} 
                 onChange={(e) => setSortBy(e.target.value)}
                 className="text-red-500 focus:ring-red-500"
               />
               <span className="text-sm font-medium text-slate-700">Card Number</span>
+            </label>
+            <label className="flex items-center space-x-2 cursor-pointer">
+              <input 
+                type="radio" 
+                name="sortBy" 
+                value="pokedex" 
+                checked={sortBy === 'pokedex'} 
+                onChange={(e) => setSortBy(e.target.value)}
+                className="text-red-500 focus:ring-red-500"
+              />
+              <span className="text-sm font-medium text-slate-700">Pokédex Number</span>
             </label>
             <label className="flex items-center space-x-2 cursor-pointer">
               <input 
