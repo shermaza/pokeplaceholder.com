@@ -1,5 +1,27 @@
 import { jsPDF } from 'jspdf';
 
+// Finish variants (Normal / Reverse Holofoil / Holofoil) only apply to the
+// standard C/U/R print run — not Illustration Rare, Ultra Rare, etc.
+const FINISH_VARIANT_RARITIES = new Set([
+  'common',
+  'uncommon',
+  'rare',
+  'rare holo',
+]);
+
+const rarityLine = (card, showVariant) => {
+  const rarity = card.rarity && card.rarity !== 'N/A' ? card.rarity : '';
+  if (!rarity) return '';
+
+  if (showVariant) {
+    const rarityKey = rarity.toLowerCase();
+    const finish = FINISH_VARIANT_RARITIES.has(rarityKey) ? (card.holo || '') : '';
+    if (finish) return `${rarity} · ${finish}`;
+  }
+
+  return rarity;
+};
+
 export const PdfService = {
   /**
    * Reorder cards so that after cutting a printed grid into piles and stacking
@@ -151,8 +173,7 @@ export const PdfService = {
       card.series_name,
       card.set_name,
       `${card.number}/${card.total_cards}`,
-      showVariant ? card.holo : "",
-      `Released: ${card.release_date}`
+      rarityLine(card, showVariant),
     ].filter(l => l !== "");
 
     // Scale font size based on number of cards
@@ -195,8 +216,7 @@ export const PdfService = {
       card.series_name,
       card.set_name,
       `${card.number}/${card.total_cards}`,
-      showVariant ? card.holo : "",
-      `Released: ${card.release_date}`
+      rarityLine(card, showVariant),
     ].filter(l => l !== "");
 
     const fontSize = 7; // Slightly smaller to fit more lines

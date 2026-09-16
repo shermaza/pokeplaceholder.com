@@ -1,0 +1,25 @@
+---
+description: variants.json is hand-crafted; generateVariants is additive only
+globs: public/data/variants.json,scripts/generateVariants.js
+alwaysApply: false
+---
+
+# Variants data rules
+
+`public/data/variants.json` is **hand-crafted**. Treat it as source of truth for per-card printings.
+
+## Do
+
+- Add new card IDs carefully (manually or via additive tooling)
+- Preserve existing entries exactly when updating the file
+- Use `scripts/generateVariants.js` only to **fill in missing** card IDs
+
+## Don't
+
+- Regenerate or overwrite `variants.json` from scratch
+- Change or remove existing variant arrays unless the user explicitly asks
+- Assume rarity heuristics should replace curated variant lists
+
+## Script contract
+
+`generateVariants.js` must be **additive only**: load existing `variants.json`, skip IDs that already exist, append only missing ones, then write back.

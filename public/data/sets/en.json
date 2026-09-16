@@ -3074,5 +3074,33 @@
       "symbol": "https://images.scrydex.com/pokemon/me5-symbol/symbol",
       "logo": "https://images.scrydex.com/pokemon/me5-logo/logo"
     }
+  },
+  {
+    "id": "me6",
+    "name": "30th Celebration",
+    "series": "Mega Evolution",
+    "printedTotal": 128,
+    "total": 158,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2026/09/18",
+    "updatedAt": "2026/09/16 15:00:00"
+  },
+  {
+    "id": "me6c",
+    "name": "30th Celebration Classic Collection",
+    "series": "Mega Evolution",
+    "printedTotal": 30,
+    "total": 30,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2026/09/18",
+    "updatedAt": "2026/09/16 15:00:00"
   }
 ]

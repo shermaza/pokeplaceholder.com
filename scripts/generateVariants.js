@@ -1,6 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
+// variants.json is hand-crafted. This script is ADDITIVE ONLY:
+// it may add missing card IDs, but must never overwrite or remove existing entries.
+
 // Load scraped variants if available
 const scrapedPath = path.join(__dirname, '../scraped_variants.json');
 const SCRAPED_VARIANTS = fs.existsSync(scrapedPath) 
@@ -24,6 +27,12 @@ const HOLOFOIL_ONLY_RARITIES = [
   "Promo"
 ];
 
+// Sets where every card is foil-only (no Normal / Reverse Holofoil printings)
+const HOLOFOIL_ONLY_SETS = [
+  "me6",
+  "me6c"
+];
+
 function getVariants(card, set) {
   const variants = [];
   const rarity = card.rarity || "";
@@ -31,6 +40,11 @@ function getVariants(card, set) {
   const setId = set.id;
   const releaseDate = set.releaseDate;
   const releaseYear = releaseDate ? parseInt(releaseDate.split('/')[0]) : 0;
+
+  if (HOLOFOIL_ONLY_SETS.includes(setId)) {
+    variants.push("Holofoil");
+    return variants;
+  }
 
   // Handle older sets (Pre-Legendary Collection 2002)
   // Reverse holos were introduced in Legendary Collection (may2002)
@@ -92,6 +106,11 @@ function getVariants(card, set) {
   return variants;
 }
 
+const variantsPath = path.join(__dirname, '../public/data/variants.json');
+const existingVariants = fs.existsSync(variantsPath)
+  ? JSON.parse(fs.readFileSync(variantsPath, 'utf8'))
+  : {};
+
 const setsDir = path.join(__dirname, '../public/data/sets');
 const setsContent = fs.readFileSync(path.join(setsDir, 'en.json'), 'utf8');
 const sets = JSON.parse(setsContent);
@@ -101,9 +120,8 @@ sets.forEach(s => setMap[s.id] = s);
 const cardsDir = path.join(__dirname, '../public/data/cards/en');
 const files = fs.readdirSync(cardsDir);
 
-const variantMap = {};
-
-// Track which IDs were added from SCRAPED_VARIANTS to verify existence
+let added = 0;
+let skipped = 0;
 const extraIdsFound = new Set();
 
 files.forEach(file => {
@@ -117,7 +135,16 @@ files.forEach(file => {
   const cards = JSON.parse(content);
 
   cards.forEach(card => {
-    variantMap[card.id] = getVariants(card, set);
+    if (Object.prototype.hasOwnProperty.call(existingVariants, card.id)) {
+      skipped++;
+      if (SCRAPED_VARIANTS[card.id]) {
+        extraIdsFound.add(card.id);
+      }
+      return;
+    }
+
+    existingVariants[card.id] = getVariants(card, set);
+    added++;
     if (SCRAPED_VARIANTS[card.id]) {
       extraIdsFound.add(card.id);
     }
@@ -126,19 +153,14 @@ files.forEach(file => {
 
 // Check if any IDs in SCRAPED_VARIANTS were NOT found in the cards data
 Object.keys(SCRAPED_VARIANTS).forEach(id => {
-  if (!extraIdsFound.has(id)) {
+  if (!extraIdsFound.has(id) && !Object.prototype.hasOwnProperty.call(existingVariants, id)) {
     console.warn(`Warning: Variant ID ${id} was not found in any card data.`);
   }
 });
 
-const outputDir = path.join(__dirname, '../public/data');
-if (!fs.existsSync(outputDir)) {
-  fs.mkdirSync(outputDir, { recursive: true });
-}
-
 fs.writeFileSync(
-  path.join(outputDir, 'variants.json'),
-  JSON.stringify(variantMap, null, 2)
+  variantsPath,
+  JSON.stringify(existingVariants, null, 2) + '\n'
 );
 
-console.log(`Generated variants for ${Object.keys(variantMap).length} cards.`);
+console.log(`Variants updated additively: ${added} added, ${skipped} existing preserved, ${Object.keys(existingVariants).length} total.`);
