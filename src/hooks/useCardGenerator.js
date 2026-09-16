@@ -14,7 +14,7 @@ export const useCardGenerator = () => {
   const [allVariants, setAllVariants] = useState(false);
   const [includeCameos, setIncludeCameos] = useState(false);
   const [cardsPerPage, setCardsPerPage] = useState(9);
-  const [cutAndStack, setCutAndStack] = useState(true);
+  const [cutAndStack, setCutAndStack] = useState(false);
   const [error, setError] = useState(null);
   const [progress, setProgress] = useState(null);
   const [status, setStatus] = useState('');
