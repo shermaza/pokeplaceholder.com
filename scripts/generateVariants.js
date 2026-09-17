@@ -29,8 +29,8 @@ const HOLOFOIL_ONLY_RARITIES = [
 
 // Sets where every card is foil-only (no Normal / Reverse Holofoil printings)
 const HOLOFOIL_ONLY_SETS = [
-  "me6",
-  "me6c"
+  "me55",
+  "me55c"
 ];
 
 function getVariants(card, set) {
